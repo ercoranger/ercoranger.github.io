@@ -1,0 +1,107 @@
+ html,
+ body {
+     font-family: din, sans-serif, noto TS sans, sans-serif;
+     font-size: 12px;
+     margin: 0;
+     width: 100%;
+ }
+
+ a:focus,
+ a:linked,
+ a:hover {
+     background-color: white;
+     color: black;
+ }
+
+
+ header {
+     display: inline-block;
+     text-align: center;
+     width: 100%;
+     animation: move-in ease 1s;
+ }
+
+ .nav {
+     margin-top: 8rem;
+     display: none;
+ }
+
+
+ .nav-fixed {
+     display: block;
+     position: fixed;
+     top: 3%;
+     left: 3%;
+ }
+
+ .logo-fixed {
+     margin-top: 0;
+     font-size: 5rem;
+     text-align: center;
+     position: fixed;
+     z-index: 77;
+     top: 3%;
+     left: 3%;
+ }
+
+ .nav-item > a {
+     color: black;
+     letter-spacing: 0.3rem;
+     margin-right: 2rem;
+     transition: 0.2s;
+ }
+
+
+ .nav-link:hover {
+     border-bottom: 3px solid #006699;
+     background-color: #fff !important;
+     color: black;
+ }
+
+
+ header > h1 {
+     margin-top: 20rem;
+     font-size: 17rem;
+     color: darkgray;
+     text-align: center;
+ }
+
+ header > p {
+     font-size: 2rem;
+     color: lightgray;
+     text-align: center;
+ }
+
+.content{
+    margin-top: 30rem;
+}
+
+ .content:first-child {
+     margin-top: 30rem;
+ }
+/*-----portfolio-----*/
+#portfolio{
+    width: 90%;
+    margin-left: 20rem;
+}
+
+#portfolio a img{
+    margin: 0 3rem 3rem 0;
+}
+/*-----about-----*/
+#about p{
+    line-height: 1.8rem;
+    
+}
+
+/*-----contact-----*/
+#contact{
+    margin-bottom: 20rem;
+}
+
+#contact a{
+    display: inline-block;
+    margin-right: 5rem;
+    color: #000;
+}
+
