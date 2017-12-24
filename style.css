@@ -1,6 +1,6 @@
  html,
  body {
-     font-family: din, sans-serif, noto TS sans, sans-serif;
+     font-family: avenir, 'noto TS sans', sans-serif !important;
      font-size: 12px;
      margin: 0;
      width: 100%;
@@ -105,6 +105,10 @@
 /*-----contact-----*/
 #contact{
     margin-bottom: 12rem;
+}
+
+#contact h5{
+    font-size: 1.5rem;
 }
 
 #contact a{
