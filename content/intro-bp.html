@@ -1,0 +1,140 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Ceramic Tableware</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="ercoffice | industrious design studio">
+    <meta name="keywords" content="product design, furniture design, visual design" />
+    <meta name="author" content="erco Laii">
+    <meta name="Resource-type" content="Document" />
+
+    <link rel="stylesheet" type="text/css" href="css/fullpage.css" />
+    <link rel="stylesheet" type="text/css" href="css/intro-style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+
+    <style>
+        .ct-p2 {
+            width: 85%;
+            position: fixed;
+            z-index: -99;
+            margin-left: 7%;
+            margin-top: -29%;
+        }
+
+        .brief {
+            position: absolute;
+            display: block;
+            width: 43%;
+            bottom: 10%;
+            left: 7%;
+            background-color: #fff;
+        }
+
+        .brief>p {
+            line-height: 2.5rem;
+        }
+
+        
+        .page-3 > h3 {
+            margin-left: 3%;
+        }
+        
+        .page-3 > img {
+            width: 87%;
+            margin-left: 3%;
+        }
+        
+        .page-4 > h3 {
+            margin-left: 15%;
+            margin-bottom: 5%;
+        }
+        
+        .page-4 > img {
+            width: 81%;
+            margin-left: 15%;
+        }
+    </style>
+</head>
+
+
+<body>
+    <div id="fullpage">
+        <div class="section" id="section0">
+
+            <img class="header" src="imgs/ct-header.png" />
+
+            <div class="key-facts col-md-12">
+                <div class="col-md-8">
+                    <h5>project:</h5>
+                    <h1>Ceramic Tableware</h1>
+                    <h5>keywords:</h5>
+                    <h2>Product design, Digital fabrication, 3D ceramic printing</h2>
+                </div>
+                <div class="col-md-2">
+                    <h5>manufacturer:</h5>
+                    <h3>Binary Pottery</h3>
+                    <h5>year:</h5>
+                    <h3>2018 - Present</h3>
+                </div>
+                <div class="col-md-2">
+                    <h5>material:</h5>
+                    <h3>Pocelain</h3>
+                    <h5>dimensions:</h5>
+                    <h3>Various</h3>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="section" id="section1">
+            <div class="page-2">
+                <img class="ct-p2" src="imgs/ct-p2.png">
+                <div class="brief">
+                    <h3>Brief</h3>
+                    <p>Commissioned by Binary Pottery which focus on ceramic 3d printing. They have studied the making process for years, from the proportion of clay to the machine of extrusion. They also create their own route to lay down the coil interactively not only showing the unique pattern on the surface but strengthen the structure of product. However, the self-made machine has few restrictions, for instance, the limitation of width. Due to that situation, my design will follow: <br><br>i. Width is smaller than 18cm and height is not taller than 25cm. <br>ii. Consider after baking will shrink around 15-20% <br>iii. Preserve the dot pattern or improve it.<br><br>Also, they hope to develop tableware series base on these spec.This is where I started to design and research. the project has one advantage, which is making product and prototype using the same machine. On the other hand, have to create G-codes via grasshopper myself. Thanks to the experience of digital fabrication, I can handle the procedure. Nevertheless, I believe this will be kind of factory and manufacturer of future. </p>
+                </div>
+            </div>
+
+
+        </div>
+
+        <div class="section" id="section2">
+            <div class="page-3">
+                <h3>Practice</h3>
+                <img src="imgs/ct-03.jpg"/>
+            </div>
+        </div>
+        
+        <div class="section" id="section3">
+            <div class="page-4">
+                <h3>Procedure</h3>
+                <img src="imgs/ct-04.png"/>
+            </div>
+        </div>
+
+    </div>
+    </div>
+
+    <script type="text/javascript" src="js/fullpage.js"></script>
+    <script type="text/javascript" src="examples.js"></script>
+
+    <script type="text/javascript">
+        var myFullpage = new fullpage('#fullpage', {
+            anchors: ['firstPage', 'secondPage', '3rdPage'],
+            //sectionsColor: ['#C63D0F', '#1BBC9B', '#7E8F7C'],
+            navigation: true,
+            navigationPosition: 'right',
+            //navigationTooltips: ['First page', 'Second page', 'Third and last page'],
+            responsiveWidth: 900,
+            afterResponsive: function(isResponsive) {
+
+            }
+
+        });
+    </script>
+
+</body>
+
+</html>
