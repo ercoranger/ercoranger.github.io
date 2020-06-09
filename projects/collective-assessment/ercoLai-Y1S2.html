@@ -132,7 +132,7 @@
             top: 900px;
             margin: 380px 100px 10px 0;
         }
-        
+
         .demo-4a:hover {
             width: 50%;
             margin-top: 0px;
@@ -173,7 +173,7 @@
             width: 100%;
             position: static;
         }
-        
+
         .demo-6:hover {
             width: 105%;
             margin-left: -2.5%;
@@ -227,6 +227,33 @@
 
         .ftr span {
             padding: 0 10px;
+        }
+
+        @media screen and (max-width: 1680px) {
+            body {
+                width: 1280px;
+                align-content: center;
+            }
+            
+            iframe {
+                width: 70%;
+                height: 50%;
+            }
+            
+            .miro {display: none}
+            
+            .demo-1,.demo-2,.demo-3,.demo-4,.demo-4a, .demo-5 {
+                display: none;
+            }
+            
+            .section {
+                height: 1000px;
+                margin: 50px 0 100px 0;
+            }
+            
+            .dpb-slide {
+                margin-top: 200px;
+            }
         }
     </style>
 
