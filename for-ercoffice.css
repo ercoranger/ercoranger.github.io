@@ -1,0 +1,114 @@
+@font-face {
+  font-family: 'Karrirk';
+  src: url('ercoffice/fonts/Karrik-Regular.woff') format("woff"),
+    url('ercoffice/fonts/Karrik-Regular.ttf') format("truetype");
+}
+
+body a {
+  color: #000;
+}
+
+body a:hover {
+  text-decoration: none;
+}
+
+
+.ee-header {
+  width: 100%;
+  background-color: #000;
+  height: 50px;
+}
+
+.ee-logo {
+  height: 100%;
+}
+
+.ee-shop {
+  font-size: 1.5rem;
+  float: right;
+  margin: 15px 5% 0 0;
+  color: #fff;
+}
+
+.ee-menu {
+  height: 150px;
+  margin-top: 3rem;
+}
+
+.ee-left-menu h3 {
+  margin-top: 0;
+  font-size: 2rem;
+}
+
+.ee-left-menu {
+  margin-right: 10rem;
+}
+
+.v-line {
+  margin:0 -2rem;
+  border-left: 0.5px solid #000;
+  height: 80%;
+}
+
+.ee-right-menu {
+  margin-right: 3rem;
+}
+
+.ee-right-menu ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.ee-right-menu h6 {
+  font-size: 1rem;
+}
+
+.menu-bottom-line {
+  width: 90%;
+  border-bottom: 0.5px solid #000;
+}
+
+/* 內容開始 */
+
+.ee-overview {
+  margin-top: 30px;
+}
+
+.first-row, .second-row, .third-row {
+  margin: 30px 10%;
+  display: inline-block;
+}
+
+
+.footer-left, .footer-right {
+  font-size: 1.5rem;
+}
+
+/*換頁*/
+.Page-close {
+  display: none;
+}
+
+.Page-on {
+  display: block !important;
+}
+
+.ee-project {
+  display: none;
+}
+
+.Project-head {
+  width: 100%;
+}
+
+.footer-left {
+  padding-left: 15px;
+  float: left;
+  color: #000;
+}
+
+.footer-right {
+  margin-right: 5%;
+  float: right;
+  color: #000;
+}
