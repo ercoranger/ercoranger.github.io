@@ -45,12 +45,17 @@ body a:hover {
 }
 
 .ee-right-menu {
-  margin-right: 3rem;
+  margin-right: 4rem;
+
 }
 
 .ee-right-menu ul {
   list-style: none;
   padding-left: 0;
+}
+
+.ee-right-menu ul li {
+    word-break: keep-all;
 }
 
 .ee-right-menu h6 {
@@ -95,11 +100,12 @@ body a:hover {
   margin-top: 10rem;
 }
 
+
 .project-text {
-  font-size: 1.7rem;
+  padding-right: 10%;
+  text-align: justify;
 
 }
-
 
 .image-description {
   text-align: center;
