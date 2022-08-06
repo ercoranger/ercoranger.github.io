@@ -69,6 +69,20 @@ body a:hover {
 
 /* 內容開始 */
 
+.content-menu {
+  position: fixed !important; 
+  top: 40%;
+  list-style: none;
+}
+
+.content-menu-off {
+  display: none;
+}
+
+.content-menu li {
+  margin-bottom: 2rem;
+}
+
 .ee-overview {
   margin-top: 30px;
 }

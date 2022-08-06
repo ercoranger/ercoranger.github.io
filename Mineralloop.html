@@ -1,0 +1,130 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="ercoffice | industrious design studio">
+  <meta name="keywords" content="Designer, Visual artist" />
+  <meta name="author" content="Erco Lai">
+
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="animation.css">
+  <link rel="stylesheet" href="for-ercoffice.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+  <title>ercoffice</title>
+</head>
+
+<body>
+  <!-- 頁首 -->
+  <div id="ee-header"></div>
+
+  <script>
+    $("#ee-header").load("header.html");
+  </script>
+
+  <!-- 內容 -->
+
+  <div class="col-md-12">
+    <div class="col-md-1">
+      <ul id="content-menu" class="content-menu-off">
+        <a><li>Intro</li></a>
+        <a><li>Objects</li></a>
+        <a><li>Process</li></a>
+        <a><li>Exhibitions</li></a>
+      </ul>
+    </div>
+
+      <div class="col-md-11">
+
+        <div class="project-header col-md-12">
+          <div class="col-md-8">
+            <img class="project-head" src="imgs/mineralloop.jpg" alt="">
+          </div>
+
+          <div class=" col-md-4">
+            <p class="project-title">Minealloop</p>
+            <h6>2022-Present</h6>
+
+            <p class="project-awards">Exhibited in Object Rotterdam 2022
+            </p>
+          </div>
+        </div>
+
+        <div class="project-info col-md-12">
+          <div class="col-md-10 col-md-offset-2">
+            <h6>Introduction</h6>
+            <p class="project-title"></p>
+            <p class="project-text">Based on Research of <a href="Neo-stone-Age">Neo Stone Age</a>, I develop a new technique repairing broken glassware or ceramic with “Neostone”.
+              From this new “kintsugi” craft, I give those unwanted homewares a mineral coating.<br><br> I covered broken glass objects with a material
+              that I developed using discarded lime pellet, powder of limestone from quarries and sand from construction sites, called geo-polymer, also
+              known as "Neostone", this material doesn’t require firing and adds a new touch and feeling to the object. <br><br>What to design for a world of plenty?
+              Natural resources are getting exhausted. I believe in alternative ways designing, using what is already there. This results in a local and circular production.
+          </div>
+        </div>
+
+        <div class="project-images col-md-12">
+          <div class="col-md-4">
+            <img src="imgs/mineralloop/ml-1.gif" alt="">
+            <p class="image-description">1</p>
+          </div>
+          <div class="col-md-4">
+            <img src="imgs/mineralloop/ml-1.gif" alt="">
+            <p class="image-description">2</p>
+          </div>
+          <div class="col-md-4">
+            <img src="imgs/mineralloop/ml-1.gif" alt="">
+            <p class="image-description">3</p>
+          </div>
+        </div>
+
+        <div class="project-images col-md-12">
+          <div class="col-md-10 col-md-offset-2">
+            <img src="imgs/mineralloop/ml-objectRTM-1.jpg" alt="">
+          </div>
+        </div>
+
+
+      </div>
+
+
+    </div>
+
+
+
+  </div>
+
+
+
+  <!-- 頁尾 -->
+  <div id="ee-footer"></div>
+
+  <script>
+    $("#ee-footer").load("footer.html");
+  </script>
+
+  <script>
+      $(function() {
+          $(window).scroll(function() {
+              var scrollVal = $(this).scrollTop();
+
+              if (scrollVal >= 200) {
+                  $('#content-menu').addClass('content-menu');
+                  $('#content-menu').removeClass('content-menu-off');
+
+              }
+
+              if (scrollVal <= 200) {
+                  $('#content-menu').removeClass('content-menu');
+                  $('#content-menu').addClass('content-menu-off');
+
+              }
+          });
+      });
+  </script>
+
+</body>
+
+</html>
