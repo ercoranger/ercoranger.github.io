@@ -70,8 +70,9 @@ body a:hover {
 /* 內容開始 */
 
 .content-menu {
-  position: fixed !important; 
+  position: fixed !important;
   top: 40%;
+  left: -2%;
   list-style: none;
 }
 
@@ -97,12 +98,16 @@ body a:hover {
   font-size: 1.5rem;
 }
 
-.project-header, .project-info, .project-images {
+.project-header, .project-info, .project-images, .project-image-list {
   margin-top: 50px;
 }
 
-.project-head, .project-images img {
+.project-head, .project-images img, .project-image-list img {
   width: 100%;
+}
+
+.project-image-list img {
+  padding-bottom: 30px;
 }
 
 .project-title {
