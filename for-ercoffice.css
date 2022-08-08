@@ -17,7 +17,7 @@ body a:hover {
   height: 100%;
 }
 
-.ee-shop {
+.ee-link {
   font-size: 1.5rem;
   float: right;
   margin: 15px 5% 0 0;
@@ -143,4 +143,20 @@ body a:hover {
   margin-right: 5%;
   float: right;
   color: #000;
+}
+
+/*ipad畫面*/
+@media screen and (max-width: 992px){
+.ee-right-menu {
+  margin-right: 3rem;
+}
+
+
+}
+
+/*手機畫面*/
+@media screen and (max-width: 768px){
+  .ee-right-menu, .v-line, .ee-overview {
+  display:none;
+  }
 }
