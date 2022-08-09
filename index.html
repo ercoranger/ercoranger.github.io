@@ -8,9 +8,9 @@
   <meta name="keywords" content="Designer, Visual artist" />
   <meta name="author" content="Erco Lai">
 
-  <meta property="og:url" content="" />
+  <meta property="og:url" content="ercoffice.net" />
   <meta property="og:type" content="website" />
-  <meta property="og:title" content="Erco Lai" />
+  <meta property="og:title" content="ercoffice by Erco Lai" />
   <meta property="og:description" content="product+furniture+space design office" />
   <meta property="og:image" content="" />
 
@@ -19,6 +19,8 @@
   <link rel="stylesheet" href="for-ercoffice.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
 
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
   <title>ercoffice</title>
 </head>
 
@@ -26,11 +28,12 @@
   <!-- Header開始 -->
   <div class="ee-header col-md-12">
     <a href="index"><img class="ee-logo" src="imgs/header.png"></img></a>
-    <a class="ee-link" href="https://www.instagram.com/ercoffice/">Instatram</a>
+    <a class="ee-link" target=”_blank” href="https://www.instagram.com/ercoffice/">Instagram</a>
   </div>
 
-  <div class="ee-menu col-md-12">
-    <div class="ee-left-menu col-md-3 col-sm-3 col-xs-12">
+  <!-- Header 選單開始 -->
+  <div class="ee-menu col-lg-12 col-md-12 col-sm-12">
+    <div class="ee-left-menu col-lg-3 col-lg-offset-1 col-md-4 col-md-offset-1 col-sm-4 col-xs-12">
       <h3>ercoffice</h3>
       <p>A design office focusing on matterials and giving them meaningful forms.
         Moreover, imaging what future manufacturing system can be.
@@ -38,10 +41,12 @@
       </p>
     </div>
 
-    <div class="v-line col-md-1 col-sm-1 col-xs-10">
+    <div class="v-line col-lg-1 col-md-1 col-sm-1">
+      <hr>
     </div>
 
-    <div class="ee-right-menu col-md-1 col-sm-1">
+    <!-- 金 -->
+    <div class="ee-right-menu col-lg-1 col-md-1 col-sm-1">
       <h6>Metal</h6>
       <ul>
         <a href="Asterisk">
@@ -56,7 +61,8 @@
       </ul>
     </div>
 
-    <div class="ee-right-menu col-md-1 col-sm-1">
+    <!-- 地 -->
+    <div class="ee-right-menu col-lg-1 col-md-1 col-sm-1">
       <h6>Earth</h6>
       <ul>
         <a href="Neo-Stone-Age">
@@ -67,7 +73,9 @@
         </a>
       </ul>
     </div>
-    <div class="ee-right-menu col-md-1 col-sm-1">
+
+    <!-- 木 -->
+    <div class="ee-right-menu col-lg-1 col-md-1 col-sm-1">
       <h6>Wood</h6>
       <ul>
         <a>
@@ -75,7 +83,9 @@
         </a>
       </ul>
     </div>
-    <div class="ee-right-menu col-md-1 col-sm-1">
+
+    <!-- 火 -->
+    <div class="ee-right-menu col-lg-1 col-md-1 col-sm-1">
       <h6>Fire</h6>
       <ul>
         <a>
@@ -83,7 +93,9 @@
         </a>
       </ul>
     </div>
-    <div class="ee-right-menu col-md-1 col-sm-1">
+
+    <!-- 水 -->
+    <div class="ee-right-menu col-lg-1 col-md-1 col-sm-1">
       <h6>Water</h6>
       <ul>
         <a>
@@ -91,32 +103,24 @@
         </a>
       </ul>
     </div>
-
   </div>
 
   <hr class="menu-bottom-line" />
-  <!-- Header結束 -->
-
-  <!-- 手機版目錄 -->
-  <div class="ee-mobile-menu">
 
 
-  </div>
 
-
-  <!-- 全縮圖開始 -->
-
-  <div id="thumbnails" class="ee-overview col-md-12">
+  <!-- 縮圖全預覽開始 -->
+  <div id="thumbnails" class="ee-overview col-md-12 col-sm-12">
     <div class="first-row">
-      <a href="Mineralloop.html"><img class="col-md-4" src="imgs/Mineralloop.jpg" alt="Mineralloop"></a>
-      <a href="Neo-Stone-Age.html"><img class="col-md-4" src="imgs/Neostone.jpg" alt="Neostone"><a>
-          <a><img class="col-md-4" src="imgs/Treekind.jpg" alt="Treekind"><a>
+      <a href="Mineralloop"><img class="col-md-4 col-sm-4" src="imgs/Mineralloop.jpg" alt="Mineralloop"></a>
+      <a href="Neo-Stone-Age"><img class="col-md-4 col-sm-4" src="imgs/Neostone.jpg" alt="Neostone"><a>
+          <a><img class="col-md-4 col-sm-4" src="imgs/Treekind.jpg" alt="Treekind"><a>
     </div>
 
     <div class="second-row">
-      <a><img class="col-md-4" src="imgs/Waterfall.png" alt="Waterfall"></a>
-      <a><img class="col-md-4" src="imgs/Hopper.jpg" onclick="" alt="Hopper"></a>
-      <a><img class="col-md-4" src="imgs/Asterisk.jpg" alt="Asterisk"></a>
+      <a><img class="col-md-4 col-sm-4" src="imgs/Waterfall.png" alt="Waterfall"></a>
+      <a><img class="col-md-4 col-sm-4" src="imgs/Hopper.jpg" onclick="" alt="Hopper"></a>
+      <a><img class="col-md-4 col-sm-4" src="imgs/Asterisk.jpg" alt="Asterisk"></a>
     </div>
 
     <div class="third-row">
@@ -125,20 +129,77 @@
 
 
 
+  <!-- 手機版目錄 -->
+  <div class="ee-mobile-menu">
 
-  <!-- 全縮圖結束 -->
+    <div class="col-xs-12 mobile-list">
+      <h6>Earth</h6>
+      <div class="mobile-row">
+        <p class="col-xs-2">2022</p>
+        <a><span class="col-xs-5 col-xs-offset-1 el"></span></a>
+        <img class="col-xs-3 col-xs-offset-1" src="imgs/Mineralloop.jpg" alt="">
+
+      </div>
+      <div class="mobile-row">
+        <p class="col-xs-2">2021</p>
+        <a><span class="col-xs-6 el"></span></a>
+        <img class="col-xs-3 col-xs-offset-1 " src="imgs/Neostone.jpg" alt="">
+      </div>
+    </div>
+
+    <div class="col-xs-12 mobile-list">
+      <h6>Metal</h6>
+      <div class="mobile-row">
+        <p class="col-xs-2">2018</p>
+        <a><span class="col-xs-5 col-xs-offset-1 ml"></span></a>
+        <img class="col-xs-3 col-xs-offset-1" src="imgs/Asterisk.jpg" alt="">
+      </div>
+      <div class="mobile-row">
+        <p class="col-xs-2">2018</p>
+        <a><span class="col-xs-2 col-xs-offset-1 ml"></span></a>
+        <img class="col-xs-2" src="imgs/Hopper.jpg" alt="">
+        <img class="col-xs-2" src="imgs/Treekind.jpg" alt="">
+      </div>
+      <div class="mobile-row">
+        <p class="col-xs-2">2018</p>
+        <a><span class="col-xs-5 col-xs-offset-1 ml"></span></a>
+        <img class="col-xs-3 col-xs-offset-1" src="imgs/Waterfall.png" alt="">
+      </div>
+    </div>
+
+    <div class="col-xs-12 mobile-list">
+      <h6>Wood</h6>
+      <div class="mobile-row">
+        <p class="col-xs-2">2021</p>
+        <a><span class="col-xs-2 col-xs-offset-1 wl"></span></a>
+        <img class="col-xs-2" src="imgs/Hopper.jpg" alt="">
+        <img class="col-xs-2" src="imgs/Treekind.jpg" alt="">
+      </div>
+      <div class="mobile-row">
+        <p class="col-xs-2">2018</p>
+        <a><span class="col-xs-6 wl"></span></a>
+        <img class="col-xs-3 col-xs-offset-1" src="imgs/Waterfall.png" alt="">
+      </div>
+    </div>
+
+  </div>
 
 
   <footer class="col-md-12">
-    <div class="ee-footer-links">
-      <a class="footer-left" href="">info</a>
-      <a class="footer-right" href="https://www.instagram.com/ercoffice/">Shop</a>
-    </div>
 
+
+
+    <div class="ee-footer-links">
+      <a class="footer-left" href="">Info</a>
+      <a class="footer-right" target=”_blank” href="https://www.instagram.com/ercoffice/">Shop</a>
+    </div>
   </footer>
 
+  <div class="ee-disclaimer col-md-12">
+    <p>©by ercoffice / 2022</p>
+  </div>
 
-
+  <script src="menu_list.js"></script>
 </body>
 
 </html>

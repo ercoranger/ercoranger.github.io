@@ -1,11 +1,15 @@
-body a {
+body a, body a::after {
   color: #000;
 }
 
 body a:hover {
   text-decoration: none;
+  color: #000;
 }
 
+.ee-link:hover {
+  color: #fff;
+}
 
 .ee-header {
   width: 100%;
@@ -14,13 +18,18 @@ body a:hover {
 }
 
 .ee-logo {
-  height: 100%;
+  height: 50px;
+  margin-left: 5px;
 }
 
 .ee-link {
   font-size: 1.5rem;
   float: right;
-  margin: 15px 5% 0 0;
+  margin: 15px 15px 0 0;
+  color: #fff;
+}
+
+.ee-link a::after {
   color: #fff;
 }
 
@@ -34,19 +43,16 @@ body a:hover {
   font-size: 2rem;
 }
 
-.ee-left-menu {
-  margin-right: 10rem;
-}
 
-.v-line {
-  margin:0 -2rem;
+.v-line > hr {
+margin-top: 0;
+  width: 0;
+  height: 120px;
   border-left: 0.5px solid #000;
-  height: 80%;
 }
 
 .ee-right-menu {
   margin-right: 4rem;
-
 }
 
 .ee-right-menu ul {
@@ -55,7 +61,7 @@ body a:hover {
 }
 
 .ee-right-menu ul li {
-    word-break: keep-all;
+  word-break: keep-all;
 }
 
 .ee-right-menu h6 {
@@ -67,13 +73,17 @@ body a:hover {
   border-bottom: 0.5px solid #000;
 }
 
-/* 內容開始 */
+.ee-mobile-menu {
+  display: none;
+}
 
+/* 內容開始 */
 .content-menu {
   position: fixed !important;
   top: 40%;
   left: -2%;
   list-style: none;
+  z-index: 999;
 }
 
 .content-menu-off {
@@ -91,11 +101,6 @@ body a:hover {
 .first-row, .second-row, .third-row {
   margin: 30px 10%;
   display: inline-block;
-}
-
-
-.footer-left, .footer-right {
-  font-size: 1.5rem;
 }
 
 .project-header, .project-info, .project-images, .project-image-list {
@@ -119,11 +124,9 @@ body a:hover {
   margin-top: 10rem;
 }
 
-
 .project-text {
   padding-right: 10%;
   text-align: justify;
-
 }
 
 .image-description {
@@ -133,6 +136,14 @@ body a:hover {
 
 /*頁底*/
 
+footer {
+  height: 30px;
+}
+
+.footer-left, .footer-right {
+  font-size: 1.7rem;
+}
+
 .footer-left {
   padding-left: 15px;
   float: left;
@@ -140,23 +151,123 @@ body a:hover {
 }
 
 .footer-right {
-  margin-right: 5%;
+  margin-right: 15px;
   float: right;
   color: #000;
 }
 
-/*ipad畫面*/
-@media screen and (max-width: 992px){
-.ee-right-menu {
-  margin-right: 3rem;
+.ee-disclaimer {
+  color: #D3d3d3;
+  font-size: 1rem;
+  text-align: center;
+  letter-spacing: 0.2rem;
+  height: 20px;
 }
+
+
+@media screen and (max-width: 1170px) {
+  .ee-right-menu {
+    margin-right: 3rem;
+  }
+
+}
+
+/*ipad畫面*/
+@media screen and (max-width: 992px) {
+  .ee-menu {
+    height: 200px;
+  }
+
+  .ee-right-menu {
+    margin-right: 2rem;
+  }
+
+  .ee-left-menu {
+    margin-left: 2%;
+  }
+
+  .v-line {
+    margin: 0 -1rem;
+
+  }
+
+  .v-line > hr {
+    height: 170px;
+  }
 
 
 }
 
 /*手機畫面*/
-@media screen and (max-width: 768px){
-  .ee-right-menu, .v-line, .ee-overview {
-  display:none;
+@media screen and (max-width: 768px) {
+  .ee-right-menu, .v-line, .ee-overview, .menu-bottom-line {
+    display: none;
   }
+
+  .ee-menu {
+    height: 150px;
+  }
+
+  .ee-mobile-menu {
+    display: block;
+  }
+
+  .mobile-row {
+    border-top: 1px solid black;
+    height: 7rem;
+    padding-top: 2rem;
+  }
+
+  .mobile-row:last-child {
+    border-bottom: 1px solid black;
+  }
+
+  .mobile-list h6 {
+    font-size: 10px;
+    margin-left: 15px;
+  }
+
+  .mobile-row p {
+    padding-top: 0.5rem;
+
+  }
+
+  .mobile-row span {
+    font-size: 20px;
+    margin-left: -5px;
+    padding-right: 0;
+
+  }
+
+  .mobile-list {
+    margin: 2rem 0;
+  }
+
+  .mobile-row img {
+    float: right;
+    margin-top: -0.5rem;
+    max-height: 4rem;
+    width: auto;
+  }
+
+  .mobile-row img:nth-child(4) {
+    margin-right: -2rem;
+  }
+
+  .project-awards {
+    margin-top: 0rem;
+  }
+
 }
+
+/*------iPhone SE-----*/
+@media screen and (max-width: 344px) {
+
+  .mobile-row img {
+    display: none;
+  }
+
+  .mobile-row span {
+    width: 80%;
+    text-align: right;
+  }
