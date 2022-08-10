@@ -21,7 +21,7 @@
   <link rel="stylesheet" href="animation.css">
   <link rel="stylesheet" href="for-ercoffice.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 
   <title>Neo Stone Age</title>
 </head>
@@ -34,31 +34,30 @@
     $("#ee-header").load("header.html");
   </script>
 
+
+
   <!-- 內容 -->
   <div class="col-md-12">
 
     <!-- 左側標題選單 -->
     <div class="col-md-1">
       <ul id="content-menu" class="content-menu-off">
-        <a href="#Introduction">
+        <a id="content-menu-1" href="#Introduction">
           <li>Introduction</li>
         </a>
-        <a href="#Objects">
+        <a id="content-menu-2" href="#Research">
+          <li>Research</li>
+        </a>
+
+        <a id="content-menu-3" href="#Objects">
           <li>Objects</li>
         </a>
-        <a href="#Process">
-          <li>Process</li>
-        </a>
-        <a href="#Exhibitions">
-          <li>Exhibitions</li>
-        </a>
-        <a href="">
-          <li>Shop&#8599;</li>
+
+        <a href="Neo-Stone-Age-exhibitions.html">
+          <li>Exhibitions<img src="imgs/arrow.svg" class="arrow" alt="&#x2197;"></li>
         </a>
       </ul>
     </div>
-
-
 
 
     <!-- 右側內容 -->
@@ -66,7 +65,7 @@
 
       <div class="project-header col-md-12">
         <div class="col-md-8">
-          <img class="project-head" src="imgs/Neo-Stone-Age/head.png" alt="">
+          <img class="project-head" src="imgs/Neo-Stone-Age/head.jpg" alt="">
         </div>
 
         <div class=" col-md-4">
@@ -81,8 +80,38 @@
         </div>
       </div>
 
+      <div class="project-info col-md-12">
+        <div id="Introduction" class="col-md-10 col-md-offset-2">
+          <h6>Why</h6>
+          <p class="project-text-b"> The concrete industry is at the root of several environmental issues.
+            Can humans develop new manufacturing methods with industrial wastes?</p>
+        </div>
+      </div>
+
+      <div class="project-images col-md-12">
+        <div class="col-md-12">
+          <img src="imgs/Neo-Stone-Age/nsa-5.jpg" alt="">
+        </div>
+      </div>
 
       <div class="project-info col-md-12">
+        <div class="col-md-10">
+          <h6>How</h6>
+          <p class="project-text-b">
+            From Erco Lai's practice, he creates Neostones from powder of marble/limestone, lime pellets, sand and slag with the method
+            named ‘geopolymerization’.</p>
+        </div>
+      </div>
+
+
+
+      <div class="project-images col-md-12">
+        <img src="imgs/Neo-Stone-Age/head.png" alt="">
+
+      </div>
+
+
+      <div id="Research" class="project-info col-md-12">
         <div class="col-md-2">
         </div>
         <div class="col-md-10">
@@ -149,27 +178,24 @@
         </div>
         <div class="col-md-4">
           <h6>Chapter 1.1</h6>
-          <a href="https://issuu.com/ercolai/docs/zine_ch1">Observation</a>
+          <a href="https://issuu.com/ercolai/docs/zine_ch1">Observation<img src="imgs/arrow.svg" class="arrow" alt="&#x2197;"></a>
           <br><br>
           <h6>Chapter 1.2</h6>
-          <a href="https://issuu.com/ercolai/docs/zine_ch2-">Harvesting & making</a>
+          <a href="https://issuu.com/ercolai/docs/zine_ch2-">Harvesting & making<img src="imgs/arrow.svg" class="arrow" alt="&#x2197;"></a>
           <br><br>
           <h6>Chapter 1.3</h6>
-          <a href="https://issuu.com/ercolai/docs/manga_ch3-neostonetown">A trip to Neostone Town</a>
+          <a href="https://issuu.com/ercolai/docs/manga_ch3-neostonetown">A trip to Neostone Town<img src="imgs/arrow.svg" class="arrow" alt="&#x2197;"></a>
           <br><br>
           <h6>Chapter 1.4</h6>
-          <a href="https://issuu.com/ercolai/docs/ch4-urban">Speculative urban plan</a>
+          <a href="https://issuu.com/ercolai/docs/ch4-urban">Speculative urban plan<img src="imgs/arrow.svg" class="arrow" alt="&#x2197;"></a>
         </div>
       </div>
-
-      <hr style="width:80%;border-style:0.5px solid gray;">
 
       <div class="project-images col-md-12">
         <div class="col-md-12">
           <img src="imgs/Neo-Stone-Age/head.jpg" alt="">
         </div>
       </div>
-
 
       <div class="project-info col-md-12">
         <div class="col-md-2">
@@ -188,14 +214,39 @@
         </div>
       </div>
 
-      <div class="project-images col-md-12">
-        <div class="col-md-6">
-          <img src="imgs/Neo-Stone-Age/nsa-5.jpg" alt="">
-          <p class="image-description">Material samples</p>
+      <div class="project-info col-md-12">
+        <div class="col-md-8">
+          <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/738254842?h=e825d03f73&byline=0&portrait=0" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0"
+              allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe></div>
+          <script src="https://player.vimeo.com/api/player.js"></script>
         </div>
-        <div class="col-md-6">
+        <div class="col-md-4">
+          <h6>Chapter 2.1</h6>
+          <a href="https://vimeo.com/738275291">Used concrete harvesting<img src="imgs/arrow.svg" class="arrow" alt="&#x2197;"></a>
+          <br><br>
+          <h6>Chapter 2.2</h6>
+          <a href="Mineralloop">Mineralloop<img src="imgs/arrow.svg" class="arrow" alt="&#x2197;"></a>
+        </div>
+      </div>
+
+      <div class="project-images col-md-12">
+        <div class="col-md-4">
+          <img src="imgs/Neo-Stone-Age/nsa-9.jpg" alt="">
+          <p class="image-description">Limestone</p>
+        </div>
+        <div class="col-md-4">
+          <img src="imgs/Neo-Stone-Age/nsa-10.jpg" alt="">
+          <p class="image-description">Sand</p>
+        </div>
+        <div class="col-md-4">
+          <img src="imgs/Neo-Stone-Age/nsa-11.jpg" alt="">
+          <p class="image-description">Marlstone</p>
+        </div>
+      </div>
+
+      <div id="Objects" class="project-images col-md-12">
+        <div class="col-md-10 col-md-offset-2">
           <img src="imgs/Neo-Stone-Age/nsa-6.jpg" alt="">
-          <p class="image-description">Neo scholar's stone</p>
         </div>
       </div>
 
@@ -211,6 +262,38 @@
           </p>
         </div>
       </div>
+
+      <div class="project-images col-md-12">
+        <div class="col-md-6">
+          <img src="imgs/Neo-Stone-Age/nsa-12.png" alt="">
+          <p class="image-description">#002</p>
+        </div>
+        <div class="col-md-6">
+          <img src="imgs/Neo-Stone-Age/nsa-13.jpg" alt="">
+          <p class="image-description">#001</p>
+        </div>
+      </div>
+
+      <div class="project-images col-md-12">
+        <div class="col-md-10">
+          <img src="imgs/Neo-Stone-Age/nsa-15.jpg" alt="">
+          <p class="image-description">#003</p>
+        </div>
+      </div>
+
+      <div class="project-images col-md-12">
+        <div class="col-md-4">
+          <img src="imgs/Neo-Stone-Age/nsa-14.jpg" alt="">
+        </div>
+        <div class="col-md-4">
+          <img src="imgs/Neo-Stone-Age/nsa-14 2.jpg" alt="">
+        </div>
+        <div class="col-md-4">
+          <img src="imgs/Neo-Stone-Age/nsa-14 3.jpg" alt="">
+        </div>
+      </div>
+
+
     </div>
   </div>
 
@@ -226,6 +309,40 @@
   <!-- 內容左選單-->
   <script src="pop_up_left_menu.js">
   </script>
+
+  <script>
+    $(function() {
+      $(window).scroll(function() {
+        var ee_height = $(this).scrollTop();
+
+        if (ee_height <= 303) {
+          $('#content-menu-1').removeClass('here-here');
+          $('#content-menu-2').removeClass('here-here');
+          $('#content-menu-3').removeClass('here-here');
+        }
+
+        if (ee_height >= 303) {
+          $('#content-menu-1').addClass('here-here');
+          $('#content-menu-2').removeClass('here-here');
+          $('#content-menu-3').removeClass('here-here');
+        }
+
+        if (ee_height >= 2550) {
+          $('#content-menu-1').removeClass('here-here');
+          $('#content-menu-2').addClass('here-here');
+          $('#content-menu-3').removeClass('here-here');
+        }
+
+        if (ee_height >= 7406) {
+          $('#content-menu-1').removeClass('here-here');
+          $('#content-menu-2').removeClass('here-here');
+          $('#content-menu-3').addClass('here-here');
+        }
+
+      });
+    });
+  </script>
+
 
 </body>
 

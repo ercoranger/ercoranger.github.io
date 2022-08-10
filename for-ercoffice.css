@@ -94,6 +94,14 @@ margin-top: 0;
   margin-bottom: 2rem;
 }
 
+.here-here {
+  font-weight: bold;
+}
+
+.arrow {
+  height: 1.2rem;
+}
+
 .ee-overview {
   margin-top: 30px;
 }
@@ -116,7 +124,7 @@ margin-top: 0;
 }
 
 .project-title {
-  font-size: 2rem;
+  font-size: 2.2rem;
 }
 
 .project-awards {
@@ -125,8 +133,16 @@ margin-top: 0;
 }
 
 .project-text {
+  font-size: 1.5rem;
   padding-right: 10%;
   text-align: justify;
+  margin-bottom: 20px;
+}
+
+.project-text-b {
+  font-size: 4rem;
+  padding-right: 10%;
+  margin-bottom: 20px;
 }
 
 .image-description {
@@ -271,3 +287,5 @@ footer {
     width: 80%;
     text-align: right;
   }
+
+}

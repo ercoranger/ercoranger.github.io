@@ -19,7 +19,7 @@
   <link rel="stylesheet" href="animation.css">
   <link rel="stylesheet" href="for-ercoffice.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 
   <title>Mineralloop</title>
 </head>
@@ -31,6 +31,7 @@
     $("#ee-header").load("header.html");
   </script>
 
+
   <!-- 內容 -->
   <div class="col-md-12 col-sm-12">
 
@@ -38,20 +39,20 @@
 
     <div class="col-md-1 col-sm-1 col-xs-1">
       <ul id="content-menu" class="content-menu-off">
-        <a href="#Introduction">
+        <a id="content-menu-1" class="" href="#Introduction">
           <li>Introduction</li>
         </a>
-        <a href="#Objects">
+        <a id="content-menu-2" href=" #Objects">
           <li>Objects</li>
         </a>
-        <a href="#Process">
+        <a id="content-menu-3" href="#Process">
           <li>Process</li>
         </a>
-        <a href="#Exhibitions">
+        <a id="content-menu-4" href="#Exhibitions">
           <li>Exhibitions</li>
         </a>
         <a href="">
-          <li>Shop&#8599;</li>
+          <li>Shop<img src="imgs/arrow.svg" class="arrow" alt="&#x2197;"></li>
         </a>
       </ul>
     </div>
@@ -185,6 +186,7 @@
   </div>
 
 
+
   <!-- 頁尾 -->
   <div id="ee-footer"></div>
 
@@ -194,6 +196,51 @@
 
   <!-- 內容左選單 -->
   <script src="pop_up_left_menu.js">
+  </script>
+
+  <!-- 內容左選單顯示位置 -->
+  <script>
+    $(function() {
+      $(window).scroll(function() {
+        var ee_height = $(this).scrollTop();
+
+        if (ee_height <= 843) {
+          $('#content-menu-1').removeClass('here-here');
+          $('#content-menu-2').removeClass('here-here');
+          $('#content-menu-3').removeClass('here-here');
+          $('#content-menu-4').removeClass('here-here');
+        }
+
+        if (ee_height >= 843) {
+          $('#content-menu-1').addClass('here-here');
+          $('#content-menu-2').removeClass('here-here');
+          $('#content-menu-3').removeClass('here-here');
+          $('#content-menu-4').removeClass('here-here');
+        }
+
+        if (ee_height >= 1461) {
+          $('#content-menu-1').removeClass('here-here');
+          $('#content-menu-2').addClass('here-here');
+          $('#content-menu-3').removeClass('here-here');
+          $('#content-menu-4').removeClass('here-here');
+        }
+
+        if (ee_height >= 3501) {
+          $('#content-menu-1').removeClass('here-here');
+          $('#content-menu-2').removeClass('here-here');
+          $('#content-menu-3').addClass('here-here');
+          $('#content-menu-4').removeClass('here-here');
+        }
+
+        if (ee_height >= 4716) {
+          $('#content-menu-1').removeClass('here-here');
+          $('#content-menu-2').removeClass('here-here');
+          $('#content-menu-3').removeClass('here-here');
+          $('#content-menu-4').addClass('here-here');
+        }
+
+      });
+    });
   </script>
 
 
