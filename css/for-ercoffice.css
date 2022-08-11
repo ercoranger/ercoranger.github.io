@@ -155,6 +155,7 @@ margin-top: 0;
 
 footer {
   height: 30px;
+  margin-top: 15px;
 }
 
 .footer-left, .footer-right {
@@ -179,6 +180,9 @@ footer {
   text-align: center;
   letter-spacing: 0.2rem;
   height: 20px;
+  margin: 3px 0;
+  padding-bottom: 3px;
+
 }
 
 
@@ -219,6 +223,10 @@ footer {
 @media screen and (max-width: 768px) {
   .ee-right-menu, .v-line, .ee-overview, .menu-bottom-line {
     display: none;
+  }
+
+  .project-header, .project-info, .project-images, .project-image-list {
+    margin-top: 20px;
   }
 
   .ee-menu {
@@ -283,7 +291,6 @@ footer {
   .project-text-b {
     font-size: 2rem;
   }
-
 
 
 }

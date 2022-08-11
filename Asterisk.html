@@ -26,9 +26,8 @@
 <body>
   <!-- 頁首 -->
   <div id="ee-header"></div>
-
   <script>
-    $("#ee-header").load("header.html");
+    $("#ee-header").load("components/header.html");
   </script>
 
   <!-- 內容 -->
@@ -66,7 +65,7 @@
       </div>
 
       <div class="project-info col-md-12 col-xs-12">
-        <div class="col-md-10 col-xs-12">
+        <div id="Concept" class="col-md-10 col-xs-12">
           <h6>Concept</h6>
           <p class="project-title"></p>
           <p class="project-text-b">Inspired by origami, using the tension of metal itself to create a shape.</p>
@@ -82,7 +81,7 @@
         </div>
       </div>
 
-      <div class="project-info col-md-10 col-md-offset-2 col-xs-12">
+      <div id="Process" class="project-info col-md-10 col-md-offset-2 col-xs-12">
         <h6>Process</h6>
         <p class="project-title">Laser cutting</p>
         <p class="project-text">
@@ -117,14 +116,9 @@
 
   <!-- 頁尾 -->
   <div id="ee-footer"></div>
-
   <script>
-    $("#ee-footer").load("footer.html");
+    $("#ee-footer").load("components/footer.html");
   </script>
-
-  <script src="js/pop_up_left_menu.js">
-  </script>
-
 
 
 </body>
