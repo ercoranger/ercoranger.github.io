@@ -81,7 +81,7 @@ margin-top: 0;
 .content-menu {
   position: fixed !important;
   top: 40%;
-  left: -2%;
+  left: -1%;
   list-style: none;
   z-index: 999;
 }
@@ -92,10 +92,11 @@ margin-top: 0;
 
 .content-menu li {
   margin-bottom: 2rem;
+  font-size: 1.6rem;
 }
 
 .here-here {
-  font-weight: bold;
+  text-decoration: underline;
 }
 
 .arrow {
