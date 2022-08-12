@@ -12,9 +12,11 @@ body a:hover {
 }
 
 .ee-header {
+  position: fixed !important;
   width: 100%;
   background-color: #000;
   height: 50px;
+  z-index: 999;
 }
 
 .ee-logo {
@@ -23,7 +25,7 @@ body a:hover {
 }
 
 .ee-link {
-  font-size: 1.5rem;
+  font-size: 16px;
   float: right;
   margin: 15px 15px 0 0;
   color: #fff;
@@ -35,7 +37,7 @@ body a:hover {
 
 .ee-menu {
   height: 150px;
-  margin-top: 3rem;
+  margin-top: 80px;
 }
 
 .ee-left-menu h3 {
@@ -45,7 +47,7 @@ body a:hover {
 
 
 .v-line > hr {
-margin-top: 0;
+  margin-top: 0;
   width: 0;
   height: 120px;
   border-left: 0.5px solid #000;
@@ -55,17 +57,25 @@ margin-top: 0;
   margin-right: 4rem;
 }
 
-.ee-right-menu ul {
+.ee-right-menu ul, .ee-bottom-menu ul {
   list-style: none;
   padding-left: 0;
 }
 
-.ee-right-menu ul li {
+.ee-right-menu ul li, .ee-bottom-menu ul li  {
   word-break: keep-all;
 }
 
-.ee-right-menu h6 {
+.ee-right-menu h6, .ee-bottom-menu h6 {
   font-size: 1rem;
+}
+
+.ee-bottom-menu {
+  margin-right: 1rem;
+}
+
+.ee-bottom-menu-wrap {
+  margin: 30px 0;
 }
 
 .menu-bottom-line {
@@ -129,8 +139,8 @@ margin-top: 0;
 }
 
 .project-awards {
-  font-size: 1.2rem;
-  margin-top: 10rem;
+font-size: 12px;
+  margin-top: 40%;
 }
 
 .project-text {
@@ -159,7 +169,7 @@ footer {
 }
 
 .footer-left, .footer-right {
-  font-size: 1.7rem;
+  font-size: 16px;
 }
 
 .footer-left {
@@ -221,16 +231,25 @@ footer {
 
 /*手機畫面*/
 @media screen and (max-width: 768px) {
-  .ee-right-menu, .v-line, .ee-overview, .menu-bottom-line {
+  #content-menu, .ee-right-menu, .v-line, .ee-overview, .menu-bottom-line, .ee-bottom-menu-wrap {
     display: none;
+  }
+
+  .content-mobile-off {
+    display: none;
+
   }
 
   .project-header, .project-info, .project-images, .project-image-list {
     margin-top: 20px;
   }
 
+.ee-header {
+  top: 0;
+}
+
   .ee-menu {
-    height: 150px;
+    height: 170px;
   }
 
   .ee-mobile-menu {
@@ -279,14 +298,6 @@ footer {
     margin-right: -2rem;
   }
 
-  .project-awards {
-    margin-top: 0rem;
-  }
-
-  #content-menu, .content-mobile-off {
-    display: none;
-
-  }
 
   .project-text-b {
     font-size: 2rem;
