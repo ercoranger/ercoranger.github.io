@@ -27,12 +27,16 @@ body a:hover {
 .ee-link {
   font-size: 16px;
   float: right;
-  margin: 15px 15px 0 0;
+  margin: 14px 15px 0 0;
   color: #fff;
 }
 
 .ee-link a::after {
   color: #fff;
+}
+
+.ee-link:nth-child(3), .ee-link:nth-child(4) {
+  margin-right: 50px;
 }
 
 .ee-menu {
@@ -72,6 +76,8 @@ body a:hover {
 
 .ee-bottom-menu {
   margin-right: 1rem;
+  margin-top: 5px;
+  margin-bottom: 25px;
 }
 
 .ee-bottom-menu-wrap {
@@ -90,7 +96,7 @@ body a:hover {
 /* 內容開始 */
 .content-menu {
   position: fixed !important;
-  top: 40%;
+  top: 35%;
   left: -1%;
   list-style: none;
   z-index: 999;
@@ -165,7 +171,11 @@ font-size: 12px;
 
 footer {
   height: 30px;
-  margin-top: 15px;
+}
+
+.ee-footer {
+  position: fixed !important;
+  bottom: 10px;
 }
 
 .footer-left, .footer-right {
@@ -190,7 +200,7 @@ footer {
   text-align: center;
   letter-spacing: 0.2rem;
   height: 20px;
-  margin: 3px 0;
+  margin: 10px 0 20px 0;
   padding-bottom: 3px;
 
 }
@@ -249,7 +259,7 @@ footer {
 }
 
   .ee-menu {
-    height: 170px;
+    height: 150px;
   }
 
   .ee-mobile-menu {
