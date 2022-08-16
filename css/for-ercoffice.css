@@ -96,10 +96,11 @@ body a:hover {
 /* 內容開始 */
 .content-menu {
   position: fixed !important;
-  top: 40%;
+  top: 36%;
   left: -1%;
   list-style: none;
   z-index: 999;
+  animation: move-in ease 2s;
 }
 
 .content-menu-off {
@@ -121,7 +122,9 @@ body a:hover {
 
 .ee-overview {
   margin-top: 30px;
+  animation: move-in ease 2s;
 }
+
 
 .first-row, .second-row, .third-row {
   margin: 30px 10%;
@@ -134,10 +137,12 @@ body a:hover {
 
 .project-head, .project-images img, .project-image-list img {
   width: 100%;
+  cursor: crosshair;
 }
 
 .project-image-list img {
   padding-bottom: 30px;
+
 }
 
 .project-title {
@@ -167,6 +172,28 @@ font-size: 12px;
   margin-top: 10px;
 }
 
+.big-img-wrap {
+  background-color: #fff;
+  text-align: center;
+  vertical-align: middle;
+  position: fixed;
+  display: none;
+  width: 100%;
+  height: 100%;
+  z-index:9999;
+  top: 50px;
+  left: 0;
+}
+
+.big-img {
+  position: fixed;
+  display: block;
+  width: 90%;
+  left: 5%;
+  cursor: zoom-out;
+}
+
+
 /*頁底*/
 
 footer {
@@ -176,6 +203,7 @@ footer {
 .ee-footer {
   position: fixed !important;
   bottom: 10px;
+  z-index: 99;
 }
 
 .footer-left, .footer-right {
@@ -290,7 +318,6 @@ footer {
     font-size: 20px;
     margin-left: -5px;
     padding-right: 0;
-
   }
 
   .mobile-list {
@@ -311,6 +338,12 @@ footer {
 
   .project-text-b {
     font-size: 2rem;
+  }
+
+  .big-img {
+    background-color: rgba(255,255,255,0.8);
+    width: 100%;
+    left: 0;
   }
 
 
