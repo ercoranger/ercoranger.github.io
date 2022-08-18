@@ -11,6 +11,10 @@ body a:hover {
   color: #fff;
 }
 
+.container-fluid, .container {
+  padding: 0;
+}
+
 .ee-header {
   position: fixed !important;
   width: 100%;
