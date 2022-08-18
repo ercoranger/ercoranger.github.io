@@ -96,11 +96,11 @@ body a:hover {
 /* 內容開始 */
 .content-menu {
   position: fixed !important;
-  top: 36%;
+  top: 40%;
   left: -1%;
   list-style: none;
   z-index: 999;
-  animation: move-in ease 2s;
+  animation: move-in ease 1s;
 }
 
 .content-menu-off {
@@ -122,7 +122,7 @@ body a:hover {
 
 .ee-overview {
   margin-top: 30px;
-  animation: move-in ease 2s;
+  animation: move-in ease 1s;
 }
 
 
@@ -137,7 +137,7 @@ body a:hover {
 
 .project-head, .project-images img, .project-image-list img {
   width: 100%;
-  cursor: crosshair;
+  cursor: zoom-in;
 }
 
 .project-image-list img {
@@ -146,7 +146,7 @@ body a:hover {
 }
 
 .project-title {
-  font-size: 2.2rem;
+  font-size: 2.6rem;
 }
 
 .project-awards {
@@ -159,6 +159,7 @@ font-size: 12px;
   padding-right: 10%;
   text-align: justify;
   margin-bottom: 20px;
+  letter-spacing: 0.5px;
 }
 
 .project-text-b {
@@ -175,7 +176,6 @@ font-size: 12px;
 .big-img-wrap {
   background-color: #fff;
   text-align: center;
-  vertical-align: middle;
   position: fixed;
   display: none;
   width: 100%;
@@ -186,11 +186,13 @@ font-size: 12px;
 }
 
 .big-img {
-  position: fixed;
+  width: auto;
   display: block;
-  width: 90%;
-  left: 5%;
+  height: 100%;
+  margin: 0 auto;
   cursor: zoom-out;
+  object-fit: cover;
+  object-position: center;
 }
 
 
@@ -343,7 +345,16 @@ footer {
   .big-img {
     background-color: rgba(255,255,255,0.8);
     width: 100%;
-    left: 0;
+  }
+
+  .ee-footer {
+    background-color: #fff;
+    height: 50px;
+    bottom: 0;
+  }
+
+  .footer-left, .footer-right {
+    margin-top:15px;
   }
 
 
