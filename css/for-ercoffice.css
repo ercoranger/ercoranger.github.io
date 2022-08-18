@@ -209,7 +209,7 @@ footer {
 }
 
 .footer-icon {
-  height: 1.5rem;
+  height: 16px;
 }
 
 .footer-left, .footer-right {
@@ -249,12 +249,16 @@ footer {
 
 /*ipad畫面*/
 @media screen and (max-width: 992px) {
+  p, li {
+  font-size: 13px;
+  }
+
   .ee-menu {
     height: 200px;
   }
 
   .ee-right-menu {
-    margin-right: 2rem;
+    margin-right: 4.2rem;
   }
 
   .ee-left-menu {
@@ -262,7 +266,7 @@ footer {
   }
 
   .v-line {
-    margin: 0 -1rem;
+    margin: 0 -2rem;
 
   }
 
