@@ -72,7 +72,7 @@
           <p class="project-title">Minealloop</p>
           <h6>2022-Present</h6>
 
-          <p class="project-awards">Exhibited in Object Rotterdam 2022
+          <p class="project-awards">2022 Exhibited in Object Rotterdam
           </p>
         </div>
       </div>
@@ -83,9 +83,9 @@
           <p class="project-title">Fixing minerals with minerals</p>
           <p class="project-text">A collection of a series homeware made with discarded materials
             and objects from The Hague, NL. Many products in second-hand shops aren't sold and are then sent to the
-            incinerator. <u>ercoffice</u> thus decided to give a new life to glass and ceramic products. For that, they
+            incinerator. <i>ercoffice</i> thus decided to give a new life to glass and ceramic products. For that, they
             developed new coatings made with waste minerals from the Hague.<br><br>What to design for a world of plenty? Natural resources are getting exhausted.
-            <u>ercoffice</u> believes in alternative ways designing, using what is already there. The response to our current context is a local and circular production.
+            <i>ercoffice</i> believes in alternative ways designing, using what is already there. The response to our current context is a local and circular production.
         </div>
       </div>
 
@@ -139,9 +139,9 @@
         <div class="col-md-10 col-md-offset-2 col-xs-12">
           <h6>Process</h6>
           <p class="project-title">Neo Craft</p>
-          <p class="project-text">Based on the research of <a href="Neo-stone-Age">Neo Stone Age</a>, <u>ercoffice</u>
+          <p class="project-text">Based on the research of <a href="Neo-stone-Age">Neo Stone Age</a>, <i>ercoffice</i>
             develop a new technique repairing broken glassware or ceramic with “Neostone”.
-            From this new “kintsugi” craft, it gives those unwanted homewares a mineral coating. <u>ercoffice</u> covered broken/imperfact glassware with "Neostone" developed using discarded lime pellet, powder
+            From this new “kintsugi” craft, it gives those unwanted homewares a mineral coating. <i>ercoffice</i> covered broken/imperfact glassware with "Neostone" developed using discarded lime pellet, powder
             of limestone from quarries or sand from construction sites, also known as geo-polymer,
             this material doesn’t require firing and adds a new touch and feeling to the object.
         </div>
@@ -182,62 +182,69 @@
         </div>
       </div>
 
-
+      <div class="col-md-12 col-xs-12">
+        <div class="project-info col-md-10 col-xs-12">
+          <h6>Futher reading</h6>
+          <p class="project-text">
+            <a target="_blank" href="Neo-Stone-Age"><u>Neo Stone Age</u></a>
+            - Design research of Neostone<br>
+          </p>
+        </div>
+      </div </div>
     </div>
-  </div>
 
 
-  <!-- 頁尾 -->
-  <div id="ee-footer"></div>
+    <!-- 頁尾 -->
+    <div id="ee-footer"></div>
 
-  <script>
-    $("#ee-footer").load("components/footer.html");
-  </script>
+    <script>
+      $("#ee-footer").load("components/footer.html");
+    </script>
 
-  <!-- 內容左選單顯示位置 -->
-  <script>
-    $(function() {
-      $(window).scroll(function() {
-        var ee_height = $(this).scrollTop();
+    <!-- 內容左選單顯示位置 -->
+    <script>
+      $(function() {
+        $(window).scroll(function() {
+          var ee_height = $(this).scrollTop();
 
-        if (ee_height <= 833) {
-          $('#content-menu-1').removeClass('here-here');
-          $('#content-menu-2').removeClass('here-here');
-          $('#content-menu-3').removeClass('here-here');
-          $('#content-menu-4').removeClass('here-here');
-        }
+          if (ee_height <= 833) {
+            $('#content-menu-1').removeClass('here-here');
+            $('#content-menu-2').removeClass('here-here');
+            $('#content-menu-3').removeClass('here-here');
+            $('#content-menu-4').removeClass('here-here');
+          }
 
-        if (ee_height >= 833) {
-          $('#content-menu-1').addClass('here-here');
-          $('#content-menu-2').removeClass('here-here');
-          $('#content-menu-3').removeClass('here-here');
-          $('#content-menu-4').removeClass('here-here');
-        }
+          if (ee_height >= 833) {
+            $('#content-menu-1').addClass('here-here');
+            $('#content-menu-2').removeClass('here-here');
+            $('#content-menu-3').removeClass('here-here');
+            $('#content-menu-4').removeClass('here-here');
+          }
 
-        if (ee_height >= 1451) {
-          $('#content-menu-1').removeClass('here-here');
-          $('#content-menu-2').addClass('here-here');
-          $('#content-menu-3').removeClass('here-here');
-          $('#content-menu-4').removeClass('here-here');
-        }
+          if (ee_height >= 1451) {
+            $('#content-menu-1').removeClass('here-here');
+            $('#content-menu-2').addClass('here-here');
+            $('#content-menu-3').removeClass('here-here');
+            $('#content-menu-4').removeClass('here-here');
+          }
 
-        if (ee_height >= 3491) {
-          $('#content-menu-1').removeClass('here-here');
-          $('#content-menu-2').removeClass('here-here');
-          $('#content-menu-3').addClass('here-here');
-          $('#content-menu-4').removeClass('here-here');
-        }
+          if (ee_height >= 3491) {
+            $('#content-menu-1').removeClass('here-here');
+            $('#content-menu-2').removeClass('here-here');
+            $('#content-menu-3').addClass('here-here');
+            $('#content-menu-4').removeClass('here-here');
+          }
 
-        if (ee_height >= 4706) {
-          $('#content-menu-1').removeClass('here-here');
-          $('#content-menu-2').removeClass('here-here');
-          $('#content-menu-3').removeClass('here-here');
-          $('#content-menu-4').addClass('here-here');
-        }
+          if (ee_height >= 4706) {
+            $('#content-menu-1').removeClass('here-here');
+            $('#content-menu-2').removeClass('here-here');
+            $('#content-menu-3').removeClass('here-here');
+            $('#content-menu-4').addClass('here-here');
+          }
 
+        });
       });
-    });
-  </script>
+    </script>
 
 
 </body>

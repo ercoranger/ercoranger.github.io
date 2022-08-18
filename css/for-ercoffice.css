@@ -208,6 +208,10 @@ footer {
   z-index: 99;
 }
 
+.footer-icon {
+  height: 1.5rem;
+}
+
 .footer-left, .footer-right {
   font-size: 16px;
 }
