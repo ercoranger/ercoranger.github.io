@@ -2,15 +2,18 @@
 <!-- Generator: Adobe Illustrator 25.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 60 60" style="enable-background:new 0 0 60 60;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#212121;}
+</style>
 <g>
 	<g>
 		<g>
-			<path d="M-0.07,8.2v0.98l31.09,17.51L60.07,9.46V8.2l0,0"/>
+			<path class="st0" d="M-0.1,8.2v1L31,26.7L60,9.5V8.2l0,0"/>
 		</g>
 	</g>
 	<g>
 		<g>
-			<path d="M-0.07,12.83v37.33h60.14V13.18L31.05,30.37L-0.07,12.83L-0.07,12.83z"/>
+			<path class="st0" d="M-0.1,12.8v37.3H60v-37L31,30.4L-0.1,12.8L-0.1,12.8z"/>
 		</g>
 	</g>
 </g>

@@ -4,15 +4,21 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="">
+  <meta name="description" content="Inspired by nature, Erco Lai is researching materials and
+    trying to create processes by mimicking nature, precisely, geographic mimicking,
+    which could radically change the way we make objects or try to challenge the mainstream
+    manufacturing system, by " growing" things like Earth.">
   <meta name="keywords" content="Neostone, Geopolymer," />
   <meta name="author" content="ercoffice">
 
   <meta property="og:url" content="ercoffice.net/Biorock" />
   <meta property="og:type" content="website" />
   <meta property="og:title" content="Biorock" />
-  <meta property="og:description" content="" />
-  <meta property="og:image" content="" />
+  <meta property="og:description" content="Inspired by nature, Erco Lai is researching materials and
+    trying to create processes by mimicking nature, precisely, geographic mimicking,
+    which could radically change the way we make objects or try to challenge the mainstream
+    manufacturing system, by " growing" things like Earth." />
+  <meta property="og:image" content="https://github.com/ercoranger/ercoranger.github.io/blob/master/imgs/Biorock/head.jpg?raw=true" />
 
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/animation.css">
@@ -75,11 +81,11 @@
         <div id="Introduction" class="col-md-10 col-xs-12">
           <h6>Introduction</h6>
           <p class="project-title">Faking Nature</p>
-          <p class="project-text"> Inspired by nature, I am researching materials and
+          <p class="project-text"> Inspired by nature, Erco Lai is researching materials and
             trying to create processes by mimicking nature, precisely, geographic mimicking,
             which could radically change the way we make objects or try to challenge the mainstream
             manufacturing system, by "growing" things like Earth. While studying geomorphology,
-            I was fascinated by natural processes like dripping by gravity, decomposing by rain,
+            he was fascinated by natural processes like dripping by gravity, decomposing by rain,
             evaporating by the sun, and shaping by the wind; by studying minerals, petrification,
             crystallization to accretion are the promising processes. The experimental material/process
             research expands the possibility of future production.​​​​​​​
@@ -294,6 +300,51 @@
   <script>
     $("#ee-footer").load("components/footer.html");
   </script>
+
+  <script>
+    $(function() {
+      $(window).scroll(function() {
+        var ee_height = $(this).scrollTop();
+
+        if (ee_height <= 303) {
+          $('#content-menu-1').removeClass('here-here');
+          $('#content-menu-2').removeClass('here-here');
+          $('#content-menu-3').removeClass('here-here');
+          $('#content-menu-4').removeClass('here-here');
+        }
+
+        if (ee_height >= 303) {
+          $('#content-menu-1').addClass('here-here');
+          $('#content-menu-2').removeClass('here-here');
+          $('#content-menu-3').removeClass('here-here');
+          $('#content-menu-4').removeClass('here-here');
+        }
+
+        if (ee_height >= 2000) {
+          $('#content-menu-1').removeClass('here-here');
+          $('#content-menu-2').addClass('here-here');
+          $('#content-menu-3').removeClass('here-here');
+          $('#content-menu-4').removeClass('here-here');
+        }
+
+        if (ee_height >= 3400) {
+          $('#content-menu-1').removeClass('here-here');
+          $('#content-menu-2').removeClass('here-here');
+          $('#content-menu-3').addClass('here-here');
+          $('#content-menu-4').removeClass('here-here');
+        }
+
+        if (ee_height >= 4900) {
+          $('#content-menu-1').removeClass('here-here');
+          $('#content-menu-2').removeClass('here-here');
+          $('#content-menu-3').removeClass('here-here');
+          $('#content-menu-4').addClass('here-here');
+        }
+
+      });
+    });
+  </script>
+
 
 </body>
 
