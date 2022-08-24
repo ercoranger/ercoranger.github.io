@@ -49,7 +49,7 @@
         <a id="content-menu-3" href="#SE">
           <li>Special edition</li>
         </a>
-        <a href="">
+        <a target="_blank" href="https://www.instagram.com/ercoffice/">
           <li>Shop<img src="imgs/arrow.svg" class="arrow" alt="&#x2197;"></li>
         </a>
       </ul>
@@ -161,9 +161,6 @@
 
 
 
-
-
-
     </div>
   </div>
 
@@ -179,6 +176,44 @@
 
   <script>
     $("#ee-footer").load("components/footer.html");
+  </script>
+
+  <script>
+    $(function() {
+      $(window).scroll(function() {
+        var ee_height = $(this).scrollTop();
+
+        if (ee_height <= 380) {
+          $('#content-menu-1').removeClass('here-here');
+          $('#content-menu-2').removeClass('here-here');
+          $('#content-menu-3').removeClass('here-here');
+          $('#content-menu-4').removeClass('here-here');
+        }
+
+        if (ee_height >= 380) {
+          $('#content-menu-1').addClass('here-here');
+          $('#content-menu-2').removeClass('here-here');
+          $('#content-menu-3').removeClass('here-here');
+          $('#content-menu-4').removeClass('here-here');
+        }
+
+        if (ee_height >= 1265) {
+          $('#content-menu-1').removeClass('here-here');
+          $('#content-menu-2').addClass('here-here');
+          $('#content-menu-3').removeClass('here-here');
+          $('#content-menu-4').removeClass('here-here');
+        }
+
+        if (ee_height >= 3839) {
+          $('#content-menu-1').removeClass('here-here');
+          $('#content-menu-2').removeClass('here-here');
+          $('#content-menu-3').addClass('here-here');
+          $('#content-menu-4').removeClass('here-here');
+        }
+
+
+      });
+    });
   </script>
 
 </body>

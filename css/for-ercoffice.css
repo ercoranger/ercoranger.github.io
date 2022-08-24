@@ -241,7 +241,6 @@ footer {
   height: 20px;
   margin: 10px 0 20px 0;
   padding-bottom: 3px;
-  z-index: 99999;
 }
 
 
@@ -368,6 +367,10 @@ footer {
 
   .footer-left, .footer-right {
     margin-top:15px;
+  }
+
+  .ee-disclaimer {
+    z-index: 99999;
   }
 
 
