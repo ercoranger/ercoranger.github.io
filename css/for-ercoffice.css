@@ -99,6 +99,11 @@ body a:hover {
 }
 
 /* 內容開始 */
+
+#thumbnails a:hover{
+  cursor: crosshair;
+}
+
 .content-menu {
   position: fixed !important;
   top: 40%;
