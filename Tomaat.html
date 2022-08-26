@@ -141,25 +141,16 @@
       $(window).scroll(function() {
         var ee_height = $(this).scrollTop();
 
-        if (ee_height <= 380) {
-          $('#content-menu-1').removeClass('here-here');
-          $('#content-menu-2').removeClass('here-here');
-          $('#content-menu-3').removeClass('here-here');
-          $('#content-menu-4').removeClass('here-here');
-        }
-
-        if (ee_height >= 380) {
+        if (ee_height <= 360) {
+          $('.here-here').removeClass('here-here');
+        } else {
+          $('.here-here').removeClass('here-here');
           $('#content-menu-1').addClass('here-here');
-          $('#content-menu-2').removeClass('here-here');
-          $('#content-menu-3').removeClass('here-here');
-          $('#content-menu-4').removeClass('here-here');
         }
 
         if (ee_height >= 1265) {
-          $('#content-menu-1').removeClass('here-here');
+          $('.here-here').removeClass('here-here');
           $('#content-menu-2').addClass('here-here');
-          $('#content-menu-3').removeClass('here-here');
-          $('#content-menu-4').removeClass('here-here');
         }
 
 
