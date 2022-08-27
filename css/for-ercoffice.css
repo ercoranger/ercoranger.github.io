@@ -1,3 +1,7 @@
+body {
+  scroll-behavior: smooth;
+}
+
 body a, body a::after {
   color: #000;
 }
@@ -236,6 +240,8 @@ footer {
   margin-right: 15px;
   float: right;
   color: #000;
+  place-self: end;
+
 }
 
 .ee-disclaimer {
@@ -288,12 +294,21 @@ footer {
 
 /*手機畫面*/
 @media screen and (max-width: 768px) {
-  #content-menu, .ee-right-menu, .v-line, .ee-overview, .menu-bottom-line, .ee-bottom-menu-wrap {
+  #content-menu, .ee-right-menu, .v-line, .ee-overview, .ee-bottom-menu-wrap, .content-mobile-off {
     display: none;
   }
 
-  .content-mobile-off {
-    display: none;
+  .ee-left-menu {
+  margin-bottom: 20%;
+  }
+
+  .menu-bottom-line {
+    width: 100%;
+    margin-bottom: 5%;
+  }
+
+  .project-text {
+    text-align: left;
 
   }
 
@@ -311,6 +326,7 @@ footer {
 
   .ee-mobile-menu {
     display: block;
+    animation: move-in ease 1s;
   }
 
   .mobile-row {
@@ -375,6 +391,7 @@ footer {
   }
 
   .ee-disclaimer {
+    margin: 3% 0 10% 0;
     z-index: 99999;
   }
 

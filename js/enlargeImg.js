@@ -1,4 +1,4 @@
-$(".project-images img, .project-image-list img, .project-head").attr("onclick", "picBig(this)");
+$(".project-images img, .project-image-list img, .mobile-list img, .project-head").attr("onclick", "picBig(this)");
 
 
 function picBig(img) {

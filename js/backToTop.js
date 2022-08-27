@@ -1,4 +1,9 @@
-function backToTop() {
-  document.body.scrollTop = 0;
-  document.documentElement.scrollTop = 0;
-}
+$(function(){
+//動畫方式回到上層
+$("#gotop").click(function(){
+    jQuery("html,body").animate({
+    scrollTop:0
+  },1000);
+});
+
+});
