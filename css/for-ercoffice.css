@@ -145,6 +145,10 @@ body a:hover {
   display: inline-block;
 }
 
+.project-header {
+  animation: move-in ease 1s;
+}
+
 .project-header, .project-info, .project-images, .project-image-list {
   margin-top: 50px;
 }
