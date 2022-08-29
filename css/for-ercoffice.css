@@ -374,6 +374,11 @@ footer {
     margin-right: -2rem;
   }
 
+  .project-title {
+    font-size: 1.9rem;
+    font-weight: 500;
+  }
+
 
   .project-text-b {
     font-size: 2rem;
