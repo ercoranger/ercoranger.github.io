@@ -153,14 +153,17 @@ body a:hover {
   margin-top: 50px;
 }
 
-.project-head, .project-images img, .project-image-list img {
+.project-head, .project-images img, .project-image-list img, .project-image-list-sp img  {
   width: 100%;
   cursor: zoom-in;
 }
 
 .project-image-list img {
   padding-bottom: 30px;
+}
 
+.project-image-list-sp {
+  padding-bottom: 30px;
 }
 
 .project-title {
