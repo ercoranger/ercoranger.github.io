@@ -6,6 +6,7 @@
 	.st0{fill:#00579B;}
 	.st1{fill:none;stroke:#FFFFFF;stroke-width:2;stroke-miterlimit:10;}
 </style>
+<rect width="280" height="140"/>
 <g>
 	<polygon class="st0" points="71.4,6.5 26.5,25.1 7.9,70 26.5,114.9 71.4,133.5 116.3,114.9 134.9,70 116.3,25.1 	"/>
 	<line class="st1" x1="272.1" y1="70" x2="148.7" y2="70"/>
