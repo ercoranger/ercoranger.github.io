@@ -108,6 +108,10 @@ body a:hover {
   cursor: crosshair;
 }
 
+.langChange {
+  color: #fff;
+}
+
 .content-menu {
   position: fixed !important;
   top: 40%;
