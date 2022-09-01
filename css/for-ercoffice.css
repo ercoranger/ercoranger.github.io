@@ -112,6 +112,11 @@ body a:hover {
   color: #fff;
 }
 
+.langChange:hover {
+  cursor: pointer;
+}
+
+
 .content-menu {
   position: fixed !important;
   top: 40%;

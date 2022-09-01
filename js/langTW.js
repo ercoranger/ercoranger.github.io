@@ -25,6 +25,6 @@ function langTW() {
   $('.zh-mp-3').text('2022系列');
   $('.zh-mp-4').text('新工藝');
   $('.zh-mp-5').html('在<a href="Neo-stone-Age">Neo Stone Age</a>研究的基礎上，ercoffice開發了一種新的技術，用 "Neostone"一新材料去修覆破碎的玻璃器皿或陶瓷。ercoffice使用廢棄的石灰顆粒、采石場的石灰石粉末或建築工地用剩的沙子開發的 "Neostone"，也被稱為地質聚合物。此新技法修復了破碎/不完美的玻璃器皿，同時也賦予了物件新的觸感。另外，此技法無需燒製');
-  $('.zh-mp-6').html('<u>Neo Stone Age</u></a>- Neostone的設計研究<br>')
+  $('.zh-mp-6').html('<u>Neo Stone Age</u></a>- Neostone的設計研究')
 
 }
