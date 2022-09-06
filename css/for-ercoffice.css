@@ -225,6 +225,10 @@ font-size: 12px;
   object-position: center;
 }
 
+.award-link:hover {
+  text-decoration: underline;
+}
+
 
 /*頁底*/
 
