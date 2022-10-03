@@ -3,18 +3,14 @@
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 60 60" style="enable-background:new 0 0 60 60;" xml:space="preserve">
 <style type="text/css">
-	.st0{fill:#212121;}
+	.st0{fill:#00579B;}
+	.st1{fill:none;stroke:#FFFFFF;stroke-width:2;stroke-miterlimit:10;}
+	.st2{fill:none;stroke:#000000;stroke-width:2;stroke-miterlimit:10;}
 </style>
 <g>
-	<g>
-		<g>
-			<path class="st0" d="M-0.1,8.2v1L31,26.7L60,9.5V8.2l0,0"/>
-		</g>
-	</g>
-	<g>
-		<g>
-			<path class="st0" d="M-0.1,12.8v37.3H60v-37L31,30.4L-0.1,12.8L-0.1,12.8z"/>
-		</g>
-	</g>
+	<polygon points="4.27,9.02 -0.07,9.02 -0.07,50.98 5.63,50.98 28.52,30.01 	"/>
+	<polygon points="7.33,9.02 30,28.64 51.41,9.02 	"/>
+	<polygon points="30,31.36 8.59,50.98 52.67,50.98 	"/>
+	<polygon points="60.07,9.02 54.37,9.02 31.48,29.99 55.73,50.98 60.07,50.98 	"/>
 </g>
 </svg>
