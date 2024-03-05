@@ -148,7 +148,7 @@ body a:hover {
 }
 
 .move-in-A{
-  animation: move-in ease 1s;
+  animation: move-in linear 1s;
 }
 
 .move-in-B{
@@ -156,7 +156,7 @@ body a:hover {
 }
 
 .move-in-C{
-  animation: move-in ease 1.2s;
+  animation: move-in ease-out 1.2s;
 }
 
 .index-row {
@@ -164,8 +164,12 @@ body a:hover {
   display: inline-block;
 }
 
-.project-header {
-  animation: move-in ease 1.1s;
+.project-head {
+  animation: move-in ease 0.8s;
+}
+
+.project-header h6 {
+  animation: move-in ease-in 0.9s;
 }
 
 .project-header, .project-info, .project-images, .project-image-list {
@@ -187,11 +191,13 @@ body a:hover {
 
 .project-title {
   font-size: 2.6rem;
+  animation: move-in linear 1s;
 }
 
 .project-awards {
 font-size: 12px;
   margin-top: 40%;
+  animation: move-in ease-out 1.5s;
 }
 
 .project-text {
