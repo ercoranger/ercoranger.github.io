@@ -191,13 +191,12 @@ body a:hover {
 
 .project-title {
   font-size: 2.6rem;
-  animation: move-in linear 1s;
 }
 
 .project-awards {
 font-size: 12px;
   margin-top: 40%;
-  animation: move-in ease-out 1.5s;
+  animation: move-in ease-in 1s;
 }
 
 .project-text {
