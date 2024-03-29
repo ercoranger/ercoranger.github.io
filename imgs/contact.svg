@@ -6,7 +6,7 @@
 	.st0{fill:none;stroke:#FFFFFF;stroke-width:2;stroke-miterlimit:10;}
 	.st1{fill:#FFFFFF;}
 </style>
-<rect y="9" width="60.1" height="42"/>
-<circle class="st0" cx="30" cy="30" r="12.9"/>
-<circle class="st1" cx="45.3" cy="14.7" r="2.4"/>
+<rect x="2.5" y="4" width="55" height="52"/>
+<circle class="st0" cx="30" cy="30" r="16"/>
+<circle class="st1" cx="49" cy="11" r="3"/>
 </svg>
