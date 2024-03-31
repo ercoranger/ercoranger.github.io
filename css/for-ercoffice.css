@@ -240,6 +240,17 @@ font-size: 12px;
   object-position: center;
 }
 
+.close-cross {
+  position: fixed;
+  width: 20px;
+  right: 44px;
+  Top: 70px;
+}
+
+.close-cross:hover {
+  cursor: default;
+}
+
 .award-link:hover {
   text-decoration: underline;
 }
@@ -258,7 +269,7 @@ footer {
 }
 
 .footer-icon {
-  height: 16px;
+  height: 17px;
 }
 
 .footer-left, .footer-right {
