@@ -63,7 +63,7 @@
 
         <div class="col-md-4 col-xs-4">
           <p class="project-title">Ginkgo</p>
-          <h6>2024-ongoing</h6>
+          <h6>2024</h6>
 
           <p class="project-awards content-mobile-off">2024 Presented in Sotckholm Furniture fair
           </p>
@@ -109,7 +109,7 @@
       <div id="Process" class="project-info col-md-10 col-md-offset-2 col-xs-12">
         <div class="col-md-10 col-xs-12">
           <h6>Process</h6>
-          <p class="project-title">Traditional craft</p>
+          <p class="project-title">Hand craft</p>
           <p class="project-text">Crafted from sustainably sourced wood, each Gingko chair undergoes meticulous craftsmanship to showcase the natural beauty of the material. Skilled artisans sculpt the wood, ensuring that every chair reflects the
             intricate patterns and textures found in gingko leaves. The result is a chair that not only embodies elegance but also respects the environment through responsible sourcing and manufacturing practices.
           </p>
@@ -158,11 +158,24 @@
         </div>
       </div>
 
+      <!--div class="project-image-list col-md-12 col-xs-12">
+        <div class="col-md-1 col-xs-2">
+          <img src="imgs/Ginkgo/gk-small-01.jpg" alt="extra">
+        </div>
+        <div class="col-md-1 col-xs-2">
+          <img src="imgs/Ginkgo/gk-small-02.jpg" alt="extra">
+        </div>
+        <div class="col-md-1 col-xs-2">
+          <img src="imgs/Ginkgo/gk-small-03.jpg" alt="extra">
+        </div>
+      </div-->
+
+
       <div class="col-md-12 col-xs-12">
         <div class="project-info col-md-10 col-xs-12">
           <h6>Further reading</h6>
           <p class="project-text">
-            <a target="_blank" href=""><u>Dropbox</u></a>
+            <a target="_blank" href="https://www.dropbox.com/scl/fo/2u9vr8v3lzr4r7zhf6xab/h?rlkey=ds6maxfe3qm3hoz0yg24bwzzn&dl=0"><u>Dropbox</u></a>
             - For more Hi-Res photos
           </p>
         </div>
@@ -186,17 +199,21 @@
       $(window).scroll(function() {
         var ee_height = $(this).scrollTop();
 
-        if (ee_height <= 380) {
+        if (ee_height <= 500) {
           $('.here-here').removeClass('here-here');
         } else {
           $('.here-here').removeClass('here-here');
           $('#content-menu-1').addClass('here-here');
         }
 
-        if (ee_height >= 1265) {
+        if (ee_height >= 1565) {
           $('.here-here').removeClass('here-here');
           $('#content-menu-2').addClass('here-here');
+        }
 
+        if (ee_height >= 2300) {
+          $('.here-here').removeClass('here-here');
+          $('#content-menu-3').addClass('here-here');
         }
 
 
