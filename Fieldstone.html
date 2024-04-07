@@ -39,13 +39,13 @@
 
     <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1">
       <ul id="content-menu" class="content-menu-off">
-        <a id="content-menu-1" href="#Concept">
+        <a id="content-menu-1" href="#sec-1">
           <li>Concept</li>
         </a>
-        <a id="content-menu-2" href="#Process">
+        <a id="content-menu-2" href="#sec-2">
           <li>Process</li>
         </a>
-        <!--a id="content-menu-3" href="#exhibition">
+        <!--a id="content-menu-3" href="#sec-3">
           <li>Exhibitions</li-->
         </a>
       </ul>
@@ -68,7 +68,7 @@
       </div>
 
       <div class="project-info col-md-12 col-xs-12">
-        <div id="Concept" class="col-md-10 col-xs-12">
+        <div id="sec-1" class="col-md-10 col-xs-12">
           <h6>Concept</h6>
           <p class="project-title">Rubble masonry</p>
           <p class="project-text">This artificial-stones-stacked table, Fieldstone, marks the convergence of digital fabrication and stone masonry. Beyond encapsulating the core principles of artificial rocks, this innovative piece introduces a novel
@@ -95,7 +95,7 @@
         </div>
       </div>
 
-      <div id="Process" class="project-info col-md-10 col-md-offset-2 col-xs-12">
+      <div id="sec-2" class="project-info col-md-10 col-md-offset-2 col-xs-12">
         <h6>Process</h6>
         <p class="project-title">Future craft</p>
         <p class="project-text">This project is working with Zongru Wu and manufactured by Sandhelden, known as binder jetting, this innovative technique enables Erco Lai to fully explore the realm of creative form generation. By utilizing binder
@@ -124,7 +124,7 @@
         </div>
       </div>
 
-      <!--div id="exhibition" class="project-image-list col-md-12 col-xs-12">
+      <!--div id="sec-3" class="project-image-list col-md-12 col-xs-12">
 
         <div class="col-md-10 col-xs-10">
           <h6 class="zh-exhi">Exhibitions</h6>
@@ -162,32 +162,7 @@
     $("#ee-footer").load("components/footer.html");
   </script>
 
-  <script>
-    $(function() {
-      $(window).scroll(function() {
-        var ee_height = $(this).scrollTop();
-
-        if (ee_height <= 380) {
-          $('.here-here').removeClass('here-here');
-        } else {
-          $('.here-here').removeClass('here-here');
-          $('#content-menu-1').addClass('here-here');
-        }
-
-        if (ee_height >= 1255) {
-          $('.here-here').removeClass('here-here');
-          $('#content-menu-2').addClass('here-here');
-        }
-
-        if (ee_height >= 1777) {
-          $('.here-here').removeClass('here-here');
-          $('#content-menu-3').addClass('here-here');
-        }
-
-
-      });
-    });
-  </script>
+  <script src="js/hereHere.js"></script>
 
 
 

@@ -42,10 +42,10 @@
 
     <div class="col-lg-1 col-md-1 col-sm-1 content-mobile-off">
       <ul id="content-menu" class="content-menu-off">
-        <a id="content-menu-1" class="" href="#Concept">
+        <a id="content-menu-1" class="" href="#sec-1">
           <li>Concept</li>
         </a>
-        <a id="content-menu-2" href="#Process">
+        <a id="content-menu-2" href="#sec-2">
           <li>Process</li>
         </a>
         <a href="https://www.facebook.com/BinaryPottery">
@@ -71,7 +71,7 @@
       </div>
 
       <div class="project-info col-md-12 col-xs-12">
-        <div id="Concept" class="col-md-10 col-xs-12">
+        <div id="sec-1" class="col-md-10 col-xs-12">
           <h6>Concept</h6>
           <p class="project-title">Digital craftsmanship</p>
           <p class="project-text"> Commissioned by <a href="https://www.facebook.com/BinaryPottery">Binary Pottery</a>
@@ -108,7 +108,7 @@
         </div>
       </div>
 
-      <div id="Process" class="project-info col-md-10 col-md-offset-2 col-xs-12">
+      <div id="sec-2" class="project-info col-md-10 col-md-offset-2 col-xs-12">
         <h6>Process</h6>
         <p class="project-title">3D ceramic printing</p>
         <p class="project-text">
@@ -168,26 +168,7 @@
     $("#ee-footer").load("components/footer.html");
   </script>
 
-  <script>
-    $(function() {
-      $(window).scroll(function() {
-        var ee_height = $(this).scrollTop();
-
-        if (ee_height <= 360) {
-          $('.here-here').removeClass('here-here');
-        } else {
-          $('.here-here').removeClass('here-here');
-          $('#content-menu-1').addClass('here-here');
-        }
-
-        if (ee_height >= 1865) {
-          $('.here-here').removeClass('here-here');
-          $('#content-menu-2').addClass('here-here');
-
-        }
-      });
-    });
-  </script>
+  <script src="js/hereHere.js"></script>
 
 </body>
 

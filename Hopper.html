@@ -52,13 +52,13 @@
     <!-- 左側標題選單 -->
     <div class="col-lg-1 col-md-1 col-sm-1 content-mobile-off">
       <ul id="content-menu" class="content-menu-off">
-        <a id="content-menu-1" class="" href="#Concept">
+        <a id="content-menu-1" class="" href="#sec-1">
           <li>Concept</li>
         </a>
-        <a id="content-menu-2" href="#Process">
+        <a id="content-menu-2" href="#sec-2">
           <li>Process</li>
         </a>
-        <a id="content-menu-3" href="#SE">
+        <a id="content-menu-3" href="#sec-3">
           <li>Special edition</li>
         </a>
         <a target="_blank" href="http://store79729834.company.site/shared-products/632953056?ref=v1:632953056:1928782696">
@@ -86,7 +86,7 @@
         </div>
       </div>
 
-      <div id="Concept" class="col-md-12 col-xs-12">
+      <div id="sec-1" class="col-md-12 col-xs-12">
         <div class="project-info col-md-10 col-xs-12">
           <h6>Concept</h6>
           <p class="project-title">Industrial Geometry</p>
@@ -115,7 +115,7 @@
         </div>
       </div>
 
-      <div id="Process" class="project-info col-md-10 col-md-offset-2 col-xs-12">
+      <div id="sec-2" class="project-info col-md-10 col-md-offset-2 col-xs-12">
         <h6>Process</h6>
         <p class="project-title">Sheet Metal Manufacturing</p>
         <p class="project-text">
@@ -143,7 +143,7 @@
       </div>
 
 
-      <div id="SE" class="col-md-12 col-xs-12">
+      <div id="sec-3" class="col-md-12 col-xs-12">
         <div class="project-info col-md-10 col-xs-12">
           <h6>Special Edition</h6>
           <p class="project-title">With TPCreative</p>
@@ -199,32 +199,7 @@
     $("#ee-footer").load("components/footer.html");
   </script>
 
-  <script>
-    $(function() {
-      $(window).scroll(function() {
-        var ee_height = $(this).scrollTop();
-
-        if (ee_height <= 360) {
-          $('.here-here').removeClass('here-here');
-        } else {
-          $('.here-here').removeClass('here-here');
-          $('#content-menu-1').addClass('here-here');
-        }
-
-        if (ee_height >= 1265) {
-          $('.here-here').removeClass('here-here');
-          $('#content-menu-2').addClass('here-here');
-        }
-
-        if (ee_height >= 3839) {
-          $('.here-here').removeClass('here-here');
-          $('#content-menu-3').addClass('here-here');
-        }
-
-
-      });
-    });
-  </script>
+  <script src="js/hereHere.js"></script>
 
 </body>
 
