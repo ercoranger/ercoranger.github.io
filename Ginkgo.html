@@ -195,31 +195,43 @@
   </script>
 
   <script>
-    $(function() {
-      $(window).scroll(function() {
-        var scrollTop = $(this).scrollTop();
+    window.addEventListener('scroll', function() {
+      var scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+      console.log("Scroll top:", scrollTop);
 
-        // Calculate distances to content sections
-        var distanceToContent1 = $('#content-menu-1').offset().top;
-        var distanceToContent2 = $('#content-menu-2').offset().top;
-        var distanceToContent3 = $('#content-menu-3').offset().top;
+      var distanceToContent1 = document.getElementById('content-menu-1').offsetTop;
+      console.log("Distance to content 1:", distanceToContent1);
 
-        // Check which content section is currently in view
-        if (scrollTop >= distanceToContent3) {
-          $('.here-here').removeClass('here-here');
-          $('#content-menu-3').addClass('here-here');
-        } else if (scrollTop >= distanceToContent2) {
-          $('.here-here').removeClass('here-here');
-          $('#content-menu-2').addClass('here-here');
-        } else if (scrollTop >= distanceToContent1) {
-          $('.here-here').removeClass('here-here');
-          $('#content-menu-1').addClass('here-here');
-        } else {
-          $('.here-here').removeClass('here-here');
-        }
-      });
+      var distanceToContent2 = document.getElementById('content-menu-2').offsetTop;
+      console.log("Distance to content 2:", distanceToContent2);
+
+      var distanceToContent3 = document.getElementById('content-menu-3').offsetTop;
+      console.log("Distance to content 3:", distanceToContent3);
+
+      var hereHere = document.getElementsByClassName('here-here');
+      console.log("Current here-here elements:", hereHere);
+
+      if (scrollTop >= distanceToContent3) {
+        removeClass(hereHere, 'here-here');
+        document.getElementById('content-menu-3').classList.add('here-here');
+      } else if (scrollTop >= distanceToContent2) {
+        removeClass(hereHere, 'here-here');
+        document.getElementById('content-menu-2').classList.add('here-here');
+      } else if (scrollTop >= distanceToContent1) {
+        removeClass(hereHere, 'here-here');
+        document.getElementById('content-menu-1').classList.add('here-here');
+      } else {
+        removeClass(hereHere, 'here-here');
+      }
     });
+
+    function removeClass(elements, className) {
+      for (var i = 0; i < elements.length; i++) {
+        elements[i].classList.remove(className);
+      }
+    }
   </script>
+
 
 
 
