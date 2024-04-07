@@ -2,7 +2,7 @@ $(function() {
     $(window).scroll(function() {
         var scrollTop = $(this).scrollTop();
         var windowHeight = $(this).height(); // Total height of the viewport
-        var buffer = windowHeight * 0.05; // 5% buffer of the total height
+        var buffer = windowHeight * 0.01; // 5% buffer of the total height
 
         var sections = [];
         var contentMenus = [];

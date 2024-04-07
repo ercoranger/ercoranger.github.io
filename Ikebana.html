@@ -43,10 +43,10 @@
     <!-- 左側標題選單 -->
     <div class="col-lg-1 col-md-1 col-sm-1 content-mobile-off">
       <ul id="content-menu" class="content-menu-off">
-        <a id="content-menu-1" class="here-here" href="#Concept">
+        <a id="content-menu-1" class="here-here" href="#sec-1">
           <li>Concept</li>
         </a>
-        <a id="content-menu-2" href="#Process">
+        <a id="content-menu-2" href="#sec-2">
           <li>Inspiration</li>
         </a>
         <a href="mailto:hello@ercoffice.net?subject=About&#160;Floral3dPuzzles">
@@ -70,8 +70,8 @@
         </div>
       </div>
 
-      <div class="project-info col-md-12 col-xs-12">
-        <div id="Concept" class="col-md-10 col-xs-12">
+      <div id="sec-1" class="project-info col-md-12 col-xs-12">
+        <div class="col-md-10 col-xs-12">
           <h6>Concept</h6>
           <p class="project-title">Make flowers alive</p>
           <p class="project-text">
@@ -111,8 +111,8 @@
           </div>
         </div>
 
-        <div class="project-info col-md-12 col-xs-12">
-          <div id="Process" class="col-md-10 col-md-offset-2 col-xs-12">
+        <div id="sec-2" class="project-info col-md-12 col-xs-12">
+          <div class="col-md-10 col-md-offset-2 col-xs-12">
             <h6>Inspiration</h6>
             <p class="project-title">Stilleven</p>
             <p class="project-text">
@@ -144,27 +144,7 @@
       $("#ee-footer").load("components/footer.html");
     </script>
 
-    <script>
-      $(function() {
-        $(window).scroll(function() {
-          var ee_height = $(this).scrollTop();
-
-          if (ee_height <= 360) {
-            $('.here-here').removeClass('here-here');
-          } else {
-            $('.here-here').removeClass('here-here');
-            $('#content-menu-1').addClass('here-here');
-          }
-
-          if (ee_height >= 2465) {
-            $('.here-here').removeClass('here-here');
-            $('#content-menu-2').addClass('here-here');
-          }
-
-        });
-      });
-    </script>
-
+    <script src="js/hereHere.js"></script>
 
 
 </body>

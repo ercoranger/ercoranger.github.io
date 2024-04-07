@@ -41,14 +41,14 @@
     <!-- 左側標題選單 -->
 
     <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1">
-      <ul id="content-menu" class="content-menu-off" style="top:36%;">
-        <a id="content-menu-1" href="#Introduction">
+      <ul id="content-menu" class="content-menu-off">
+        <a id="content-menu-1" href="#sec-1">
           <li class="zh-intro">Concept</li>
         </a>
-        <a id="content-menu-2" href="#Process">
+        <a id="content-menu-2" href="#sec-2">
           <li class="zh-obj">Process</li>
         </a>
-        <a id="content-menu-3" href="#Exhibitions">
+        <a id="content-menu-3" href="#sec-3">
           <li class="zh-exhi">Exhibition</li>
         </a>
         <a target=”_blank” href="https://www.dropbox.com/scl/fo/qs6eko0rx2cnc0qw9tve8/h?rlkey=tree3thjfnow2cz096bv8d7yb&dl=0">
@@ -80,7 +80,7 @@
         </div>
       </div>
 
-      <div id="Introduction" class="project-info col-md-12 col-sm-12 col-xs-12">
+      <div id="sec-1" class="project-info col-md-12 col-sm-12 col-xs-12">
         <div class="col-md-10 col-sm-12 col-xs-12">
           <h6 class="zh-intro">Concept</h6>
           <p class="project-title zh-mp-1">Stone by dripping</p>
@@ -104,7 +104,7 @@
         </div>
       </div>
 
-      <div id="Process" class="project-info col-md-10 col-md-offset-2 col-xs-12">
+      <div id="sec-2" class="project-info col-md-10 col-md-offset-2 col-xs-12">
         <h6>Process</h6>
         <p class="project-title">Future craft</p>
         <p class="project-text">
@@ -141,7 +141,7 @@
         </div>
       </div>
 
-      <div id="Exhibitions" class="project-image-list col-md-12 col-xs-12">
+      <div id="sec-3" class="project-image-list col-md-12 col-xs-12">
 
         <div class="col-md-10 col-xs-10">
           <h6 class="zh-exhi">Exhibition</h6>
@@ -180,32 +180,7 @@
   </script>
 
   <!-- 內容左選單顯示位置 -->
-  <script>
-    $(function() {
-      $(window).scroll(function() {
-        var ee_height = $(this).scrollTop();
-
-        if (ee_height <= 500) {
-          $('.here-here').removeClass('here-here');
-        } else {
-          $('.here-here').removeClass('here-here');
-          $('#content-menu-1').addClass('here-here');
-        }
-
-        if (ee_height >= 1451) {
-          $('.here-here').removeClass('here-here');
-          $('#content-menu-2').addClass('here-here');
-        }
-
-        if (ee_height >= 2800) {
-          $('.here-here').removeClass('here-here');
-          $('#content-menu-3').addClass('here-here');
-        }
-
-
-      });
-    });
-  </script>
+  <script src="js/hereHere.js"></script>
 
 </body>
 
