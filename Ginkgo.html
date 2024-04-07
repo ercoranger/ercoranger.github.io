@@ -39,13 +39,13 @@
 
     <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1">
       <ul id="content-menu" class="content-menu-off">
-        <a id="content-menu-1" href="#Concept">
+        <a id="content-menu-1" href="#sec-1">
           <li>Concept</li>
         </a>
-        <a id="content-menu-2" href="#Process">
+        <a id="content-menu-2" href="#sec-2">
           <li>Process</li>
         </a>
-        <a id="content-menu-3" href="#SE">
+        <a id="content-menu-3" href="#sec-3">
           <li>Editions</li>
         </a>
         <a id="content-menu-4" target="_blank" href="https://ercoffice.net/Shop">
@@ -70,7 +70,7 @@
         </div>
       </div>
 
-      <div id="Concept" class="project-info col-md-12 col-xs-12">
+      <div id="sec-1" class="project-info col-md-12 col-xs-12">
         <div class="col-md-10 col-xs-12">
           <h6>Concept</h6>
           <p class="project-title">Shapes of leaves</p>
@@ -106,7 +106,7 @@
         </div>
       </div>
 
-      <div id="Process" class="project-info col-md-10 col-md-offset-2 col-xs-12">
+      <div id="sec-2" class="project-info col-md-10 col-md-offset-2 col-xs-12">
         <div class="col-md-10 col-xs-12">
           <h6>Process</h6>
           <p class="project-title">Hand craft</p>
@@ -128,7 +128,7 @@
         </div>
       </div>
 
-      <div id="SE" class="project-info col-md-12 col-xs-12">
+      <div id="sec-3" class="project-info col-md-12 col-xs-12">
         <div class="col-md-10 col-xs-12">
           <h6>Special Edition</h6>
           <p class="project-title">Aluminum</p>
@@ -194,43 +194,9 @@
     $("#ee-footer").load("components/footer.html");
   </script>
 
-  <script>
-    window.addEventListener('scroll', function() {
-      var scrollTop = window.pageYOffset || document.documentElement.scrollTop;
-      console.log("Scroll top:", scrollTop);
+  <!-- 招喚here -->
+  <script src="js/hereHere.js"></script>
 
-      var distanceToContent1 = document.getElementById('content-menu-1').offsetTop;
-      console.log("Distance to content 1:", distanceToContent1);
-
-      var distanceToContent2 = document.getElementById('content-menu-2').offsetTop;
-      console.log("Distance to content 2:", distanceToContent2);
-
-      var distanceToContent3 = document.getElementById('content-menu-3').offsetTop;
-      console.log("Distance to content 3:", distanceToContent3);
-
-      var hereHere = document.getElementsByClassName('here-here');
-      console.log("Current here-here elements:", hereHere);
-
-      if (scrollTop >= distanceToContent3) {
-        removeClass(hereHere, 'here-here');
-        document.getElementById('content-menu-3').classList.add('here-here');
-      } else if (scrollTop >= distanceToContent2) {
-        removeClass(hereHere, 'here-here');
-        document.getElementById('content-menu-2').classList.add('here-here');
-      } else if (scrollTop >= distanceToContent1) {
-        removeClass(hereHere, 'here-here');
-        document.getElementById('content-menu-1').classList.add('here-here');
-      } else {
-        removeClass(hereHere, 'here-here');
-      }
-    });
-
-    function removeClass(elements, className) {
-      for (var i = 0; i < elements.length; i++) {
-        elements[i].classList.remove(className);
-      }
-    }
-  </script>
 
 
 
