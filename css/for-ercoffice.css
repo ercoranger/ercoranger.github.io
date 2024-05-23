@@ -143,6 +143,10 @@ body a:hover {
   text-decoration: line-through;
 }
 
+.content-menu li:hover {
+  text-decoration: line-through;
+}
+
 .arrow {
   height: 1.2rem;
 }
