@@ -201,10 +201,21 @@ body a:hover {
   font-size: 2.6rem;
 }
 
+.project-awards, .mtrl-info {
+  font-size: 1.3rem;
+}
+
 .project-awards {
-font-size: 12px;
   margin-top: 40%;
   animation: move-in ease-in 1s;
+}
+
+.mtrl-info {
+  margin-left: calc(66.667% + 17px);
+  margin-top: -9%;
+  font-style: italic;
+  padding: 0;
+
 }
 
 .project-text {
