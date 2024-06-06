@@ -48,8 +48,8 @@
         <a id="" class="" href="http://eepurl.com/h9uRRL">
           <li>Newsletter<img src="imgs/arrow.svg" class="arrow" alt="&#x2197;"></li>
         </a>
-        <a id="" target=”_blank” href="https://www.instagram.com/ercoffice_by_ercolai/">
-          <li>Instagram<img src="imgs/arrow.svg" class="arrow" alt="&#x2197;"></li>
+        <a id="" target=”_blank” href="https://ercoffice.net/Shop">
+          <li>Webshop<img src="imgs/arrow.svg" class="arrow" alt="&#x2197;"></li>
         </a>
       </ul>
     </div>
@@ -188,8 +188,6 @@
 
 
 
-
-
     </div>
   </div>
 
@@ -202,12 +200,22 @@
 
   <!-- 頁尾 -->
   <div id="ee-footer"></div>
+
   <script>
     $("#ee-footer").load("components/footer.html");
   </script>
 
   <!-- 內容左選單 -->
   <script src="js/pop_up_left_menu.js">
+  </script>
+
+  <script>
+    //About頁面的右上角不能是About
+    const homeUrl = "index";
+    const rightLink = document.querySelector(".ee-link");
+
+    rightLink.href = homeUrl;
+    rightLink.textContent = "？";
   </script>
 
 </body>
