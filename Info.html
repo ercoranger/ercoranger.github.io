@@ -23,6 +23,21 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 
+  <script>
+    //About頁面的右上角不能是About （等header load完）
+    document.addEventListener("DOMContentLoaded", () => {
+      $("#ee-header").load("components/header.html", function() {
+        const homeUrl = "index";
+        const rightLink = document.querySelector(".ee-link");
+
+        if (rightLink) {
+          rightLink.href = homeUrl;
+          rightLink.textContent = "Home";
+        }
+      });
+    });
+  </script>
+
   <title>About</title>
   <link rel="icon" type="image/x-icon" href="imgs/ercoffice.ico">
 </head>
@@ -191,31 +206,11 @@
     </div>
   </div>
 
-
-
-
-
-
-
-
   <!-- 頁尾 -->
   <div id="ee-footer"></div>
 
   <script>
     $("#ee-footer").load("components/footer.html");
-  </script>
-
-  <!-- 內容左選單 -->
-  <script src="js/pop_up_left_menu.js">
-  </script>
-
-  <script>
-    //About頁面的右上角不能是About
-    const homeUrl = "index";
-    const rightLink = document.querySelector(".ee-link");
-
-    rightLink.href = homeUrl;
-    rightLink.textContent = "？";
   </script>
 
 </body>

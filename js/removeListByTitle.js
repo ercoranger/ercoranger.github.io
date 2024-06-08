@@ -1,8 +1,14 @@
-document.addEventListener("DOMContentLoaded", () => {
-  const pageTitle = document.title;
-  document.querySelectorAll('.ee-right-menu ul a').forEach(anchor => {
-    if (anchor.textContent.trim() === pageTitle) {
-      anchor.remove();
+$(document).ready(() => {
+  $("#ee-header").load("components/header.html", () => {
+    const pageTitle = document.title;
+    const anchors = document.querySelectorAll('.ee-right-menu ul a');
+
+    for (let i = 0; i < anchors.length; i++) {
+      const anchor = anchors[i];
+      if (anchor.textContent.trim() === pageTitle) {
+        anchor.remove();
+        break; // Exit the loop once the item is found and removed
+      }
     }
   });
 });
