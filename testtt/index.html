@@ -38,10 +38,10 @@
   </div>
 
   <!-- Dynamic Content Loading -->
-  <div id="header" w3-include-html="../testtt/components/en/header.html"></div>
-  <div id="menu" w3-include-html="../testtt/components/en/menu.html"></div>
+  <div id="header" w3-include-html="testtt/components/en/header.html"></div>
+  <div id="menu" w3-include-html="testtt/components/en/menu.html"></div>
   <!-- Your main content here -->
-  <div id="footer" w3-include-html="../testtt/components/en/footer.html"></div>
+  <div id="footer" w3-include-html="testtt/components/en/footer.html"></div>
 
   <script>
     function includeHTML(lang) {
@@ -64,7 +64,7 @@
             }
           }
         };
-        xhttp.open('GET', `../testtt/components/${lang}/${file}`, true);
+        xhttp.open('GET', `testtt/components/${lang}/${file}`, true);
         xhttp.send();
       });
     }
