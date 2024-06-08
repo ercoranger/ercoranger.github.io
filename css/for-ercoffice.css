@@ -117,11 +117,12 @@ body a:hover {
   cursor: crosshair;
 }
 
-.langChange {
-  color: #fff;
+.lang-change {
+  font-size:10px;
+  margin-bottom:2rem;
 }
 
-.langChange:hover {
+.lang-change:hover {
   cursor: pointer;
 }
 
