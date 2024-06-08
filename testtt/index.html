@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>ERCOFFICE - Home</title>
+</head>
+
+<body>
+  <!-- Container Fluid -->
+  <div class="container-fluid">
+    <!-- Left Side Menu -->
+    <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1">
+      <ul id="content-menu">
+        <!-- Language Switcher -->
+        <div class="lang-change">
+          <button id="switch-to-zh">中</button>
+          <button id="switch-to-en">/ EN</button>
+        </div>
+
+        <a id="content-menu-1" href="#sec-1">
+          <li>Introduction</li>
+        </a>
+        <a id="content-menu-2" href="#sec-2">
+          <li>Objects</li>
+        </a>
+        <a id="content-menu-3" href="#sec-3">
+          <li>Process</li>
+        </a>
+        <a id="content-menu-4" href="#sec-4">
+          <li>Exhibitions</li>
+        </a>
+        <a target="_blank" href="Shop">
+          <li>Shop</li>
+        </a>
+      </ul>
+    </div>
+  </div>
+
+  <!-- Dynamic Content Loading -->
+  <div id="header" w3-include-html="components/en/header.html"></div>
+  <div id="menu" w3-include-html="components/en/menu.html"></div>
+  <!-- Your main content here -->
+  <div id="footer" w3-include-html="components/en/footer.html"></div>
+
+  <script>
+    function includeHTML(lang) {
+      console.log("Language:", lang);
+      const elements = document.querySelectorAll('[w3-include-html]');
+
+      elements.forEach(function(element) {
+        const file = element.getAttribute('w3-include-html');
+        console.log("File:", file);
+        const xhttp = new XMLHttpRequest();
+        xhttp.onreadystatechange = function() {
+          if (this.readyState == 4) {
+            console.log("Response Status:", this.status);
+            if (this.status == 200) {
+              element.innerHTML = this.responseText;
+              console.log("Response Text:", this.responseText);
+            }
+            if (this.status == 404) {
+              element.innerHTML = 'Page not found.';
+            }
+          }
+        };
+        xhttp.open('GET', `components/${lang}/${file}`, true);
+        xhttp.send();
+      });
+    }
+
+    function switchLanguage(lang) {
+      // Reload the components with the new language
+      includeHTML(lang);
+    }
+
+    // Add event listeners to language switcher buttons
+    document.getElementById('switch-to-en').addEventListener('click', function() {
+      switchLanguage('en');
+    });
+
+    document.getElementById('switch-to-zh').addEventListener('click', function() {
+      switchLanguage('zh');
+    });
+
+    // Initial load of components
+    switchLanguage('en');
+  </script>
+</body>
+
+</html>
