@@ -145,11 +145,11 @@ body a:hover {
 }
 
 .here-here {
-  text-decoration: line-through;
+  font-weight: 500;
 }
 
 .content-menu li:hover {
-  text-decoration: line-through;
+  text-decoration: underline;
 }
 
 .arrow {

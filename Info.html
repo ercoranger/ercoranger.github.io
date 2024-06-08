@@ -25,7 +25,7 @@
 
   <script>
     //About頁面的右上角不能是About （等header load完）
-    document.addEventListener("DOMContentLoaded", () => {
+    $(document).ready(() => {
       $("#ee-header").load("components/header.html", function() {
         const homeUrl = "index";
         const rightLink = document.querySelector(".ee-link");
