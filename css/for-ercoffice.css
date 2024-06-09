@@ -11,12 +11,16 @@ body a:hover {
   color: #000;
 }
 
+img {
+  border: 0;
+}
+
 .ee-link:hover {
   color: #fff;
 }
 
-.ee-right-menu a:hover{
-  text-decoration: underline;
+.ee-right-menu a:hover, .project-text a:hover, .project-awards a:hover{
+  font-style: italic;
 }
 
 .container-fluid, .container,  {
@@ -142,15 +146,22 @@ body a:hover {
 
 .content-menu li {
   margin-bottom: 2rem;
-  font-size: 1.6rem;
+  font-size: 1.5rem;
+  opacity: 0.1;
 }
 
 .here-here {
-  font-weight: 500;
+  opacity: 1 !important;
 }
 
+.here-here::before {
+  content: "";
+}
+
+
 .content-menu li:hover {
-  text-decoration: underline;
+  opacity: 1;
+  font-style: italic;
 }
 
 .arrow {
@@ -306,6 +317,12 @@ footer {
 
 .footer-left, .footer-right {
   font-size: 16px;
+}
+
+.footer-left:hover, .footer-right:hover {
+  transform: scale(1.5);
+  transform-origin: center, left;
+  transition: 1s;
 }
 
 .footer-left {
