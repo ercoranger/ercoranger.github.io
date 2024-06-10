@@ -374,9 +374,7 @@ footer {
     width: 10px !important;
     padding: 0;
   }
-}
 
-@media screen and (min-width: 992px) {
   .ee-left-menu {
     margin-left: 5.5% !important;
   }
@@ -385,7 +383,6 @@ footer {
   .here-here::after {
     content: "";
   }
-
 }
 
 @media screen and (max-width: 992px) {
@@ -406,6 +403,7 @@ footer {
     margin-right: 2.5rem;
     padding: 0;
   }
+
 
   .v-line {
     margin: 0 -2rem;
