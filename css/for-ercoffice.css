@@ -380,21 +380,23 @@ footer {
     margin-right: 2.7rem;
   }
 
-  .ee-left-menu {
-    margin-left: 4%;
-  }
-
   .v-line {
     width: 10px !important;
     padding: 0;
   }
 
 }
+@media screen and (min-width: 992px){
+  .ee-left-menu {
+    margin-left: 5.5%;
+  }
+}
+
 
 @media screen and (max-width: 992px) {
 .col-md-12, .col-sm-12, .col-xs-12 {
   padding: 0 5px;
-}
+  }
 
   p, li {
   font-size: 12px;
