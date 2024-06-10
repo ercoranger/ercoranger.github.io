@@ -150,7 +150,6 @@ padding: 0;
 .content-menu li {
   margin-bottom: 2rem;
   font-size: 1.5rem;
-  font-weight: lighter;
 }
 
 .here-here {
@@ -379,8 +378,14 @@ footer {
 
 @media screen and (min-width: 992px) {
   .ee-left-menu {
-    margin-left: 5.5%;
+    margin-left: 5.5% !important;
   }
+
+
+  .here-here::after {
+    content: "";
+  }
+
 }
 
 @media screen and (max-width: 992px) {
