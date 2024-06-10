@@ -1,5 +1,6 @@
 :root {
   --blue: #084389;
+  --grey: #d3d3d3;
 }
 
 body {
@@ -164,6 +165,7 @@ padding: 0;
 .here-here:hover {
   color: #fff;
   font-style: normal !important;
+  text-align: center;
 }
 
 .content-menu li:hover {
@@ -332,6 +334,7 @@ footer {
   position: fixed !important;
   bottom: 10px;
   z-index: 99;
+  left: 0;
 }
 
 .footer-icon {
@@ -356,7 +359,7 @@ footer {
 }
 
 .ee-disclaimer {
-  color: #D3d3d3;
+  color: var(--grey);
   font-size: 1rem;
   text-align: center;
   letter-spacing: 0.2rem;
@@ -379,10 +382,6 @@ footer {
     margin-left: 5.5% !important;
   }
 
-
-  .here-here::after {
-    content: "";
-  }
 }
 
 @media screen and (max-width: 992px) {
@@ -412,6 +411,11 @@ footer {
   .v-line>hr {
     height: 170px;
   }
+
+  .here-here::before, .here-here::after {
+    content: "";
+  }
+
 }
 
 /*手機畫面*/
