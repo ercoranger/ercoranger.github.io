@@ -24,7 +24,7 @@ $(function() {
             }
         }
 
-        if (scrollVal >= 240) {
+        if (scrollVal >= 300) {
            $('#content-menu').addClass('content-menu');
            $('#content-menu').removeClass('content-menu-off');
        } else {
