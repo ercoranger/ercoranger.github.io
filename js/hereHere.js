@@ -8,8 +8,12 @@ $(function() {
         var section = $('#sec-' + i);
         if (!section.length) break; // Break the loop if section doesn't exist
 
-        sections.push(section.offset().top - buffer);
-        contentMenus.push('#content-menu-' + i + ' li');
+        var sectionOffsetTop = section.offset().top;
+        sections.push(sectionOffsetTop);
+        contentMenus.push('#content-menu-' + i);
+
+        // Log each section's scrollTop value
+        console.log('Section ' + i + ' scrollTop: ' + sectionOffsetTop);
     }
 
     $(window).scroll(function() {
@@ -18,26 +22,29 @@ $(function() {
         // Highlighting menu items based on scroll position
         $('.here-here').removeClass('here-here');
         for (var j = sections.length - 1; j >= 0; j--) {
-            if (scrollVal >= sections[j]) {
-                $(contentMenus[j]).addClass('here-here');
+            if (scrollVal >= sections[j] - buffer) {
+                $(contentMenus[j] + ' li').addClass('here-here');
                 break;
             }
         }
 
-        if (scrollVal >= 300) {
-           $('#content-menu').addClass('content-menu');
-           $('#content-menu').removeClass('content-menu-off');
-       } else {
-           $('#content-menu').removeClass('content-menu');
-           $('#content-menu').addClass('content-menu-off');
-       }
+        // Toggle 'content-menu' and 'content-menu-off' classes based on scroll position
+        if (scrollVal >= 240) {
+            $('#content-menu').addClass('content-menu');
+            $('#content-menu').removeClass('content-menu-off');
+        } else {
+            $('#content-menu').removeClass('content-menu');
+            $('#content-menu').addClass('content-menu-off');
+        }
     });
 
     // Smooth scrolling to sections
     $('[id^=content-menu-] li').click(function() {
-        var sectionIndex = $(this).parent().attr('id').split('-')[2];
+        var menuId = $(this).parent().attr('id');
+        var sectionIndex = menuId.split('-')[2]; // Extract the index from the id, e.g., 'content-menu-1' -> '1'
         var sectionOffset = $('#sec-' + sectionIndex).offset().top;
-        $('html, body').animate({ scrollTop: sectionOffset - 50 }, 1000); // 1000 ms for smooth scrolling animation
+
+        $('html, body').animate({ scrollTop: sectionOffset - 50 }, 800); // 800 ms for smooth scrolling animation
     });
 
     // Smooth scrolling to the top
