@@ -25,12 +25,12 @@ img {
   color: #fff;
 }
 
-.ee-right-menu a:hover, .project-text a:hover, .project-awards a:hover{
+.ee-right-menu a:hover, .project-text a:hover, .project-awards a:hover {
   font-style: italic;
 }
 
-.container-fluid, .container,  {
-  padding: 0;
+.container-fluid, .container, {
+padding: 0;
 }
 
 .ee-header {
@@ -73,8 +73,7 @@ img {
   font-size: 2rem;
 }
 
-
-.v-line > hr {
+.v-line>hr {
   margin-top: 0;
   width: 0;
   height: 120px;
@@ -90,7 +89,7 @@ img {
   padding-left: 0;
 }
 
-.ee-right-menu ul li, .ee-bottom-menu ul li  {
+.ee-right-menu ul li, .ee-bottom-menu ul li {
   word-break: keep-all;
 }
 
@@ -118,24 +117,22 @@ img {
 }
 
 /* 內容開始 */
-
 #sec-1 {
   margin-top: 10%;
 }
 
-#thumbnails a:hover{
+#thumbnails a:hover {
   cursor: crosshair;
 }
 
 .lang-change {
-  font-size:10px;
-  margin-bottom:2rem;
+  font-size: 10px;
+  margin-bottom: 2rem;
 }
 
 .lang-change:hover {
   cursor: pointer;
 }
-
 
 .content-menu {
   position: fixed !important;
@@ -182,15 +179,15 @@ img {
   margin-top: 30px;
 }
 
-.move-in-A{
+.move-in-A {
   animation: move-in linear 1s;
 }
 
-.move-in-B{
+.move-in-B {
   animation: move-in ease 0.77s;
 }
 
-.move-in-C{
+.move-in-C {
   animation: move-in ease-out 1.2s;
 }
 
@@ -211,7 +208,7 @@ img {
   margin-top: 50px;
 }
 
-.project-head, .project-images img, .project-image-list img, .project-image-list-sp img  {
+.project-head, .project-images img, .project-image-list img, .project-image-list-sp img {
   width: 100%;
   cursor: zoom-in;
 }
@@ -235,7 +232,6 @@ img {
   transition: transform 0.8s ease;
   width: 60%;
 }*/
-
 .project-awards, .mtrl-info {
   font-size: 1.3rem;
 }
@@ -252,7 +248,6 @@ img {
   font-style: italic;
   white-space: nowrap;
   padding: 0;
-
 }
 
 .project-text {
@@ -281,7 +276,7 @@ img {
   display: none;
   width: 100%;
   height: 100%;
-  z-index:9999;
+  z-index: 9999;
   top: 50px;
   left: 0;
 }
@@ -326,12 +321,10 @@ img {
 }
 
 .exhi-sec {
-  margin-top:6%;
+  margin-top: 6%;
 }
 
-
 /*頁底*/
-
 footer {
   height: 30px;
 }
@@ -361,7 +354,6 @@ footer {
   float: right;
   color: #000;
   place-self: end;
-
 }
 
 .ee-disclaimer {
@@ -374,7 +366,6 @@ footer {
   padding-bottom: 3px;
 }
 
-
 @media screen and (max-width: 1170px) {
   .ee-right-menu {
     margin-right: 2.7rem;
@@ -384,22 +375,22 @@ footer {
     width: 10px !important;
     padding: 0;
   }
-
 }
-@media screen and (min-width: 992px){
+
+@media screen and (min-width: 992px) {
   .ee-left-menu {
     margin-left: 5.5%;
   }
 }
 
-
 @media screen and (max-width: 992px) {
-.col-md-12, .col-sm-12, .col-xs-12 {
-  padding: 0 5px;
+  .col-md-12, .col-sm-12, .col-xs-12 {
+    padding-left: : 0;
+    padding-right: 0;
   }
 
   p, li {
-  font-size: 12px;
+    font-size: 12px;
   }
 
   .ee-menu {
@@ -411,19 +402,13 @@ footer {
     padding: 0;
   }
 
-  .ee-left-menu {
-    margin-left: 2%;
-  }
-
   .v-line {
     margin: 0 -2rem;
   }
 
-  .v-line > hr {
+  .v-line>hr {
     height: 170px;
   }
-
-
 }
 
 /*手機畫面*/
@@ -433,7 +418,7 @@ footer {
   }
 
   .ee-left-menu {
-  margin-bottom: 20%;
+    margin-bottom: 20%;
   }
 
   .menu-bottom-line {
@@ -443,16 +428,15 @@ footer {
 
   .project-text {
     text-align: left;
-
   }
 
   .project-header, .project-info, .project-images, .project-image-list {
     margin-top: 20px;
   }
 
-.ee-header {
-  top: 0;
-}
+  .ee-header {
+    top: 0;
+  }
 
   .ee-menu {
     height: 150px;
@@ -480,7 +464,6 @@ footer {
 
   .mobile-row p {
     padding-top: 0.5rem;
-
   }
 
   .mobile-row span {
@@ -509,7 +492,6 @@ footer {
     font-weight: 500;
   }
 
-
   .project-text-b {
     font-size: 2rem;
   }
@@ -526,20 +508,17 @@ footer {
   }
 
   .footer-left, .footer-right {
-    margin-top:15px;
+    margin-top: 15px;
   }
 
   .ee-disclaimer {
     margin: 20px 0 12px 0;
     z-index: 99999;
   }
-
-
 }
 
 /*------iPhone SE-----*/
 @media screen and (max-width: 344px) {
-
   .mobile-row img {
     display: none;
   }
@@ -548,5 +527,4 @@ footer {
     width: 80%;
     text-align: right;
   }
-
 }
