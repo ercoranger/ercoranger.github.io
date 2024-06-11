@@ -22,22 +22,6 @@
   <link rel="stylesheet" href="css/for-ercoffice.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-
-  <script>
-    //About頁面的右上角不能是About （等header load完）
-    $(document).ready(() => {
-      $("#ee-header").load("components/header.html", function() {
-        const homeUrl = "index";
-        const rightLink = document.querySelector(".ee-link");
-
-        if (rightLink) {
-          rightLink.href = homeUrl;
-          rightLink.textContent = "Home";
-        }
-      });
-    });
-  </script>
-
   <title>About</title>
   <link rel="icon" type="image/x-icon" href="imgs/ercoffice.ico">
 </head>
@@ -57,11 +41,11 @@
 
     <div class="col-lg-1 col-md-1 col-sm-1">
       <ul id="content-menu" class="content-menu-off">
-        <a id="" class="" href="Exhibitions">
-          <li>Exhibitions<img src="imgs/arrow.svg" class="arrow" alt="&#x2197;"></li>
+        <a id="" href="http://eepurl.com/h9uRRL">
+          <li>Subscribe<img src="imgs/arrow.svg" class="arrow" alt="&#x2197;"></li>
         </a>
         <a id="" target="_blank" href="https://drive.google.com/drive/folders/1eLl6lkIzNF7iF7ZSYUgnxeBCQjENkT9v?usp=sharing">
-          <li>Press<img src="imgs/arrow.svg" class="arrow" alt="&#x2197;"></li>
+          <li>Press kits<img src="imgs/arrow.svg" class="arrow" alt="&#x2197;"></li>
         </a>
         <a id="" target=”_blank” href="https://ercoffice.net/Shop">
           <li>Webshop<img src="imgs/arrow.svg" class="arrow" alt="&#x2197;"></li>
@@ -73,7 +57,7 @@
     <div class="col-lg-11 col-md-11 col-sm-11 col-xs-12">
 
       <div class="project-info col-md-12 content-mobile-off">
-        <p class="project-text-b">
+        <p class="project-title-b">
           My design approach is listening to a matter by hand-on experiments and shaping it in the most "natural" way. Within my practices, I attempt to create the beauty of balancing between control of design and
           spontaneity of materials.
         </p>
@@ -129,7 +113,9 @@
       </div>
 
       <div class="project-info col-md-6 content-mobile-off">
-        <p class="project-title">Exhibitions</p>
+        <a href="Exhibitions">
+          <p class="project-title">Exhibitions</p>
+        </a>
         <p class="project-text">
           2024 Presented in Milan design week at ISOLA<br>
           2024 Selected in Greenhouse, Stockholm Furniture Fair<br>
@@ -159,7 +145,7 @@
       </div>
 
       <div class="project-info col-md-12 col-xs-12">
-        <p class="project-text-b">A Design office aims to cooperate with material-focused developers, scientists or start-ups
+        <p class="project-title-b">A Design office aims to cooperate with material-focused developers, scientists or start-ups
           to elevate future materials from experiments into the context of daily life by giving matters meaningful forms.
       </div>
 
@@ -195,8 +181,8 @@
       <div class="project-info col-md-12 col-xs-12">
         <h6>More info</h6>
         <p class="project-text">
-          <a target="_blank" href="https://www.behance.net/ercoLai"><u>Behance</u></a> - For more on-going projects<br>
-          <a target="_blank" href="https://www.pinterest.co.uk/ercoranger/"><u>Pinterest</u></a> - For more visual researches<br>
+          <a href="Exhibitions"><u>Exhibitions</u></a> - A brief overview of exhibitions<br>
+          <a target="_blank" href="https://www.behance.net/ercoLai"><u>Pinterest</u></a> - For more visual researches<br>
           <a target="_blank" href="https://www.facebook.com/ercoffice"><u>facebook</u></a> - Fan page for recent updates
         </p>
       </div>
@@ -211,6 +197,21 @@
 
   <script>
     $("#ee-footer").load("components/footer.html");
+  </script>
+
+  <script>
+    //About頁面的右上角不能是About （等header load完）
+    $(document).ready(() => {
+      $("#ee-header").load("components/header.html", function() {
+        const homeUrl = "index";
+        const rightLink = document.querySelector(".ee-link");
+
+        if (rightLink) {
+          rightLink.href = homeUrl;
+          rightLink.textContent = "Home";
+        }
+      });
+    });
   </script>
 
 </body>
