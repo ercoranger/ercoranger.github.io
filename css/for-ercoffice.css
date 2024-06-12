@@ -371,8 +371,9 @@ footer {
 }
 
 .col-sm-6, .col-sm-8, .col-sm-4, .col-sm-12, .col-sm-1, .col-xs-6, .col-xs-8, .col-xs-4, .col-xs-12, .col-xs-1 {
-  padding-left: 8px !important;
-  padding-right: 8px !important;
+  padding-left: 5px !important;
+  padding-right: 5px !important;
+
 }
 
 @media screen and (max-width: 1170px) {
@@ -422,12 +423,12 @@ footer {
 
 /*手機畫面*/
 @media screen and (max-width: 768px) {
-  #content-menu, .ee-right-menu, .v-line, .ee-overview, .ee-bottom-menu-wrap, .content-mobile-off {
-    display: none;
+  body {
+  overflow-x: hidden;
   }
 
-  .col-xs-12 {
-    margin-left: -1%;
+  #content-menu, .ee-right-menu, .v-line, .ee-overview, .ee-bottom-menu-wrap, .content-mobile-off {
+    display: none;
   }
 
   .studio-intro {
@@ -436,7 +437,7 @@ footer {
   }
 
   .mtrl-info {
-    font-size: 1.1rem;
+    font-size: 1.2rem;
   }
 
   .ee-left-menu h3 {
@@ -448,7 +449,7 @@ footer {
   }
 
   .menu-bottom-line {
-    width: 100%;
+    width: 90%;
     margin-bottom: 5%;
   }
 
@@ -554,6 +555,10 @@ footer {
 @media screen and (max-width: 344px) {
   .mobile-row img {
     display: none;
+  }
+
+  .mtrl-info {
+    font-size: 0.9rem;
   }
 
   .mobile-row span {
