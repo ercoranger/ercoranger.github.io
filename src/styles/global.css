@@ -1,0 +1,498 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,400;1,300;1,400;1,600&display=swap');
+
+
+/* ================ GLOBAL =================== */
+
+:root {
+  --blue: #084389;
+  --grey: #d3d3d3;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  font-family: Avenir, 'Nunito Sans', sans-serif !important;
+     src: local('Avenir');
+     font-size: 14px;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+a {
+  color: #000;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #000;
+}
+
+h1, h3, h6, p, span, a {
+  font-weight: lighter;
+  margin: 0;
+}
+
+h6 {
+  font-size: 14px;
+}
+
+img {
+  display: block;
+  border: 0;
+  max-width: 100%;
+  height: auto;
+}
+
+.grid-12 {
+  display: grid;
+  grid-template-columns: repeat(12, minmax(0, 1fr));
+}
+
+.col-offset-2 {
+  grid-column-start: 3;
+}
+
+.col-offset-4 {
+  grid-column: 5 / span 8;
+  padding-right: 30px;
+}
+
+.col-12 {
+  grid-column-end: span 12;
+}
+
+.col-10 {
+  grid-column-end: span 10;
+}
+
+.col-9 {
+  grid-column-end: span 9;
+}
+
+.col-8 {
+    grid-column-end: span 8;
+}
+
+.col-6 {
+    grid-column-end: span 6;
+}
+
+.col-4 {
+    grid-column-end: span 4;
+}
+
+.col-3 {
+    grid-column-end: span 3;
+}
+
+/* =============== HEADER ==================== */
+
+.ee-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  align-items: start;
+  width: 100%;
+  height: 50px;
+  background-color: #000;
+  z-index: 999;
+}
+
+.ee-logo-link {
+  grid-column: 1 / span 2;
+}
+
+.ee-logo {
+  height: 50px;
+  width: auto;
+  margin-left: 10px;
+}
+
+.ee-link {
+  grid-column: 12;
+  margin: 14px 20px 0 0;
+  font-size: 16px;
+  color: #fff;
+  text-align: right;
+}
+
+.ee-link:hover {
+  color: #fff;
+}
+
+.ee-menu {
+  display: grid;
+  grid-template-columns: 8% repeat(2, minmax(0, 1fr)) 8% repeat(5, minmax(0, 1fr));
+  height: 160px;
+  margin-top: 100px;
+  padding: 0;
+}
+
+
+.ee-left-menu {
+  grid-column: 2 / 4;
+}
+
+.ee-left-menu h3 {
+  margin-top: 0;
+  margin-bottom: 1rem;
+  font-size: 1.7rem;
+  font-weight: normal;
+}
+
+.studio-intro {
+  margin: 0;
+}
+
+.v-line, .ee-right-menu {
+  grid-column: span 1;
+}
+
+.v-line hr {
+  width: 0;
+  height: 120px;
+  margin-top: 0;
+  border: 0;
+  border-left: 0.5px solid #000;
+}
+
+
+.ee-right-menu ul {
+  margin: 0;
+  padding-left: 0;
+  list-style: none;
+}
+
+.ee-right-menu ul li {
+  word-break: keep-all;
+}
+
+.ee-right-menu h6 {
+  margin-top: 0;
+  margin-bottom: 1rem;
+  font-size: 0.8rem;
+  font-weight: lighter;
+}
+
+.ee-right-menu a:hover {
+  font-style: italic;
+}
+
+
+.menu-bottom-line {
+  display: block;
+  width: 88%;
+  margin: 0 6%;
+  border: 0;
+  border-left: 0.5px solid #000;
+}
+
+
+/* ================ FOOTER ================= */
+
+footer {
+  height: 30px;
+}
+
+.ee-footer {
+  position: fixed !important;
+  width: 100%;
+  bottom: 10px;
+  z-index: 99;
+}
+
+.footer-icon {
+  height: 17px;
+}
+
+.footer-left, .footer-right {
+  display: block;
+  font-size: 16px;
+}
+
+.footer-left {
+  padding-left: 15px;
+  float: left;
+  color: #000;
+}
+
+.footer-right {
+  margin-right: 15px;
+  float: right;
+  color: #000;
+  place-self: end;
+}
+
+.ee-disclaimer {
+  width: 100%;
+  display: block;
+  color: var(--grey);
+  font-size: 0.8rem;
+  text-align: center;
+  letter-spacing: 0.2rem;
+  height: 20px;
+  margin: 10px 0 20px 0;
+  padding-bottom: 3px;
+}
+
+
+/* ============== 作品首頁縮圖列 ================ */
+
+.ee-overview {
+  margin-top: 30px;
+}
+
+.ee-index-row {
+   margin: 60px 10%;
+}
+
+.ee-index-row > a {
+  grid-column: span 4;
+  display: block;
+  padding: 0 20px;
+ 
+}
+
+.ee-index-row img {
+  display: block;
+  width: 100%;
+  height: auto;
+
+}
+
+.project-page {
+    margin-top: 80px;
+  }
+ 
+
+/* ============== 作品內容左選單 ================ */
+.project-menu {
+  grid-column: 1 / 2;
+  position: fixed;
+  top: 40%;
+  left: 10px;
+  align-self: start;
+  display: none;
+}
+
+.project-menu.is-visible {
+  display: block;
+}
+
+.project-menu ul {
+  list-style: none;
+  margin-left: 1rem;
+  padding: 0;
+}
+
+.project-menu li {
+    margin-bottom: 1rem;
+    font-size: 16px;
+  }
+
+.project-menu a {
+    text-decoration: none;
+  }
+
+
+.project-content {
+    grid-column: 2 / -1;
+    margin: 0 -30px 0 30px;
+  }
+
+.here-here {
+  background-color: var(--blue);  
+}
+
+.here-here > a {
+  color: var(--blue);
+}
+
+.here-here::before, .here-here::after {
+  content: "　";
+}
+
+.here-here > a:hover {
+  color: #fff;
+  font-style: normal !important;
+  text-align: center;
+}
+
+/* ============== 作品內容始 ================ */
+.project-header {
+    margin-bottom: 70px;
+    height: auto;
+  }
+
+.project-header-info {
+    height: 100%;
+    display: inline-grid;
+    grid-column: 9 / -1;
+    padding-left: 30px;
+  }
+
+.project-header-image {
+    grid-column: 1 / span 8;
+  }
+
+.project-header-image img {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+
+.project-header-title {
+    font-size: 3rem;
+    margin-top: -10px;
+  }
+
+.mtrl-info { 
+    align-content: flex-end;
+    margin-block-end: 0;
+    font-style: italic;
+    white-space: nowrap;
+  }
+
+
+#section-1, #section-2, #section-3, #section-4, #section-5, 
+.project-further-reading span {
+    font-size: 14px;
+  }
+
+.project-title {
+    font-size: 2.7rem;
+    margin: 10px 0;
+    }
+
+.project-text {
+    font-size: 1.1rem;
+    text-align: justify;
+    letter-spacing: 0.5px;
+    
+  }
+
+.project-section {
+    width: 90%;
+    margin-bottom: 70px;
+  }
+
+.project-image {
+  padding:15px 30px 15px 0;
+  width: 100%;
+  }
+
+.project-image img {
+  display: block;
+  width: 100%;
+  height: auto;
+  }
+
+.image-description {
+text-align: center;
+margin-top: 10px;
+}
+
+.exhi-sec span {
+  display: none;
+}
+
+.project-further-reading > p:first-of-type {
+  margin-top: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* =========================
+   Mobile 手機 小畫面 未來處理 (目前以mimeralloop測試)
+   ========================= */
+
+@media screen and (max-width: 768px) {
+
+  .grid-12 {
+    grid-template-columns: repeat(6, minmax(0, 1fr));
+  }
+
+  .ee-menu, .project-menu, .is-visible, .ee-left-menu {
+   display: none !important; 
+  }
+
+  .project-timeline, .mobile-off {
+    display: none;
+  }
+
+  .project-content {
+    grid-column: 1 / -1;
+    margin: 0 15px;
+  }
+
+  .project-header-info {
+    display: grid;
+    grid-template-columns: repeat(6, minmax(0, 1fr));
+    padding: 0;
+  }
+
+  .project-header-image {
+    margin-top: 80px;
+  }
+
+  .mtrl-info {
+    grid-column: 5 / span 2;
+    align-content: start;
+    margin-top: -540px;
+  }
+
+  .project-header-title {
+    margin-top: -550px;
+  }
+
+  .project-year {
+    display: block;
+  position: absolute;
+  top: 70px;
+  }
+
+  .project-section {
+    width: 100%;
+    padding: 0 15px;
+  }
+
+  .project-image {
+    padding: 15px;
+  }
+
+  .col-offset-4 {
+  grid-column: 4 / span 3;
+  padding-right: 0;
+  }
+
+  .col-4, .col-10 {
+    grid-column: span 3;
+  }
+
+
+
+
+
+}
