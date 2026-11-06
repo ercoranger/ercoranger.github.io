@@ -1,0 +1,34 @@
+---
+import Header from "../components/header.astro";
+import Footer from "../components/footer.astro";
+import "../styles/global.css";
+
+const {
+  title = "ercoffice",
+  locale = "en"
+} = Astro.props;
+---
+
+<html id="top" lang={locale}>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>{title}</title>
+  </head>
+
+  <body>
+
+    <Header locale={locale} />
+
+
+
+    <main>
+      <slot /> <!--pages 的內容-->
+    </main>
+
+
+
+    <Footer locale={locale}/>
+
+  </body>
+</html>

@@ -1,0 +1,96 @@
+---
+import BaseLayout from "../../layouts/base-layout.astro";
+
+export function getStaticPaths() {
+  return [
+    { params: { locale: "en" } },
+    { params: { locale: "zh" } }
+  ];
+}
+
+const { locale } = Astro.params;
+---
+
+<!--招喚layout template-->
+<BaseLayout locale={locale}> 
+
+ <!-- 縮圖全預覽開始 -->
+ <section id="thumbnails" class="ee-overview">
+
+    <div class="ee-index-row grid-12">
+      <a href={`/${locale}/Fieldstone/`}>
+        <img src="/imgs/Fieldstone.webp" title="積石 Fieldstone" alt="Fieldstone" />
+      </a>
+
+      <a href={`/${locale}/Ginkgo/`}>
+        <img src="/imgs/Ginkgo.webp" title="銀杏椅 Ginkgo" alt="Ginkgo" />
+      </a>
+
+      <a href={`/${locale}/Rift/`}>
+        <img src="/imgs/Rift.webp" title="峽谷屏風 Rift" alt="Rift" />
+      </a>
+    </div>
+
+
+    <div class="ee-index-row grid-12">
+      <a href={`/${locale}/Magma/`}>
+        <img src="/imgs/Magma.webp" title="絨岩燈 Magma" alt="Magma" />
+      </a>
+
+      <a href={`/${locale}/Tafoni/`}>
+        <img src="/imgs/Tafoni.webp" title="滴石系列 Tafoni" alt="Tafoni" />
+      </a>
+
+      <a href={`/${locale}/Revolve/`}>
+        <img src="/imgs/Revolve.webp" title="水刀計畫 Revolve" alt="Revolve" />
+      </a>
+    </div>
+
+
+    <div class="ee-index-row grid-12">
+      <a href={`/${locale}/Mineralloop/`}>
+        <img src="/imgs/Mineralloop.webp" title="礦物循環 Mineralloop" alt="Mineralloop" />
+      </a>
+
+      <a href={`/${locale}/Neo-Stone-Age/`}>
+        <img src="/imgs/Neostone.webp" title="新怪石 Neo Stone Age" alt="Neo Stone Age" />
+      </a>
+
+      <a href={`/${locale}/Biorock/`}>
+        <img src="/imgs/Biorock.webp" title="硓𥑮石 Biorock" alt="Biorock" />
+      </a>
+    </div>
+
+
+    <div class="ee-index-row grid-12">
+      <a href={`/${locale}/Waterfall/`}>
+        <img src="/imgs/Waterfall.webp" title="流水架 Waterfall" alt="Waterfall" />
+      </a>
+
+      <a href={`/${locale}/Hopper/`}>
+        <img src="/imgs/Hopper.webp" title="料斗容器 Hopper" alt="Hopper" />
+      </a>
+
+      <a href={`/${locale}/Asterisk/`}>
+        <img src="/imgs/Asterisk.webp" title="星盤 Asterisk" alt="Asterisk" />
+      </a>
+    </div>
+
+
+    <div class="ee-index-row grid-12">
+      <a href={`/${locale}/Ikebana/`}>
+        <img src="/imgs/Ikebana.webp" title="生之花 Ikebana" alt="Ikebana" />
+      </a>
+
+      <a href={`/${locale}/Binary-jugs/`}>
+        <img src="/imgs/Binary-jugs.webp" title="陶瓷列印 3d ceramic printing" alt="3d ceramic printing"/>
+      </a>
+
+      <a href={`/${locale}/Lava-and-/`}>
+        <img src="/imgs/head.jpg" title="熔岩計畫 Lava and..." alt="Lava and..." />
+      </a>
+    </div>
+
+  </section>
+
+</BaseLayout>
