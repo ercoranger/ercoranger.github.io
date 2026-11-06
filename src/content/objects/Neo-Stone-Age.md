@@ -71,7 +71,7 @@ updated: 2026-11-04
 <div class="project-section grid-12">
   <div class="project-image col-12">
 
-![Neo Stone Age — Photography by Jo Yi](../../Assets/Neo-Stone-Age/head.png)
+![Neo Stone Age — Photography by Jo Yi](../../assets/Neo-Stone-Age/head.png)
 
   </div>
 </div>
@@ -117,21 +117,21 @@ updated: 2026-11-04
 <div class="project-section grid-12">
   <div class="project-image col-4">
 
-![Limescale](../../Assets/Neo-Stone-Age/nsa-1.jpg)
+![Limescale](../../assets/Neo-Stone-Age/nsa-1.jpg)
 
 <p class="image-description">Limescale</p>
 
   </div>
   <div class="project-image col-4">
 
-![Lime pellets](../../Assets/Neo-Stone-Age/nsa-2.jpg)
+![Lime pellets](../../assets/Neo-Stone-Age/nsa-2.jpg)
 
 <p class="image-description">Lime pellets</p>
 
   </div>
   <div class="project-image col-4">
 
-![Geopolymer](../../Assets/Neo-Stone-Age/nsa-3.jpg)
+![Geopolymer](../../assets/Neo-Stone-Age/nsa-3.jpg)
 
 <p class="image-description">Geopolymer</p>
 
@@ -173,7 +173,7 @@ updated: 2026-11-04
 <div class="project-section grid-12">
   <div class="project-image col-8 col-offset-4">
 
-![Geopolymer material research](../../Assets/Neo-Stone-Age/nsa-4.jpg)
+![Geopolymer material research](../../assets/Neo-Stone-Age/nsa-4.jpg)
 
   </div>
 </div>
@@ -220,7 +220,7 @@ updated: 2026-11-04
 <div class="project-section grid-12">
   <div class="project-image col-12">
 
-![Neo Stone Age — Photography by Jo Yi](../../Assets/Neo-Stone-Age/head.jpg)
+![Neo Stone Age — Photography by Jo Yi](../../assets/Neo-Stone-Age/head.jpg)
 
   </div>
 </div>
@@ -292,21 +292,21 @@ updated: 2026-11-04
 <div class="project-section grid-12">
   <div class="project-image col-4">
 
-![Limestone](../../Assets/Neo-Stone-Age/nsa-9.jpg)
+![Limestone](../../assets/Neo-Stone-Age/nsa-9.jpg)
 
 <p class="image-description">Limestone</p>
 
   </div>
   <div class="project-image col-4">
 
-![Sand](../../Assets/Neo-Stone-Age/nsa-10.jpg)
+![Sand](../../assets/Neo-Stone-Age/nsa-10.jpg)
 
 <p class="image-description">Sand</p>
 
   </div>
   <div class="project-image col-4">
 
-![Marlstone](../../Assets/Neo-Stone-Age/nsa-11.jpg)
+![Marlstone](../../assets/Neo-Stone-Age/nsa-11.jpg)
 
 <p class="image-description">Marlstone</p>
 
@@ -319,7 +319,7 @@ updated: 2026-11-04
 <div class="project-section grid-12">
   <div class="project-image col-10">
 
-![Neostone material experiment](../../Assets/Neo-Stone-Age/nsa-5.jpg)
+![Neostone material experiment](../../assets/Neo-Stone-Age/nsa-5.jpg)
 
   </div>
 </div>
@@ -330,7 +330,7 @@ updated: 2026-11-04
 <div class="project-section grid-12">
   <div class="project-image col-10 col-offset-2">
 
-![Neo Scholar's Stones](../../Assets/Neo-Stone-Age/nsa-6.jpg)
+![Neo Scholar's Stones](../../assets/Neo-Stone-Age/nsa-6.jpg)
 
   </div>
 </div>
@@ -370,14 +370,14 @@ updated: 2026-11-04
 <div class="project-section grid-12">
   <div class="project-image col-6">
 
-![Neo Scholar's Stone #001 — Lime pellets and sand](../../Assets/Neo-Stone-Age/nsa-13.jpg)
+![Neo Scholar's Stone #001 — Lime pellets and sand](../../assets/Neo-Stone-Age/nsa-13.jpg)
 
 <p class="image-description">#001 — Lime pellets + sand</p>
 
   </div>
   <div class="project-image col-6">
 
-![Neo Scholar's Stone #002 — Lava sand](../../Assets/Neo-Stone-Age/nsa-12.png)
+![Neo Scholar's Stone #002 — Lava sand](../../assets/Neo-Stone-Age/nsa-12.png)
 
 <p class="image-description">#002 — Lava sand</p>
 
@@ -390,7 +390,7 @@ updated: 2026-11-04
 <div class="project-section grid-12">
   <div class="project-image col-10">
 
-![Neo Scholar's Stone #003 — Marble powder](../../Assets/Neo-Stone-Age/nsa-15.jpg)
+![Neo Scholar's Stone #003 — Marble powder](../../assets/Neo-Stone-Age/nsa-15.jpg)
 
 <p class="image-description">#003 — Marble powder</p>
 
@@ -403,14 +403,14 @@ updated: 2026-11-04
 <div class="project-section grid-12">
   <div class="project-image col-6">
 
-![Neo Scholar's Stone #004 — Calcium carbonate](../../Assets/Neo-Stone-Age/nss004.jpg)
+![Neo Scholar's Stone #004 — Calcium carbonate](../../assets/Neo-Stone-Age/nss004.jpg)
 
 <p class="image-description">#004 — Calcium carbonate</p>
 
   </div>
   <div class="project-image col-6">
 
-![Neo Scholar's Stone #005 — Asphalt](../../Assets/Neo-Stone-Age/nss005.jpg)
+![Neo Scholar's Stone #005 — Asphalt](../../assets/Neo-Stone-Age/nss005.jpg)
 
 <p class="image-description">#005 — Asphalt</p>
 
@@ -423,7 +423,7 @@ updated: 2026-11-04
 <div class="project-section grid-12">
   <div class="project-image col-10 col-offset-2">
 
-![Neo Scholar's Stone #006 — Marlstone](../../Assets/Neo-Stone-Age/nss006.jpg)
+![Neo Scholar's Stone #006 — Marlstone](../../assets/Neo-Stone-Age/nss006.jpg)
 
 <p class="image-description">#006 — Marlstone</p>
 
@@ -436,7 +436,7 @@ updated: 2026-11-04
 <div class="project-section grid-12">
   <div class="project-image col-10">
 
-![Neo Scholar's Stone #007 — Limestone](../../Assets/Neo-Stone-Age/nss007.jpg)
+![Neo Scholar's Stone #007 — Limestone](../../assets/Neo-Stone-Age/nss007.jpg)
 
 <p class="image-description">#007 — Limestone</p>
 
@@ -449,7 +449,7 @@ updated: 2026-11-04
 <div class="project-section grid-12">
   <div class="project-image col-8 col-offset-4">
 
-![Neo Scholar's Stone #008 — Limestone and sand](../../Assets/Neo-Stone-Age/nss008.jpg)
+![Neo Scholar's Stone #008 — Limestone and sand](../../assets/Neo-Stone-Age/nss008.jpg)
 
 <p class="image-description">#008 — Limestone + sand</p>
 
@@ -462,14 +462,14 @@ updated: 2026-11-04
 <div class="project-section grid-12">
   <div class="project-image col-6">
 
-![Neo Scholar's Stone #009 — Glass chips](../../Assets/Neo-Stone-Age/nss009.jpg)
+![Neo Scholar's Stone #009 — Glass chips](../../assets/Neo-Stone-Age/nss009.jpg)
 
 <p class="image-description">#009 — Glass chips</p>
 
   </div>
   <div class="project-image col-6">
 
-![Neo Scholar's Stone #010 — Clay and aluminum foil](../../Assets/Neo-Stone-Age/nss010.jpg)
+![Neo Scholar's Stone #010 — Clay and aluminum foil](../../assets/Neo-Stone-Age/nss010.jpg)
 
 <p class="image-description">#010 — Clay + aluminum foils</p>
 
@@ -482,7 +482,7 @@ updated: 2026-11-04
 <div class="project-section grid-12">
   <div class="project-image col-9">
 
-![Neo Scholar's Stone #011 — Calcium carbonate and aluminum cans](../../Assets/Neo-Stone-Age/nss011.jpg)
+![Neo Scholar's Stone #011 — Calcium carbonate and aluminum cans](../../assets/Neo-Stone-Age/nss011.jpg)
 
 <p class="image-description">#011 — Calcium carbonate powder + aluminum cans</p>
 
@@ -495,14 +495,14 @@ updated: 2026-11-04
 <div class="project-section grid-12">
   <div class="project-image col-6">
 
-![Neo Scholar's Stone #012 — Laterite](../../Assets/Neo-Stone-Age/nss012.jpg)
+![Neo Scholar's Stone #012 — Laterite](../../assets/Neo-Stone-Age/nss012.jpg)
 
 <p class="image-description">#012 — Laterite</p>
 
   </div>
   <div class="project-image col-6">
 
-![Neo Scholar's Stone #013 — Foundry sand](../../Assets/Neo-Stone-Age/nss013.jpg)
+![Neo Scholar's Stone #013 — Foundry sand](../../assets/Neo-Stone-Age/nss013.jpg)
 
 <p class="image-description">#013 — Foundry sand</p>
 
@@ -527,17 +527,17 @@ updated: 2026-11-04
 <div class="project-section grid-12">
   <div class="project-image col-4">
 
-![Neostone making process](../../Assets/Neo-Stone-Age/nsa-14.jpg)
+![Neostone making process](../../assets/Neo-Stone-Age/nsa-14.jpg)
 
   </div>
   <div class="project-image col-4">
 
-![Neostone making process](../../Assets/Neo-Stone-Age/nsa-14 2.jpg)
+![Neostone making process](../../assets/Neo-Stone-Age/nsa-14 2.jpg)
 
   </div>
   <div class="project-image col-4">
 
-![Neostone making process](../../Assets/Neo-Stone-Age/nsa-14 3.jpg)
+![Neostone making process](../../assets/Neo-Stone-Age/nsa-14 3.jpg)
 
   </div>
 </div>
@@ -545,17 +545,17 @@ updated: 2026-11-04
 <div class="project-section grid-12">
   <div class="project-image col-4">
 
-![Neostone experiment](../../Assets/Neo-Stone-Age/nsa-18.jpg)
+![Neostone experiment](../../assets/Neo-Stone-Age/nsa-18.jpg)
 
   </div>
   <div class="project-image col-4">
 
-![Neostone experiment](../../Assets/Neo-Stone-Age/nsa-17.jpg)
+![Neostone experiment](../../assets/Neo-Stone-Age/nsa-17.jpg)
 
   </div>
   <div class="project-image col-4">
 
-![Neostone making process animation](../../Assets/Neo-Stone-Age/nsa-16.gif)
+![Neostone making process animation](../../assets/Neo-Stone-Age/nsa-16.gif)
 
   </div>
 </div>

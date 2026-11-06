@@ -55,14 +55,14 @@ updated: 2026-11-04
 <div class="project-section grid-12">
   <div class="project-image col-6">
 
-![Revolve — Loop](../../Assets/Revolve/R-2.webp)
+![Revolve — Loop](../../assets/Revolve/R-2.webp)
 
 <p class="image-description">Loop</p>
 
   </div>
   <div class="project-image col-6">
 
-![Revolve — Oloid](../../Assets/Revolve/R-3.webp)
+![Revolve — Oloid](../../assets/Revolve/R-3.webp)
 
 <p class="image-description">Oloid</p>
 
@@ -75,14 +75,14 @@ updated: 2026-11-04
 <div class="project-section grid-12">
   <div class="project-image col-6">
 
-![Revolve marble sculpture — Photography by Finalfinalstudio](../../Assets/Revolve/R-4.webp)
+![Revolve marble sculpture — Photography by Finalfinalstudio](../../assets/Revolve/R-4.webp)
 
 <p class="image-description">Credits: Finalfinalstudio</p>
 
   </div>
   <div class="project-image col-6">
 
-![Revolve marble sculpture — Photography by Finalfinalstudio](../../Assets/Revolve/R-5.webp)
+![Revolve marble sculpture — Photography by Finalfinalstudio](../../assets/Revolve/R-5.webp)
 
 <p class="image-description">Credits: Finalfinalstudio</p>
 
@@ -92,14 +92,14 @@ updated: 2026-11-04
 <div class="project-section grid-12">
   <div class="project-image col-6">
 
-![Revolve marble sculpture — Photography by Finalfinalstudio](../../Assets/Revolve/R-10.webp)
+![Revolve marble sculpture — Photography by Finalfinalstudio](../../assets/Revolve/R-10.webp)
 
 <p class="image-description">Credits: Finalfinalstudio</p>
 
   </div>
   <div class="project-image col-6">
 
-![Revolve marble sculpture — Photography by Finalfinalstudio](../../Assets/Revolve/R-11.webp)
+![Revolve marble sculpture — Photography by Finalfinalstudio](../../assets/Revolve/R-11.webp)
 
 <p class="image-description">Credits: Finalfinalstudio</p>
 
@@ -137,7 +137,7 @@ updated: 2026-11-04
 <div class="project-section grid-12">
   <div class="project-image col-12">
 
-![Revolve — Marble prototyping](../../Assets/Revolve/R-6.webp)
+![Revolve — Marble prototyping](../../assets/Revolve/R-6.webp)
 
 <p class="image-description">Prototyping</p>
 
@@ -150,17 +150,17 @@ updated: 2026-11-04
 <div class="project-section grid-12">
   <div class="project-image col-4">
 
-![Revolve — Stone fabrication process](../../Assets/Revolve/R-7.webp)
+![Revolve — Stone fabrication process](../../assets/Revolve/R-7.webp)
 
   </div>
   <div class="project-image col-4">
 
-![Revolve — Stone fabrication process](../../Assets/Revolve/R-8.webp)
+![Revolve — Stone fabrication process](../../assets/Revolve/R-8.webp)
 
   </div>
   <div class="project-image col-4">
 
-![Revolve — Stone fabrication process](../../Assets/Revolve/R-9.webp)
+![Revolve — Stone fabrication process](../../assets/Revolve/R-9.webp)
 
   </div>
 </div>

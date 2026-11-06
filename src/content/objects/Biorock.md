@@ -54,21 +54,21 @@ updated: 2026-11-04
 <div class="project-section grid-12">
   <div class="project-image col-4">
 
-![Electrolysis experiment](../../Assets/Biorock/b-1.jpg)
+![Electrolysis experiment](../../assets/Biorock/b-1.jpg)
 
 <p class="image-description">Electrolysis</p>
 
   </div>
   <div class="project-image col-4">
 
-![Crystallization experiment](../../Assets/Biorock/b-2.jpg)
+![Crystallization experiment](../../assets/Biorock/b-2.jpg)
 
 <p class="image-description">Crystallization</p>
 
   </div>
   <div class="project-image col-4">
 
-![Sedimentation experiment](../../Assets/Biorock/b-4.jpg)
+![Sedimentation experiment](../../assets/Biorock/b-4.jpg)
 
 <p class="image-description">Sedimentation</p>
 
@@ -110,7 +110,7 @@ updated: 2026-11-04
 <div class="project-section grid-12">
   <div class="project-image col-12">
 
-![Biorock mineral accretion research](../../Assets/Biorock/b-7 2.jpg)
+![Biorock mineral accretion research](../../assets/Biorock/b-7 2.jpg)
 
   </div>
 </div>
@@ -151,21 +151,21 @@ updated: 2026-11-04
 <div class="project-section grid-12">
   <div class="project-image col-4">
 
-![Experiment preparation](../../Assets/Biorock/b-12.jpg)
+![Experiment preparation](../../assets/Biorock/b-12.jpg)
 
 <p class="image-description">Preparation</p>
 
   </div>
   <div class="project-image col-4">
 
-![DC power supply](../../Assets/Biorock/b-13.jpg)
+![DC power supply](../../assets/Biorock/b-13.jpg)
 
 <p class="image-description">DC power supply</p>
 
   </div>
   <div class="project-image col-4">
 
-![Seawater for electrolysis](../../Assets/Biorock/b-14.jpg)
+![Seawater for electrolysis](../../assets/Biorock/b-14.jpg)
 
 <p class="image-description">Sea water</p>
 
@@ -213,7 +213,7 @@ updated: 2026-11-04
 <div class="project-section grid-12">
   <div class="project-image col-12">
 
-![Electroforming experiment result](../../Assets/Biorock/b-7.jpg)
+![Electroforming experiment result](../../assets/Biorock/b-7.jpg)
 
   </div>
 </div>
@@ -222,12 +222,12 @@ updated: 2026-11-04
 <div class="project-section grid-12">
   <div class="project-image col-6">
 
-![Mineral accretion detail](../../Assets/Biorock/b-8.jpg)
+![Mineral accretion detail](../../assets/Biorock/b-8.jpg)
 
   </div>
   <div class="project-image col-6">
 
-![Mineral accretion detail](../../Assets/Biorock/b-9.jpg)
+![Mineral accretion detail](../../assets/Biorock/b-9.jpg)
 
   </div>
 </div>
@@ -236,12 +236,12 @@ updated: 2026-11-04
 <div class="project-section grid-12">
   <div class="project-image col-6">
 
-![Mineral accretion detail](../../Assets/Biorock/b-10.jpg)
+![Mineral accretion detail](../../assets/Biorock/b-10.jpg)
 
   </div>
   <div class="project-image col-6">
 
-![Mineral accretion detail](../../Assets/Biorock/b-11.jpg)
+![Mineral accretion detail](../../assets/Biorock/b-11.jpg)
 
   </div>
 </div>
@@ -286,7 +286,7 @@ updated: 2026-11-04
 <div class="project-section grid-12">
   <div class="project-image col-12">
 
-![Island Making speculative proposal](../../Assets/Biorock/island-making.jpg)
+![Island Making speculative proposal](../../assets/Biorock/island-making.jpg)
 
   </div>
 </div>
@@ -334,7 +334,7 @@ updated: 2026-11-04
 <div class="project-section grid-12">
   <div class="project-image col-12">
 
-![Neo Scholar's Stones speculative concept](../../Assets/Biorock/industrial-stone.jpg)
+![Neo Scholar's Stones speculative concept](../../assets/Biorock/industrial-stone.jpg)
 
   </div>
 </div>
@@ -354,7 +354,7 @@ updated: 2026-11-04
 <div class="project-section grid-12">
   <div class="project-image col-12">
 
-![Biorock graduation research presentation at KABK](../../Assets/Biorock/b-15.jpg)
+![Biorock graduation research presentation at KABK](../../assets/Biorock/b-15.jpg)
 
   </div>
 </div>
@@ -363,7 +363,7 @@ updated: 2026-11-04
 <div class="project-section grid-12">
   <div class="project-image col-12">
 
-![Biorock graduation research presentation at KABK](../../Assets/Biorock/b-16.jpg)
+![Biorock graduation research presentation at KABK](../../assets/Biorock/b-16.jpg)
 
   </div>
 </div>

@@ -54,7 +54,7 @@ updated: 2026-11-04
 <div class="project-section grid-12">
   <div class="project-image col-12">
 
-![Ginkgo wooden chair detail](../../Assets/Ginkgo/gk-04.jpg)
+![Ginkgo wooden chair detail](../../assets/Ginkgo/gk-04.jpg)
 
   </div>
 </div>
@@ -63,12 +63,12 @@ updated: 2026-11-04
 <div class="project-section grid-12">
   <div class="project-image col-6">
 
-![Ginkgo wooden chair](../../Assets/Ginkgo/gk-02.jpg)
+![Ginkgo wooden chair](../../assets/Ginkgo/gk-02.jpg)
 
   </div>
   <div class="project-image col-6">
 
-![Ginkgo chair animation](../../Assets/Ginkgo/gk-03.gif)
+![Ginkgo chair animation](../../assets/Ginkgo/gk-03.gif)
 
   </div>
 </div>
@@ -77,12 +77,12 @@ updated: 2026-11-04
 <div class="project-section grid-12">
   <div class="project-image col-6">
 
-![Ginkgo chair detail](../../Assets/Ginkgo/gk-10.jpg)
+![Ginkgo chair detail](../../assets/Ginkgo/gk-10.jpg)
 
   </div>
   <div class="project-image col-6">
 
-![Ginkgo chair detail](../../Assets/Ginkgo/gk-09.jpg)
+![Ginkgo chair detail](../../assets/Ginkgo/gk-09.jpg)
 
   </div>
 </div>
@@ -118,17 +118,17 @@ updated: 2026-11-04
 <div class="project-section grid-12">
   <div class="project-image col-4">
 
-![Ginkgo woodworking process](../../Assets/Ginkgo/gk-10'.jpg)
+![Ginkgo woodworking process](../../assets/Ginkgo/gk-10'.jpg)
 
   </div>
   <div class="project-image col-4">
 
-![Ginkgo woodworking process](../../Assets/Ginkgo/gk-11.jpg)
+![Ginkgo woodworking process](../../assets/Ginkgo/gk-11.jpg)
 
   </div>
   <div class="project-image col-4">
 
-![Ginkgo woodworking process](../../Assets/Ginkgo/gk-12.jpg)
+![Ginkgo woodworking process](../../assets/Ginkgo/gk-12.jpg)
 
   </div>
 </div>
@@ -161,7 +161,7 @@ updated: 2026-11-04
 <div class="project-section grid-12">
   <div class="project-image col-12">
 
-![Ginkgo aluminum edition](../../Assets/Ginkgo/gk-a-01.jpg)
+![Ginkgo aluminum edition](../../assets/Ginkgo/gk-a-01.jpg)
 
   </div>
 </div>
@@ -170,7 +170,7 @@ updated: 2026-11-04
 <div class="project-section grid-12">
   <div class="project-image col-12">
 
-![Ginkgo aluminum edition](../../Assets/Ginkgo/gk-a-02.jpg)
+![Ginkgo aluminum edition](../../assets/Ginkgo/gk-a-02.jpg)
 
   </div>
 </div>
@@ -179,7 +179,7 @@ updated: 2026-11-04
 <div class="project-section grid-12">
   <div class="project-image col-12">
 
-![Ginkgo aluminum edition](../../Assets/Ginkgo/gk-a-03.jpg)
+![Ginkgo aluminum edition](../../assets/Ginkgo/gk-a-03.jpg)
 
   </div>
 </div>

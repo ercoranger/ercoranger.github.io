@@ -63,12 +63,12 @@ updated: 2026-11-04
 <div class="project-section grid-12">
   <div class="project-image col-6">
 
-![Waterfall shelving system](../../Assets/Waterfall/w-1.jpg)
+![Waterfall shelving system](../../assets/Waterfall/w-1.jpg)
 
   </div>
   <div class="project-image col-6">
 
-![Waterfall shelving system](../../Assets/Waterfall/w-3.jpg)
+![Waterfall shelving system](../../assets/Waterfall/w-3.jpg)
 
   </div>
 </div>
@@ -77,12 +77,12 @@ updated: 2026-11-04
 <div class="project-section grid-12">
   <div class="project-image col-6">
 
-![Waterfall shelving detail](../../Assets/Waterfall/w-5.jpg)
+![Waterfall shelving detail](../../assets/Waterfall/w-5.jpg)
 
   </div>
   <div class="project-image col-6">
 
-![Waterfall shelving detail](../../Assets/Waterfall/w-4.jpg)
+![Waterfall shelving detail](../../assets/Waterfall/w-4.jpg)
 
   </div>
 </div>
@@ -118,17 +118,17 @@ updated: 2026-11-04
 <div class="project-section grid-12">
   <div class="project-image col-4">
 
-![Waterfall fabrication process](../../Assets/Waterfall/w-6.jpg)
+![Waterfall fabrication process](../../assets/Waterfall/w-6.jpg)
 
   </div>
   <div class="project-image col-4">
 
-![Waterfall fabrication process](../../Assets/Waterfall/w-7.jpg)
+![Waterfall fabrication process](../../assets/Waterfall/w-7.jpg)
 
   </div>
   <div class="project-image col-4">
 
-![Waterfall fabrication process](../../Assets/Waterfall/w-8.jpg)
+![Waterfall fabrication process](../../assets/Waterfall/w-8.jpg)
 
   </div>
 </div>
@@ -159,7 +159,7 @@ updated: 2026-11-04
 <div class="project-section grid-12">
   <div class="project-image col-12">
 
-![Waterfall aluminum edition](../../Assets/Waterfall/w-13.jpg)
+![Waterfall aluminum edition](../../assets/Waterfall/w-13.jpg)
 
 <p class="image-description">Credits: agnese_bedini, piercarloquecchia, dslstudio</p>
 
@@ -170,17 +170,17 @@ updated: 2026-11-04
 <div class="project-section grid-12">
   <div class="project-image col-4">
 
-![Waterfall aluminum edition](../../Assets/Waterfall/w-9.jpg)
+![Waterfall aluminum edition](../../assets/Waterfall/w-9.jpg)
 
   </div>
   <div class="project-image col-4">
 
-![Waterfall aluminum edition](../../Assets/Waterfall/w-10.jpg)
+![Waterfall aluminum edition](../../assets/Waterfall/w-10.jpg)
 
   </div>
   <div class="project-image col-4">
 
-![Waterfall aluminum edition](../../Assets/Waterfall/w-11.jpg)
+![Waterfall aluminum edition](../../assets/Waterfall/w-11.jpg)
 
   </div>
 </div>
@@ -189,7 +189,7 @@ updated: 2026-11-04
 <div class="project-section grid-12">
   <div class="project-image col-12">
 
-![Waterfall aluminum edition](../../Assets/Waterfall/w-12.jpg)
+![Waterfall aluminum edition](../../assets/Waterfall/w-12.jpg)
 
 <p class="image-description">Credits: Luo Li</p>
 
@@ -211,12 +211,12 @@ updated: 2026-11-04
 <div class="project-section grid-12">
   <div class="project-image col-6">
 
-![Waterfall at Alcova 2023, Milan](../../Assets/Waterfall/w-14.jpg)
+![Waterfall at Alcova 2023, Milan](../../assets/Waterfall/w-14.jpg)
 
   </div>
   <div class="project-image col-6">
 
-![Waterfall at Alcova 2023, Milan](../../Assets/Waterfall/w-15.jpg)
+![Waterfall at Alcova 2023, Milan](../../assets/Waterfall/w-15.jpg)
 
 <p class="image-description">Credits: Luo Li</p>
 
@@ -231,7 +231,7 @@ updated: 2026-11-04
 <div class="project-section grid-12">
   <div class="project-image col-12">
 
-![Waterfall at Stockholm Furniture Fair 2024](../../Assets/Waterfall/w-16.jpg)
+![Waterfall at Stockholm Furniture Fair 2024](../../assets/Waterfall/w-16.jpg)
 
 <p class="image-description">Credits: Yosuke Kojima</p>
 
@@ -246,14 +246,14 @@ updated: 2026-11-04
 <div class="project-section grid-12">
   <div class="project-image col-6">
 
-![Waterfall at Because of JoaN 2024](../../Assets/Waterfall/w-17'.jpg)
+![Waterfall at Because of JoaN 2024](../../assets/Waterfall/w-17'.jpg)
 
 <p class="image-description">Credits: Erco Lai</p>
 
   </div>
   <div class="project-image col-6">
 
-![Waterfall at Because of JoaN 2024](../../Assets/Waterfall/w-17.jpg)
+![Waterfall at Because of JoaN 2024](../../assets/Waterfall/w-17.jpg)
 
 <p class="image-description">Credits: Vikipedia.c0m</p>
 
