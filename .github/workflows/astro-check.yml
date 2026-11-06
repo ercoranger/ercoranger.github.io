@@ -1,0 +1,39 @@
+
+name: Astro Build Check
+
+on:
+  push:
+    branches:
+      - astro-v2
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Build Astro
+        run: npm run build
+
+      - name: Verify output
+        run: |
+          test -f dist/index.html
+          test -f dist/en/index.html
+          test -f dist/zh/index.html
+          test -f dist/en/Mineralloop/index.html
+          test -f dist/CNAME
