@@ -1,34 +1,31 @@
 ---
 import Header from "../components/header.astro";
 import Footer from "../components/footer.astro";
+import FooterIndex from "../components/footer-index.astro";
 import "../styles/global.css";
 
 const {
-  title = "ercoffice",
-  locale = "en"
+    title = "ercoffice",
+    locale = "en",
+    footerType = "default",
+    headerLink = "about",
 } = Astro.props;
 ---
 
 <html id="top" lang={locale}>
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width" />
-    <title>{title}</title>
-  </head>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width" />
+        <title>{title}</title>
+    </head>
 
-  <body>
+    <body>
+        <Header locale={locale} headerLink={headerLink} />
 
-    <Header locale={locale} />
+        <main>
+            <slot /> <!--pages 的內容-->
+        </main>
 
-
-
-    <main>
-      <slot /> <!--pages 的內容-->
-    </main>
-
-
-
-    <Footer locale={locale}/>
-
-  </body>
+        {footerType === "index" ? <FooterIndex /> : <Footer />}
+    </body>
 </html>

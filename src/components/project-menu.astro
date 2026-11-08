@@ -1,275 +1,193 @@
 ---
 const { lang } = Astro.props;
+const slug = Astro.params.slug;
 ---
 
 <aside class="project-menu">
-  <ul id="project-menu-list"></ul>
+    <div class="lang-change-XS">
+        <a href={`/zh/${slug}/`}>中</a>
+        <span> / </span>
+        <a href={`/en/${slug}/`}>EN</a>
+    </div>
+    <ul id="project-menu-list"></ul>
 </aside>
 
-
 <script define:vars={{ lang }}>
-  const initProjectMenu = () => {
-
-
-// 0. 手機 小畫面不執行
-    if (window.innerWidth <= 768) {
-    return;
-    }
-
-// 1. 找到需要操作的元素
-    const project =
-      document.querySelector(".project-page");
-
-    const content =
-      project?.querySelector(".project-content");
-
-    const menu =
-      project?.querySelector("#project-menu-list");
-
-    const projectMenu =
-      project?.querySelector(".project-menu");
-
-    const headerInfo =
-      project?.querySelector(".project-header-info");
-
-
-    // 如果元素還沒找到，就停止
-    if (
-      !project ||
-      !content ||
-      !menu ||
-      !projectMenu ||
-      !headerInfo
-    ) {
-      return;
-    }
-
-
-// 2. 建立左側 Section Menu
-
-    const headings =
-      content.querySelectorAll("h1");
-
-    headings.forEach((heading, index) => {
-
-      const languageElement =
-        heading.querySelector(`.lang-${lang}`);
-
-      const label =
-        languageElement?.textContent?.trim() || "";
-
-      if (!label) return;
-
-
-      // 給每個 H1 一個 ID
-      const id =
-        `section-${index + 1}`;
-
-      heading.id = id;
-
-
-      // 建立：
-      // <li>
-      //   <a href="#section-1">Introduction</a>
-      // </li>
-
-      const li =
-        document.createElement("li");
-
-      const link =
-        document.createElement("a");
-
-      link.href = `#${id}`;
-      link.textContent = label;
-
-      li.appendChild(link);
-      menu.appendChild(li);
-    });
-
-
-// 3. Scroll Highlight
-
-    let sections = [];
-    let menuItems = [];
-
-
-    const updateSections = () => {
-
-      sections = [];
-      menuItems = [];
-
-      const headings =
-        content.querySelectorAll("h1");
-
-      headings.forEach((heading, index) => {
-
-        // 使用 getBoundingClientRect()
-        // + window.scrollY
-        // 得到真正的 document position
-
-        const sectionTop =
-          heading.getBoundingClientRect().top
-          + window.scrollY;
-
-        sections.push(sectionTop);
-
-
-        const menuItem =
-          menu.querySelector(
-            `a[href="#section-${index + 1}"]`
-          );
-
-        menuItems.push(menuItem);
-      });
-    };
-
-
-    const updateActiveSection = () => {
-
-      const scrollVal =
-        window.scrollY;
-
-      const buffer =
-        window.innerHeight * 0.3;
-
-
-      // 移除所有 active
-      menuItems.forEach((item) => {
-
-        item?.parentElement
-          ?.classList
-          .remove("here-here");
-
-      });
-
-
-      // 從最後一個 section 往前找
-      for (
-        let i = sections.length - 1;
-        i >= 0;
-        i--
-      ) {
-
-        const screenTop =
-          sections[i] - buffer;
-
-        if (scrollVal >= screenTop) {
-
-          menuItems[i]
-            ?.parentElement
-            ?.classList
-            .add("here-here");
-
-          break;
+    const initProjectMenu = () => {
+        // 0. 手機 小畫面不執行
+        if (window.innerWidth <= 768) {
+            return;
         }
-      }
-    };
 
+        // 1. 找到需要操作的元素
+        const project = document.querySelector(".project-page");
 
-// 4. Project Menu 顯示 / 隱藏
+        const content = project?.querySelector(".project-content");
 
-    const updateProjectMenuVisibility = () => {
+        const menu = project?.querySelector("#project-menu-list");
 
-      const headerBottom =
-        headerInfo.getBoundingClientRect().bottom;
+        const projectMenu = project?.querySelector(".project-menu");
 
+        const headerInfo = project?.querySelector(".project-header-info");
 
-      if (headerBottom <= 300) {
+        // 如果元素還沒找到，就停止
+        if (!project || !content || !menu || !projectMenu || !headerInfo) {
+            return;
+        }
 
-        projectMenu.classList.add(
-          "is-visible"
-        );
+        // 2. 建立左側 Section Menu
 
-      } else {
+        const headings = content.querySelectorAll("h1");
 
-        projectMenu.classList.remove(
-          "is-visible"
-        );
-      }
-    };
+        headings.forEach((heading, index) => {
+            const languageElement = heading.querySelector(`.lang-${lang}`);
 
+            const label = languageElement?.textContent?.trim() || "";
 
-// 5. 初始執行
+            if (!label) return;
 
-    updateSections();
-    updateActiveSection();
-    updateProjectMenuVisibility();
+            // 給每個 H1 一個 ID
+            const id = `section-${index + 1}`;
 
+            heading.id = id;
 
-// 6. Resize
+            // 建立：
+            // <li>
+            //   <a href="#section-1">Introduction</a>
+            // </li>
 
-    let resizeTimer;
+            const li = document.createElement("li");
 
-    window.addEventListener("resize", () => {
+            const link = document.createElement("a");
 
-      clearTimeout(resizeTimer);
+            link.href = `#${id}`;
+            link.textContent = label;
 
-      resizeTimer = setTimeout(() => {
+            li.appendChild(link);
+            menu.appendChild(li);
+        });
+
+        // 3. Scroll Highlight
+
+        let sections = [];
+        let menuItems = [];
+
+        const updateSections = () => {
+            sections = [];
+            menuItems = [];
+
+            const headings = content.querySelectorAll("h1");
+
+            headings.forEach((heading, index) => {
+                // 使用 getBoundingClientRect()
+                // + window.scrollY
+                // 得到真正的 document position
+
+                const sectionTop =
+                    heading.getBoundingClientRect().top + window.scrollY;
+
+                sections.push(sectionTop);
+
+                const menuItem = menu.querySelector(
+                    `a[href="#section-${index + 1}"]`,
+                );
+
+                menuItems.push(menuItem);
+            });
+        };
+
+        const updateActiveSection = () => {
+            const scrollVal = window.scrollY;
+
+            const buffer = window.innerHeight * 0.3;
+
+            // 移除所有 active
+            menuItems.forEach((item) => {
+                item?.parentElement?.classList.remove("here-here");
+            });
+
+            // 從最後一個 section 往前找
+            for (let i = sections.length - 1; i >= 0; i--) {
+                const screenTop = sections[i] - buffer;
+
+                if (scrollVal >= screenTop) {
+                    menuItems[i]?.parentElement?.classList.add("here-here");
+
+                    break;
+                }
+            }
+        };
+
+        // 4. Project Menu 顯示 / 隱藏
+
+        const updateProjectMenuVisibility = () => {
+            const headerBottom = headerInfo.getBoundingClientRect().bottom;
+
+            if (headerBottom <= 300) {
+                projectMenu.classList.add("is-visible");
+            } else {
+                projectMenu.classList.remove("is-visible");
+            }
+        };
+
+        // 5. 初始執行
 
         updateSections();
         updateActiveSection();
         updateProjectMenuVisibility();
 
-      }, 100);
-    });
+        // 6. Resize
 
+        let resizeTimer;
 
-// 7. Scroll
+        window.addEventListener("resize", () => {
+            clearTimeout(resizeTimer);
 
-    window.addEventListener("scroll", () => {
+            resizeTimer = setTimeout(() => {
+                updateSections();
+                updateActiveSection();
+                updateProjectMenuVisibility();
+            }, 100);
+        });
 
-      updateActiveSection();
-      updateProjectMenuVisibility();
+        // 7. Scroll
 
-    });
+        window.addEventListener("scroll", () => {
+            updateActiveSection();
+            updateProjectMenuVisibility();
+        });
 
+        // 8. Smooth Scroll
 
-// 8. Smooth Scroll
+        menu.addEventListener("click", (event) => {
+            const link = event.target.closest("a");
 
-    menu.addEventListener("click", (event) => {
+            if (!link) return;
 
-      const link =
-        event.target.closest("a");
+            const target = document.querySelector(link.hash);
 
-      if (!link) return;
+            if (!target) return;
 
+            event.preventDefault();
 
-      const target =
-        document.querySelector(link.hash);
+            const offset = 100;
 
-      if (!target) return;
+            window.scrollTo({
+                top:
+                    target.getBoundingClientRect().top +
+                    window.scrollY -
+                    offset,
 
+                behavior: "smooth",
+            });
+        });
+    };
 
-      event.preventDefault();
+    // 9. 等 DOM 完整建立後再執行
 
-
-      const offset = 100;
-
-      window.scrollTo({
-        top:
-          target.getBoundingClientRect().top
-          + window.scrollY
-          - offset,
-
-        behavior: "smooth"
-      });
-
-    });
-  };
-
-
-// 9. 等 DOM 完整建立後再執行
-
-  if (document.readyState === "loading") {
-
-    document.addEventListener(
-      "DOMContentLoaded",
-      initProjectMenu
-    );
-
-  } else {
-
-    initProjectMenu();
-
-  }
+    if (document.readyState === "loading") {
+        document.addEventListener("DOMContentLoaded", initProjectMenu);
+    } else {
+        initProjectMenu();
+    }
 </script>

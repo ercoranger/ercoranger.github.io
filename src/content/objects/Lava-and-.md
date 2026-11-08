@@ -3,7 +3,7 @@ slug: Lava-and-
 
 year: 2020
 title_en: Lava and...
-title_zh: 熔岩與……
+title_zh: 熔融實驗
 
 context:
   - Material transformation
@@ -18,7 +18,7 @@ material: Lavastone, glass
 phase: FIRE
 object: Material experiment
 dimensions: Material experiment
-image: /imgs/Lava-and-.webp
+image: /imgs/Lava-and-.jpg
 
 timeline:
   - year: 2020
@@ -30,7 +30,7 @@ updated: 2026-10-07
 
 <div class="project-section grid-12">
 
-# <span class="lang-en">Introduction</span><span class="lang-zh">簡介</span>
+# <span class="lang-en">Introduction</span><span class="lang-zh">概念簡介</span>
 
 <p class="col-12 lang-en project-title">
   Nothing gets lost, everything transforms.
@@ -47,7 +47,7 @@ updated: 2026-10-07
   </span>
 
   <span class="lang-zh">
-    這個專案與 Lucie Ponard 合作。我們嘗試將一種名為「mono no aware」（物哀）的情感物質化。這是一個用來描述美之短暫性的日文概念——一種在見證生命絢麗景象之後，帶著安靜欣喜與苦樂交織的感受，同時也明白這一切都不可能永久存在。我們決定以熔岩石作為主要材料，開始進行實驗，嘗試創造從一種狀態逐漸轉變至另一種狀態的漸變質地。
+    這個實驗計畫與 Lucie Ponard 合作。我們嘗試將一種名為「mono no aware」（物哀）的情感物質化。這是一個用來描述美之短暫性的日文概念——一種在見證生命絢麗景象之後，帶著安靜欣喜與苦樂交織的感受，同時也明白這一切都不可能永久存在。我們決定以熔岩石作為主要材料，開始進行實驗，嘗試創造從一種狀態逐漸轉變至另一種狀態的漸變質地。
   </span>
 
 </p>
@@ -57,15 +57,15 @@ updated: 2026-10-07
 
 <div class="project-section grid-12">
 
-  <div class="project-image col-5">
+  <div class="project-image col-6">
 
-![Lava and...]../../assets/Lava-and-/l-0.jpg)
+ ![Lava and](../../assets/Lava-and-/l-0.jpg)
 
   </div>
 
-  <div class="project-image col-7">
+  <div class="project-image col-6">
 
-![Lava and...]../../assets/Lava-and-/l-0 2.jpg)
+![Lava and](../../assets/Lava-and-/l-0-2.jpg)
 
   </div>
 
@@ -76,14 +76,14 @@ updated: 2026-10-07
 
   <div class="col-offset-4">
 
-# <span class="lang-en">Process</span><span class="lang-zh">製程</span>
+# <span class="lang-en">Process</span><span class="lang-zh">實驗過程</span>
 
 <p class="col-12 lang-en project-title">
   Reheating
 </p>
 
 <p class="col-12 lang-zh project-title">
-  重新加熱
+  加熱熔融
 </p>
 
 <p class="col-8 project-text">
@@ -107,7 +107,8 @@ updated: 2026-10-07
 
   <div class="project-image col-12">
 
-![Lava and...]../../assets/Lava-and-/l-1.jpg)
+
+![Lava and...](../../assets/Lava-and-/l-1.jpg)
 
   </div>
 
@@ -118,19 +119,19 @@ updated: 2026-10-07
 
   <div class="project-image col-4">
 
-![Lava and...]../../assets/Lava-and-/l-4.jpg)
+![Lava and...](../../assets/Lava-and-/l-4.jpg)
 
   </div>
 
   <div class="project-image col-4">
 
-![Lava and...]../../assets/Lava-and-/l-5.jpg)
+![Lava and...](../../assets/Lava-and-/l-5.jpg)
 
   </div>
 
   <div class="project-image col-4">
 
-![Lava and...]../../assets/Lava-and-/l-6.jpg)
+![Lava and...](../../assets/Lava-and-/l-6.jpg)
 
   </div>
 
@@ -141,13 +142,13 @@ updated: 2026-10-07
 
   <div class="project-image col-6">
 
-![Lava and...]../../assets/Lava-and-/l-7.jpg)
+![Lava and...](../../assets/Lava-and-/l-7.jpg)
 
   </div>
 
   <div class="project-image col-6">
 
-![Lava and...]../../assets/Lava-and-/l-8.jpg)
+![Lava and...](../../assets/Lava-and-/l-8.jpg)
 
   </div>
 

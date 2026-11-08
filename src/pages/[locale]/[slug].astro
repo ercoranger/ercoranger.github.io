@@ -3,45 +3,40 @@ import BaseLayout from "../../layouts/base-layout.astro";
 import ProjectMenu from "../../components/project-menu.astro";
 
 export function getStaticPaths() {
-  const objects = import.meta.glob(
-    "../../content/objects/*.md",
-    { eager: true }
-  );
+    const objects = import.meta.glob("../../content/objects/*.md", {
+        eager: true,
+    });
 
-  return Object.entries(objects).flatMap(([path, module]) => {
+    return Object.entries(objects).flatMap(([path, module]) => {
+        const object = module.frontmatter;
 
-    const object = module.frontmatter;
+        const filename = path.split("/").pop()?.replace(".md", "");
 
-    const filename = path
-      .split("/")
-      .pop()
-      ?.replace(".md", "");
+        const slug = filename;
 
-    const slug = filename;
-
-    return [
-      {
-        params: {
-          locale: "en",
-          slug,
-        },
-        props: {
-          object,
-          Content: module.default,
-        },
-      },
-      {
-        params: {
-          locale: "zh",
-          slug,
-        },
-        props: {
-          object,
-          Content: module.default,
-        },
-      },
-    ];
-  });
+        return [
+            {
+                params: {
+                    locale: "en",
+                    slug,
+                },
+                props: {
+                    object,
+                    Content: module.default,
+                },
+            },
+            {
+                params: {
+                    locale: "zh",
+                    slug,
+                },
+                props: {
+                    object,
+                    Content: module.default,
+                },
+            },
+        ];
+    });
 }
 
 const { locale } = Astro.params;
@@ -50,97 +45,65 @@ const { object, Content } = Astro.props;
 const lang = locale === "zh" ? "zh" : "en";
 
 const title =
-  lang === "zh" && object.title_zh
-    ? object.title_zh
-    : object.title_en;
+    lang === "zh" && object.title_zh ? object.title_zh : object.title_en;
+
+const titles = `${object.title_en} / ${object.title_zh}`;
 ---
 
-<BaseLayout
-  title={`${title} — ercoffice`}
-  locale={lang}
->
+<BaseLayout title={`${title} — ercoffice`} locale={lang}>
+    <div class={`project-page lang-${lang} grid-12`}>
+        <!--招喚左側選單-->
+        <ProjectMenu lang={lang} />
 
-  <div class={`project-page lang-${lang} grid-12`}>
+        <main class="project-content">
+            <section class="project-header grid-12">
+                <div class="project-header-image">
+                    <img src={object.image} alt={title} title={titles} />
+                </div>
 
-<!--招喚左側選單-->    
-    <ProjectMenu lang={lang} />
+                <!--header 右邊資訊-->
+                <div class="project-header-info">
+                    <div>
+                        <p class="project-header-title">{title}</p>
+                        <h6 class="project-year">{object.year}</h6>
+                    </div>
 
+                    <!-- timeline & awards-->
+                    {object.timeline?.length > 0 && (
+                        <div class="project-timeline">
+                            {object.timeline.map((item) => (
+                                <div class="timeline-item">
+                                    <span class="timeline-year">
+                                        {item.year} &nbsp;
+                                    </span>
 
-    <main class="project-content">
-      <section class="project-header grid-12">
-        <div class="project-header-image">
-          <img
-      src={object.image}
-      alt={title}
-      title={title}/>
+                                    <span class="timeline-event">
+                                        {item.link ? (
+                                            <a
+                                                href={item.link}
+                                                target="_blank"
+                                                rel="noopener noreferrer"
+                                            >
+                                                {item.event}
+                                            </a>
+                                        ) : (
+                                            item.event
+                                        )}
+                                    </span>
+                                </div>
+                            ))}
+                        </div>
+                    )}
+
+                    <p class="mtrl-info">
+                        {object.material}, {object.technique}
+                        <br />
+                        {object.dimensions}
+                    </p>
+                </div>
+            </section>
+
+            <Content />
+        </main>
     </div>
-
-<!--header 右邊資訊-->
-  <div class="project-header-info">
-    
-    <div>
-    <p class="project-header-title">{title}</p>
-    <h6 class="project-year">{object.year}</h6>
-    </div>
-
-
-<!-- timeline & awards-->
-    { object.timeline?.length > 0 && (
-    <div class="project-timeline">
-
-          {object.timeline.map((item) => (
-            <div class="timeline-item">
-
-              <span class="timeline-year">
-                {item.year} &nbsp;
-              </span>
-
-              <span class="timeline-event">
-
-                {
-                  item.link ? (
-                    <a
-                      href={item.link}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      {item.event}
-                    </a>
-                  ) : (
-                    item.event
-                  )
-                }
-
-              </span></div> ))} 
-        </div> ) }
-
- <p class="mtrl-info">
-      {object.material}, {object.technique}<br />
-      {object.dimensions}
-    </p>
-
-  </div>
-
-</section>
-
-
-      <Content />
-
-    </main>
-
-  </div>
-
 </BaseLayout>
-
-
-
-
-
-<style>
-:global(.project-page.lang-en .lang-zh) {
-display: none;
-}
-:global(.project-page.lang-zh .lang-en) {
-display: none;
-}
-</style>

@@ -1,0 +1,190 @@
+---
+import BaseLayout from "../../layouts/base-layout.astro";
+
+export function getStaticPaths() {
+    return [{ params: { locale: "en" } }, { params: { locale: "zh" } }];
+}
+
+const { locale = "en" } = Astro.params;
+---
+
+<BaseLayout title="About" locale={locale} headerLink="home" footerType="index">
+    <div class="project-page grid-12">
+        <!-- LEFT MENU -->
+        <aside class="about-menu">
+            <ul>
+                <li>
+                    <a href="mailto:hello@ercoffice.net">Email</a>
+                </li>
+
+                <li>
+                    <a href={`/${locale}/Exhibitions/`}>Exhibitions</a>
+                </li>
+
+                <li>
+                    <a
+                        href="https://drive.google.com/drive/folders/1eLl6lkIzNF7iF7ZSYUgnxeBCQjENkT9v?usp=sharing"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        Press kits
+                        <img src="/imgs/arrow.svg" class="arrow" alt="" />
+                    </a>
+                </li>
+            </ul>
+        </aside>
+
+        <!-- MAIN CONTENT -->
+        <div class="project-content">
+            <!-- 01 ERCO LAI -->
+
+            <section class="project-section grid-12" id="erco-lai">
+                <div class="col-12">
+                    <p class="title-XL lang-en">
+                        My design approach is listening to a matter by hands-on
+                        experiments and shaping it in the most "natural" way.
+                        Within my practices, I attempt to create the beauty of
+                        balancing between control of design and spontaneity of
+                        materials.
+                    </p>
+
+                    <p class="title-XL lang-zh">中文開場文字待編輯。</p>
+                </div>
+
+                <div class="col-12">
+                    <h6>About</h6>
+                    <p class="project-title">Erco Lai</p>
+                </div>
+
+                <div class="col-6">
+                    <p class="project-text lang-en">
+                        He is a designer of a wide imagination and a strongly
+                        creative mind. Still, his fantasy isn't stuck in a
+                        non-concrete world of ideas; he really gets his hands
+                        dirty experimenting with alternative building materials.
+                        Erco Lai's ultimate goal is to bring innovation in the
+                        manufacturing industry, promoting the abandonment of
+                        unsustainable mechanisms. His guide has always been the
+                        Earth itself, learning from natural processes.
+                    </p>
+
+                    <p class="project-text lang-zh">
+                        Erco Lai 中文介紹待編輯。
+                    </p>
+                </div>
+
+                <div class="col-6">
+                    <img
+                        src="/imgs/portrait.jpg"
+                        alt="Erco Lai portrait"
+                        loading="lazy"
+                    />
+                </div>
+
+                <!-- AWARDS -->
+                <div class="col-6">
+                    <p class="project-title">Award & Grant</p>
+
+                    <div class="project-text">
+                        <p>2023 Stimuleringsfonds Opencall Milan Design Week</p>
+                        <p>2023 The Index Project — Nominees</p>
+                        <p>2022 STARTS Prize, Ars Electronica — Nomination</p>
+                        <p>2022 Guiltlessplastic — Finalist</p>
+                        <p>2022 Creative Industries Fund NL — Starting Grant</p>
+                        <p>
+                            2021 MA Industrial Design Department Award —
+                            Nomination
+                        </p>
+                        <p>2018 Golden Pin Design Award, Taiwan</p>
+                    </div>
+                </div>
+
+                <!-- EXHIBITIONS -->
+                <div class="col-6">
+                    <p class="project-title">Exhibitions</p>
+
+                    <div class="project-text">
+                        <p>2024 Milan Design Week — ISOLA</p>
+                        <p>2024 Stockholm Furniture Fair — Greenhouse</p>
+                        <p>2023 London Design Week — Mint Gallery</p>
+                        <p>
+                            2023 International Steel Sculpture Festival,
+                            Kaohsiung
+                        </p>
+                        <p>2023 Maison&Objet, Paris</p>
+                        <p>2023 ALCOVA, Milan</p>
+                        <p>2022 Object Rotterdam</p>
+                        <p>2021 Dutch Design Week</p>
+                    </div>
+                </div>
+
+                <!-- COLLABORATIONS -->
+                <div class="col-12">
+                    <p class="project-title">
+                        Selected Clients & Collaborations
+                    </p>
+
+                    <p class="project-text">
+                        Blue City (NL), Biophilica (UK), TPCreative (TW), Binary
+                        Pottery (TW), Hevo deco (TW), 20MM (TW)
+                    </p>
+                </div>
+            </section>
+
+            <!-- 02 ERCOFFICE -->
+
+            <section class="project-section grid-12" id="ercoffice">
+                <div class="col-12">
+                    <img
+                        title="Photo: Ronald Smits"
+                        src="/imgs/ercoffice.jpg"
+                        alt="ercoffice studio"
+                        loading="lazy"
+                    />
+                </div>
+
+                <div class="col-12">
+                    <p class="title-XL lang-en">
+                        A design office aims to cooperate with material-focused
+                        developers, scientists or start-ups to elevate future
+                        materials from experiments into the context of daily
+                        life by giving matter meaningful forms.
+                    </p>
+
+                    <p class="title-XL lang-zh">
+                        ercoffice 中文工作室宣言待編輯。
+                    </p>
+                </div>
+
+                <div class="col-12">
+                    <h6>About</h6>
+                    <p class="project-title">ercoffice</p>
+                </div>
+
+                <div class="col-6">
+                    <p class="project-text lang-en">
+                        Drawing from his cultural background, Erco Lai used the
+                        five elements theory as a framework to illustrate how
+                        things work on Earth. ercoffice considers itself a
+                        design factory, focusing on digital craft, nature-based
+                        technology, and circular materials. It strives to find
+                        equilibrium between traditional craftsmanship and
+                        machine production.
+                    </p>
+
+                    <p class="project-text lang-zh">
+                        ercoffice 中文工作室介紹待編輯。
+                    </p>
+                </div>
+
+                <div class="col-6">
+                    <img
+                        src="/imgs/ercoffice-position.svg"
+                        alt="ercoffice diagram"
+                        loading="lazy"
+                    />
+                </div>
+            </section>
+        </div>
+    </div>
+</BaseLayout>

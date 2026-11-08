@@ -30,7 +30,7 @@ updated: 2026-10-07
 
 <div class="project-section grid-12">
 
-# <span class="lang-en">Introduction</span><span class="lang-zh">簡介</span>
+# <span class="lang-en">Introduction</span><span class="lang-zh">概念簡介</span>
 
 <p class="col-12 lang-en project-title">
   Digital craftsmanship
@@ -76,7 +76,7 @@ updated: 2026-10-07
 
   <div class="col-offset-4">
 
-# <span class="lang-en">Process</span><span class="lang-zh">製程</span>
+# <span class="lang-en">Process</span><span class="lang-zh">發展過程</span>
 
 <p class="col-12 lang-en project-title">
   3D ceramic printing
@@ -134,7 +134,7 @@ updated: 2026-10-07
 
 <div class="project-section grid-12">
 
-# <span class="lang-en">Objects</span><span class="lang-zh">作品</span>
+# <span class="lang-en">Objects</span><span class="lang-zh">作品系列</span>
 
 <p class="col-12 project-title">
   Binary jugs
@@ -174,7 +174,7 @@ updated: 2026-10-07
 
   <p class="project-text">
           <a href="Fieldstone"><u>Fieldstone</u></a>
-          - The 3d-printed-stone table
+          - The 3d-sand-printed table
   </p>
 
 </div>

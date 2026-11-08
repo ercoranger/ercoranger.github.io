@@ -50,9 +50,7 @@ updated: 2026-11-04
     The curved platforms create a sense of movement within the framework, bringing together the rigidity of metal and the fluidity of natural forms. Designed for displaying and storing objects, Waterfall explores how traditional furniture typologies can be transformed through a different material language.
   </span>
   <span class="lang-zh">
-    「流水架」Waterfall 的設計靈感來自傳統中式多寶格的陳列方式，將展示物件的層架結構轉化為當代家具。作品結合工業幾何與水流般的曲線，以金屬材料重新詮釋傳統家具的形式語言。
-    <br><br>
-    彎曲的層板在規律的框架中形成流動的視覺節奏，讓金屬的剛性與水的柔性產生對比。流水架既可作為書架，也能用於展示與收納，探索傳統家具形式如何透過不同的材料與製造方式重新組合。
+    <u>Waterfall / 流水架</u> 的設計靈感來自傳統中式多寶格的陳列方式，將展示物件的層架結構轉化為當代家具。作品結合工業幾何與水流般的曲線，以金屬材料重新詮釋傳統家具的形式語言。彎曲的層板在規律的框架中形成流動的視覺節奏，讓金屬的剛性與水的柔性產生對比。流水架既可作為書架，也能用於展示與收納，探索傳統家具形式如何透過不同的材料與製造方式重新組合。
   </span>
 </p>
 
@@ -75,12 +73,12 @@ updated: 2026-11-04
 
 
 <div class="project-section grid-12">
-  <div class="project-image col-6">
+  <div class="project-image col-8 col-offset-4">
 
 ![Waterfall shelving detail](../../assets/Waterfall/w-5.jpg)
 
   </div>
-  <div class="project-image col-6">
+  <div class="project-image col-8">
 
 ![Waterfall shelving detail](../../assets/Waterfall/w-4.jpg)
 
@@ -104,9 +102,7 @@ updated: 2026-11-04
     The combination of sheet metal bending and wireframe construction allows the shelf to maintain its open composition while supporting its functional use. A powder-coated finish protects the steel surfaces and completes the structure with a consistent appearance.
   </span>
   <span class="lang-zh">
-    流水架以大半徑彎折的鐵板構成層板，模擬水流延展的形態。線框結構則提供支撐並界定層板邊緣，使連續的金屬曲面與簡潔的線條形成對比。
-    <br><br>
-    透過鐵板彎折與線框構造的結合，作品在維持開放視覺形式的同時，也兼顧展示與收納的功能。表面的粉體烤漆提供保護，並使整體呈現一致的表面質感。
+    流水架以大半徑彎折的鐵板構成層板，模擬水流延展的形態。線框結構則提供支撐並界定層板邊緣，使連續的金屬曲面與簡潔的線條形成對比。透過鐵板彎折與線框構造的結合，作品在維持開放視覺形式的同時，也兼顧展示與收納的功能。表面的粉體烤漆提供保護，並使整體呈現一致的表面質感。
   </span>
 </p>
 
@@ -157,11 +153,9 @@ updated: 2026-11-04
 
 
 <div class="project-section grid-12">
-  <div class="project-image col-12">
+  <div class="project-image col-9">
 
-![Waterfall aluminum edition](../../assets/Waterfall/w-13.jpg)
-
-<p class="image-description">Credits: agnese_bedini, piercarloquecchia, dslstudio</p>
+![Waterfall aluminum edition](../../assets/Waterfall/w-13.jpg "Credits: agnese_bedini, piercarloquecchia, dslstudio")
 
   </div>
 </div>
@@ -187,78 +181,75 @@ updated: 2026-11-04
 
 
 <div class="project-section grid-12">
-  <div class="project-image col-12">
+  <div class="project-image col-10 col-offset-2">
 
-![Waterfall aluminum edition](../../assets/Waterfall/w-12.jpg)
-
-<p class="image-description">Credits: Luo Li</p>
+![Waterfall aluminum edition](../../assets/Waterfall/w-12.jpg "Credits: Luo Li")
 
   </div>
 </div>
 
 
-<div class="project-section grid-12" id="exhibitions">
+<div class="project-section exhi-sec grid-12" id="exhibitions">
 
-# <span class="lang-en">Exhibitions</span><span class="lang-zh">展覽紀錄</span>
+# <span class="lang-en">Exhibition</span><span class="lang-zh">展覽</span>
 
 </div>
 
-<div class="project-section grid-12">
-<p class="col-12 lang-en project-title">2023 ALCOVA</p>
-<p class="col-12 project-text">Duplicating Landscape, Milan</p>
-</div>
+<div class="project-section exhi-sec grid-12">
+<h6 class="col-12">2023 ALCOVA</h6>
+<p class="col-12 lang-en project-title">Duplicating Landscape, Milan</p>
+<p class="col-12 lang-zh project-title">米蘭設計週</p>
 
-<div class="project-section grid-12">
-  <div class="project-image col-6">
+ <div class="project-image col-8">
 
 ![Waterfall at Alcova 2023, Milan](../../assets/Waterfall/w-14.jpg)
 
   </div>
-  <div class="project-image col-6">
+  <div class="project-image col-8 col-offset-4">
 
-![Waterfall at Alcova 2023, Milan](../../assets/Waterfall/w-15.jpg)
+![Waterfall at Alcova 2023, Milan](../../assets/Waterfall/w-15.jpg "Credits: Luo Li")
 
-<p class="image-description">Credits: Luo Li</p>
 
   </div>
+
 </div>
 
-<div class="project-section grid-12">
-<p class="col-12 lang-en project-title">2024 Greenhouse</p>
-<p class="col-12 project-text">Stockholm Furniture Fair, Sweden</p>
-</div>
 
-<div class="project-section grid-12">
+<div class="project-section exhi-sec grid-12">
+<h6 class="col-12">2024 Greenhouse</h6>
+<p class="col-12 lang-en project-title">Stockholm Furniture Fair, Sweden</p>
+<p class="col-12 lang-zh project-title">斯德哥爾摩家具展</p>
+
   <div class="project-image col-12">
 
-![Waterfall at Stockholm Furniture Fair 2024](../../assets/Waterfall/w-16.jpg)
+![Waterfall at Stockholm Furniture Fair 2024](../../assets/Waterfall/w-16.jpg "Credits: Yosuke Kojima")
 
-<p class="image-description">Credits: Yosuke Kojima</p>
-
-  </div>
-</div>
-
-<div class="project-section grid-12">
-<p class="col-12 lang-en project-title">2024 Because of JoaN</p>
-<p class="col-12 project-text">The Nature of Something, Amsterdam</p>
-</div>
-
-<div class="project-section grid-12">
-  <div class="project-image col-6">
-
-![Waterfall at Because of JoaN 2024](../../assets/Waterfall/w-17'.jpg)
-
-<p class="image-description">Credits: Erco Lai</p>
 
   </div>
-  <div class="project-image col-6">
 
-![Waterfall at Because of JoaN 2024](../../assets/Waterfall/w-17.jpg)
+</div>
 
-<p class="image-description">Credits: Vikipedia.c0m</p>
+
+
+<div class="project-section exhi-sec grid-12">
+<h6 class="col-12">2024 Because of JoaN</h6>
+<p class="col-12 lang-en project-title">The Nature of Something, Amsterdam</p>
+<p class="col-12 lang-zh project-title">阿姆斯特丹</p>
+
+ <div class="project-image col-8">
+
+![Waterfall at Because of JoaN 2024](../../assets/Waterfall/w-17-2.jpg "Credits: Erco Lai")
 
   </div>
+  <div class="project-image col-8 col-offset-4">
+
+![Waterfall at Because of JoaN 2024](../../assets/Waterfall/w-17.jpg "Credits: Vikipedia.c0m")
+
+  </div>
+
 </div>
+
+
 
 
 <div class="project-section project-further-reading">

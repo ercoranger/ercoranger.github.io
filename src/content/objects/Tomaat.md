@@ -3,7 +3,7 @@ slug: Tomaat
 
 year: 2021
 title_en: Tomaat
-title_zh: Tomaat
+title_zh: 番茄皮革
 
 context:
   - Plant-based material
@@ -18,7 +18,7 @@ material: Treekind® vegan leather
 phase: WOOD
 object: Home accessory
 dimensions: H.10 x W.7 x D.7cm
-image: /imgs/Tomaat.webp
+image: /imgs/Treekind.webp
 
 timeline:
   - year: 2021
@@ -30,14 +30,14 @@ updated: 2026-10-07
 
 <div class="project-section grid-12">
 
-# <span class="lang-en">Concept</span><span class="lang-zh">概念</span>
+# <span class="lang-en">Concept</span><span class="lang-zh">概念簡介</span>
 
 <p class="col-12 lang-en project-title">
   Organizer
 </p>
 
 <p class="col-12 lang-zh project-title">
-  收納器
+  收納容器
 </p>
 
 <p class="col-8 project-text">
@@ -49,9 +49,7 @@ updated: 2026-10-07
   </span>
 
   <span class="lang-zh">
-    本計畫與 <a target="_blank" href="https://www.biophilica.co.uk">Biophilica</a> 及 Bluecity 合作，使用 Treekind® 作為材料。這是一種新型植物基皮革替代材料，具備可回收、可堆肥及低資源消耗等特性，且完全不含塑膠聚氨酯。
-    <br><br>
-    這個系列的設計如同摺紙，以一整片皮革摺疊成形。Erco Lai 希望設計出能夠融入現代生活風格的美觀家居用品。為了展現這種獨特皮革的特質，他選擇以多面體作為形式語言，藉此呈現不同角度以及材料表面的張力。
+    本計畫與 <a target="_blank" href="https://www.biophilica.co.uk">Biophilica</a> 及 Bluecity 合作，使用 Treekind® 作為材料。這是一種新型植物基皮革替代材料，具備可回收、可堆肥及低資源消耗等特性，且完全不含塑膠聚氨酯。這個系列的設計如同摺紙，以一整片皮革摺疊成形。Erco Lai 希望設計出能夠融入現代生活風格的美觀家居用品。為了展現這種獨特皮革的特質，他選擇以多面體作為形式語言，藉此呈現不同角度以及材料表面的張力。
   </span>
 
 </p>
@@ -86,7 +84,7 @@ updated: 2026-10-07
 
   <div class="col-offset-4 col-8">
 
-# <span class="lang-en">Process</span><span class="lang-zh">製程</span>
+# <span class="lang-en">Process</span><span class="lang-zh">製作過程</span>
 
 <p class="project-title">
 

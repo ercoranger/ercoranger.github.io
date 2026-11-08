@@ -2,11 +2,11 @@
 slug: Ikebana
 
 year: 2020
-title_en: Ikebana | Floral 3d puzzle
+title_en: Ikebana
 title_zh: 生之花
 
 context:
-  - Ikebana
+  - Floral 3d puzzle
   - Still life painting
 
 mode:
@@ -29,15 +29,11 @@ updated: 2026-10-07
 
 <div class="project-section grid-12">
 
-# <span class="lang-en">Introduction</span><span class="lang-zh">簡介</span>
+# <span class="lang-en">Concept</span><span class="lang-zh">概念簡介</span>
 
-<p class="col-12 lang-en project-title">
-  Make flowers alive
-</p>
+<p class="col-12 lang-en project-title">Make flowers alive</p>
 
-<p class="col-12 lang-zh project-title">
-  讓花朵活起來
-</p>
+<p class="col-12 lang-zh project-title">生之花</p>
 
 <p class="col-8 project-text">
 
@@ -142,7 +138,7 @@ updated: 2026-10-07
 
 <div class="project-section grid-12">
 
-  <div class="project-image col-12">
+  <div class="project-image col-9">
 
 ![Ikebana](../../assets/Ikebana/3dp-by-erco-5.png)
 

@@ -14,8 +14,8 @@ mode:
   - research
   - explorations
 
-technique: Geopolymerization / Digital Modelling / Hand Forming
-material: Neostone / Mineral Byproducts
+technique: Geopolymerization
+material: Mineral Byproducts
 phase: EARTH 
 object: Material Research / Sculpture
 dimensions: various sizes
@@ -45,12 +45,12 @@ updated: 2026-11-04
 
 <!-- INTRODUCTION -->
 
-<div class="project-section grid-12">
+<div class="project-section grid-12" id="introduction">
 
 # <span class="lang-en">Introduction</span><span class="lang-zh">研究簡介</span>
 
 <p class="col-12 lang-en project-title">Make Things Like Earth</p>
-<p class="col-12 lang-zh project-title">像地球一樣造物</p>
+<p class="col-12 lang-zh project-title">人造自然</p>
 
 <p class="col-8 project-text">
   <span class="lang-en">
@@ -59,7 +59,7 @@ updated: 2026-11-04
     Neo Stone Age explores this possibility through geopolymerization, combining marble and limestone powders, lime pellets, sand, and slag to create an artificial stone material called Neostone. The research investigates how discarded minerals can be transformed into new materials and reintroduced into cycles of production.
   </span>
   <span class="lang-zh">
-    混凝土產業與許多環境問題密切相關。我們是否能重新利用工業製程中產生的廢棄物，發展出不同於傳統工業模式的製造方法？這項研究透過地質聚合技術（Geopolymerization），將大理石與石灰岩粉末、石灰顆粒、砂及爐渣等材料重新組合，製成一種名為 Neostone 的人造石材，探索工業副產物轉化為新材料的可能性。
+  水泥產業帶動發城市發展，卻也是多種環境污染的源頭之一，本實驗計畫嘗試透過開發研究“地質聚合物“這樣的創新材料，從實作與想像中來思考人類是否能藉由將工業礦物廢料的再利用，達到可持續性發展的材料循環目的。透過這樣的實驗計畫，從拆遷工程中的水泥、工廠中切削後大理石粉末、礦坑中遺留的石灰岩粉末以及海邊的砂礫與貝殼中，聚合出礦物人造石。這樣的礦物人造石從材料的角度提出了新的可能與工法。通過向地球學習與模仿地質成形，模糊了人造與天然之間的界線。
   </span>
 </p>
 
@@ -82,7 +82,7 @@ updated: 2026-11-04
 <div class="project-section grid-12">
 <div class="col-offset-4">
 
-# <span class="lang-en">Chapter 1</span><span class="lang-zh">第一章</span>
+<span class="lang-en">Chapter 1</span><span class="lang-zh">第一章</span>
 
 <p class="col-12 lang-en project-title">Domesticating Limestone</p>
 <p class="col-12 lang-zh project-title">收服石灰岩</p>
@@ -102,9 +102,7 @@ updated: 2026-11-04
   <span class="lang-zh">
     碳酸鈣是地球上廣泛存在的物質。它溶解於河流與湖泊之中，構成生物的骨骼與貝殼，也透過自然沉積形成石灰華、鐘乳石、洞穴與山體。同樣的物質，也存在於日常生活中的熱水壺與水管裡。從農業、食品、玻璃製造到水泥生產，碳酸鈣被廣泛應用於各種產業。然而，現代工業所需的石灰岩大多仍來自採石場。大量的開採不僅改變地貌，也留下尾礦與其他採掘副產物。我們是否能從周遭既有的物質循環中，尋找其他材料來源？
     <br><br>
-    水垢就是其中一種經常被忽略的碳酸鈣資源。它是水處理過程中所產生的礦物沉積物，通常被視為不需要的副產物而遭到丟棄。這項研究試圖重新認識水垢作為材料的可能性，並探索如何透過地質聚合技術，將這些礦物重新組合為可以建造與使用的物質。
-    <br><br>
-    由此延伸出的問題是：如果城市能夠回收自身產生的礦物，並將其轉化為新的建築與生活材料，一個「新石器時代」將會呈現什麼樣貌？這套材料採集與製造方式，是否能融入城市系統，逐漸改變我們的室內外生活環境？在這片經過人類重新編排的地景之中，我們又將如何成為與地球共同生活的居住者？
+    水垢就是其中一種經常被忽略的碳酸鈣資源。它是水處理過程中所產生的礦物沉積物，通常被視為不需要的副產物而遭到丟棄。這項研究試圖重新認識水垢作為材料的可能性，並探索如何透過地質聚合技術，將這些礦物重新組合為可以建造與使用的物質。由此延伸出的問題是：如果城市能夠回收自身產生的礦物，並將其轉化為新的建築與生活材料，一個「新石器時代」將會呈現什麼樣貌？這套材料採集與製造方式，是否能融入城市系統，逐漸改變我們的室內外生活環境？在這片經過人類重新編排的地景之中，我們又將如何成為與地球共同生活的居住者？
   </span>
 </p>
 
@@ -119,21 +117,24 @@ updated: 2026-11-04
 
 ![Limescale](../../assets/Neo-Stone-Age/nsa-1.jpg)
 
-<p class="image-description">Limescale</p>
+<p class="lang-en image-description">Limescale</p>
+<p class="lang-zh image-description">游泳池水垢</p>
 
   </div>
   <div class="project-image col-4">
 
 ![Lime pellets](../../assets/Neo-Stone-Age/nsa-2.jpg)
 
-<p class="image-description">Lime pellets</p>
+<p class="lang-en image-description">Lime pellets</p>
+<p class="lang-zh image-description">硬水萃取顆粒</p>
 
   </div>
   <div class="project-image col-4">
 
 ![Geopolymer](../../assets/Neo-Stone-Age/nsa-3.jpg)
 
-<p class="image-description">Geopolymer</p>
+<p class="lang-en image-description">Geopolymer</p>
+<p class="lang-zh image-description">地質聚合物</p>
 
   </div>
 </div>
@@ -141,28 +142,20 @@ updated: 2026-11-04
 
 <!-- ABOUT MATERIAL -->
 
-<div class="project-section grid-12">
+<div class="project-section grid-12" id="research">
 
-# <span class="lang-en">About Material</span><span class="lang-zh">材料介紹</span>
+# <span class="lang-en">Research</span><span class="lang-zh">材料介紹</span>
 
 <p class="col-12 lang-en project-title">Geopolymer</p>
 <p class="col-12 lang-zh project-title">地質聚合物</p>
 
 <p class="col-8 project-text">
   <span class="lang-en">
-    Geopolymerization is a chemical process in which minerals containing silica and alumina react in an alkaline environment to form inorganic binding materials.
-    <br><br>
-    Developed and advanced by French researcher Joseph Davidovits, geopolymer technology has also been associated with the possibility that certain ancient building materials relied on comparable chemical principles.
-    <br><br>
-    While geopolymer cements are among its most familiar applications, the process can also be used to produce refractory materials and structural components, offering alternative approaches to combining and manufacturing inorganic materials.
+    Geopolymerization is a chemical process in which minerals containing silica and alumina react in an alkaline environment to form inorganic binding materials.Developed and advanced by French researcher Joseph Davidovits, geopolymer technology has also been associated with the possibility that certain ancient building materials relied on comparable chemical principles. While geopolymer cements are among its most familiar applications, the process can also be used to produce refractory materials and structural components, offering alternative approaches to combining and manufacturing inorganic materials.
   </span>
   <span class="lang-zh">
     地質聚合技術（Geopolymerization）是一種利用鹼性溶液，使含有矽與鋁成分的礦物產生化學反應，形成具有黏結能力之無機材料的製程。這項技術由法國研究者 Joseph Davidovits 推廣與發展，其形成的地質聚合水泥，也被認為可能與古代使用的某些建築材料具有相似特性。除了作為水泥與建築黏結材料，地質聚合物也能應用於耐火材料及其他結構性製品，為無機材料的重新組合提供不同的製造途徑。
   </span>
-</p>
-
-<p class="col-8 project-text">
-  <a href="https://wiki.opensourceecology.org/wiki/Geopolymers" target="_blank" rel="noopener noreferrer"><u>Open Source Ecology — Geopolymers</u></a>
 </p>
 
 </div>
@@ -184,7 +177,7 @@ updated: 2026-11-04
 <div class="project-section grid-12">
   <div class="col-8">
 
-    <div style="padding:56.25% 0 0 0;position:relative;">
+  <div style="padding:56.25% 0 0 0;position:relative;">
       <iframe
         src="https://player.vimeo.com/video/563840080?h=3558a8c38c&byline=0&portrait=0"
         style="position:absolute;top:0;left:0;width:100%;height:100%;"
@@ -194,22 +187,21 @@ updated: 2026-11-04
         title="Domesticating Limestone">
       </iframe>
     </div>
+    </div>
 
-  </div>
+  <div class="col-4 side-description">
 
-  <div class="col-4 project-text">
-
-    <p>Chapter 1.1</p>
-    <a href="https://drive.google.com/file/d/1XzYb5MOhmNXj67chxiYYbE82xBafDO6X/view?usp=share_link" target="_blank" rel="noopener noreferrer"><u>Observation</u></a>
-
-    <p>Chapter 1.2</p>
-    <a href="https://drive.google.com/file/d/18b46yUp02Pdy2mv4reAVcZLK2SvtxJOL/view?usp=share_link" target="_blank" rel="noopener noreferrer"><u>Harvesting & Making</u></a>
-
-    <p>Chapter 1.3</p>
-    <a href="https://drive.google.com/file/d/1RLDF3FOL9C88cBHt0g6fOrOSU78Dzd9f/view?usp=share_link" target="_blank" rel="noopener noreferrer"><u>A Trip to Neostone Town</u></a>
-
-    <p>Chapter 1.4</p>
-    <a href="https://drive.google.com/file/d/1N2V_VcZ0b9_EeOOPC_AgBZsaYS2zKHaP/view?usp=share_link" target="_blank" rel="noopener noreferrer"><u>Speculative Urban Plan</u></a>
+  <p>Chapter 1.1</p>   
+  <a href="https://drive.google.com/file/d/1XzYb5MOhmNXj67chxiYYbE82xBafDO6X/view?usp=share_link" target="_blank" rel="noopener noreferrer">Observation<img src="/imgs/arrow.svg" class="arrow" alt="↗"></a>
+<br><br> 
+  <p>Chapter 1.2</p>
+  <a href="https://drive.google.com/file/d/18b46yUp02Pdy2mv4reAVcZLK2SvtxJOL/view?usp=share_link" target="_blank" rel="noopener noreferrer">Harvesting & Making<img src="/imgs/arrow.svg" class="arrow" alt="↗"></a>
+<br><br> 
+  <p>Chapter 1.3</p>
+  <a href="https://drive.google.com/file/d/1RLDF3FOL9C88cBHt0g6fOrOSU78Dzd9f/view?usp=share_link" target="_blank" rel="noopener noreferrer">A Trip to Neostone Town<img src="/imgs/arrow.svg" class="arrow" alt="↗"></a>
+<br><br> 
+  <p>Chapter 1.4</p>
+  <a href="https://drive.google.com/file/d/1N2V_VcZ0b9_EeOOPC_AgBZsaYS2zKHaP/view?usp=share_link" target="_blank" rel="noopener noreferrer">Speculative Urban Plan<img src="/imgs/arrow.svg" class="arrow" alt="↗"></a>
 
   </div>
 </div>
@@ -220,7 +212,7 @@ updated: 2026-11-04
 <div class="project-section grid-12">
   <div class="project-image col-12">
 
-![Neo Stone Age — Photography by Jo Yi](../../assets/Neo-Stone-Age/head.jpg)
+  ![Neo Stone Age — Photography by Jo Yi](../../assets/Neo-Stone-Age/head.jpg)
 
   </div>
 </div>
@@ -231,7 +223,7 @@ updated: 2026-11-04
 <div class="project-section grid-12">
 <div class="col-offset-4">
 
-# <span class="lang-en">Chapter 2</span><span class="lang-zh">第二章</span>
+<span class="lang-en">Chapter 2</span><span class="lang-zh">第二章</span>
 
 <p class="col-12 lang-en project-title">Synthesizing Neostone</p>
 <p class="col-12 lang-zh project-title">合成新礦物</p>
@@ -247,9 +239,7 @@ updated: 2026-11-04
     By learning from Earth's geological processes and translating mineral transformation into experimental manufacturing techniques, the research explores how the boundaries between natural formation and industrial production might become less distinct. In this way, material synthesis becomes both a practical investigation and a means of imagining different systems of making.
   </span>
   <span class="lang-zh">
-    混凝土產業所帶來的環境負擔，促使我們重新思考既有的材料製造方式。工業製程中被視為廢棄物的礦物，是否能透過地質聚合技術，轉化為新的建築與生活材料？「合成新礦物」同時是一項材料實驗，也是一種對替代製造系統的想像。研究將大理石粉、石灰顆粒、砂與爐渣等工業副產物重新組合，探索如何讓這些不再被需要的礦物，重新進入城市的物質循環。
-    <br><br>
-    Neostone 並不只是試圖以新的材料取代既有材料，更希望重新理解自然生成物與人造物之間的關係。透過學習地球的地質作用，並將礦物的形成與轉化過程轉譯為人類可操作的製造技術，研究試圖模糊自然造物與人工製造之間的界線，進一步探索工業生產系統的其他可能性。
+    混凝土產業所帶來的環境負擔，促使我們重新思考既有的材料製造方式。工業製程中被視為廢棄物的礦物，是否能透過地質聚合技術，轉化為新的建築與生活材料？此計畫同時是一項材料實驗，也是一種對替代製造系統的想像。研究將大理石粉、石灰顆粒、砂與爐渣等工業副產物重新組合，探索如何讓這些不再被需要的礦物，重新進入城市的物質循環。地質聚合技術並不只是試圖以新的材料取代既有材料，更希望重新理解自然生成物與人造物之間的關係。透過學習地球的地質作用，並將礦物的形成與轉化過程轉譯為人類可操作的製造技術，研究試圖模糊自然造物與人工製造之間的界線，進一步探索工業生產系統的其他可能性。
   </span>
 </p>
 
@@ -262,7 +252,7 @@ updated: 2026-11-04
 <div class="project-section grid-12">
   <div class="col-8">
 
-    <div style="padding:56.25% 0 0 0;position:relative;">
+  <div style="padding:56.25% 0 0 0;position:relative;">
       <iframe
         src="https://player.vimeo.com/video/738254842?h=e825d03f73&byline=0&portrait=0"
         style="position:absolute;top:0;left:0;width:100%;height:100%;"
@@ -275,13 +265,13 @@ updated: 2026-11-04
 
   </div>
 
-  <div class="col-4 project-text">
+  <div class="col-4 side-description">
 
-    <p>Chapter 2.1</p>
-    <a href="https://vimeo.com/738275291" target="_blank" rel="noopener noreferrer"><u>Used Concrete Harvesting</u></a>
-
-    <p>Chapter 2.2</p>
-    <a href="../Mineralloop"><u>Mineralloop</u></a>
+  <p>Chapter 2.1</p>
+    <a href="https://vimeo.com/738275291" target="_blank" rel="noopener noreferrer">Used Concrete Harvesting<img src="/imgs/arrow.svg" class="arrow" alt="↗"></a>
+<br><br>
+  <p>Chapter 2.2</p>
+    <a href="../Mineralloop">Mineralloop<img src="/imgs/arrow.svg" class="arrow" alt="↗"></a>
 
   </div>
 </div>
@@ -294,27 +284,27 @@ updated: 2026-11-04
 
 ![Limestone](../../assets/Neo-Stone-Age/nsa-9.jpg)
 
-<p class="image-description">Limestone</p>
+<p class="lang-en image-description">Limestone</p>
+<p class="lang-zh image-description">石灰岩</p>
 
   </div>
   <div class="project-image col-4">
 
 ![Sand](../../assets/Neo-Stone-Age/nsa-10.jpg)
 
-<p class="image-description">Sand</p>
+<p class="lang-en image-description">Sand</p>
+<p class="lang-zh image-description">海砂</p>
 
   </div>
   <div class="project-image col-4">
 
 ![Marlstone](../../assets/Neo-Stone-Age/nsa-11.jpg)
 
-<p class="image-description">Marlstone</p>
+<p class="lang-en image-description">Marlstone</p>
+<p class="lang-zh image-description">泥灰岩</p>
 
   </div>
 </div>
-
-
-<!-- MATERIAL EXPERIMENT IMAGE -->
 
 <div class="project-section grid-12">
   <div class="project-image col-10">
@@ -322,12 +312,7 @@ updated: 2026-11-04
 ![Neostone material experiment](../../assets/Neo-Stone-Age/nsa-5.jpg)
 
   </div>
-</div>
 
-
-<!-- OBJECTS INTRODUCTION IMAGES -->
-
-<div class="project-section grid-12">
   <div class="project-image col-10 col-offset-2">
 
 ![Neo Scholar's Stones](../../assets/Neo-Stone-Age/nsa-6.jpg)
@@ -336,29 +321,69 @@ updated: 2026-11-04
 </div>
 
 
+<!-- MAKING PROCESS -->
+
+<div class="project-section grid-12" id="process">
+
+# <span class="lang-en">Process</span><span class="lang-zh">發展過程</span>
+
+<p class="col-12 lang-en project-title">Experiments</p>
+<p class="col-12 lang-zh project-title">材料實驗</p>
+
+
+  <div class="project-image col-4">
+
+![Neostone making process](../../assets/Neo-Stone-Age/nsa-14.jpg)
+
+  </div>
+  <div class="project-image col-4">
+
+![Neostone making process](../../assets/Neo-Stone-Age/nsa-14-2.jpg)
+
+  </div>
+  <div class="project-image col-4">
+
+![Neostone making process](../../assets/Neo-Stone-Age/nsa-14-3.jpg)
+
+  </div>
+
+<div class="project-image col-4">
+
+![Neostone experiment](../../assets/Neo-Stone-Age/nsa-18.jpg)
+
+  </div>
+  <div class="project-image col-4">
+
+![Neostone experiment](../../assets/Neo-Stone-Age/nsa-17.jpg)
+
+  </div>
+  <div class="project-image col-4">
+
+![Neostone making process animation](../../assets/Neo-Stone-Age/nsa-16.gif)
+
+  </div>
+  
+</div>
+
+
+
 <!-- NEO SCHOLAR'S STONES -->
 
-<div class="project-section grid-12">
+<div class="project-section grid-12" id="collection">
 
-# <span class="lang-en">Form Follows Gaia</span><span class="lang-zh">形隨大地</span>
+# <span class="lang-en">Collection</span><span class="lang-zh">系列作品</span>
 
-<p class="col-12 lang-en project-title">Neo Scholar's Stones</p>
+<p class="col-12 lang-en project-title">Form Follows Gaia</p>
 <p class="col-12 lang-zh project-title">新怪石供</p>
 
 <p class="col-8 project-text">
   <span class="lang-en">
-    Across Asia, traditions of appreciating naturally formed stones have long involved collecting distinctive rocks from landscapes and bringing them into gardens or interior spaces as objects of contemplation.
-    <br><br>
-    Drawing upon this tradition, the research uses natural stones as references, translating their forms into digital models before reconstructing them through a combination of digital design and hands-on making.
+    Across Asia, traditions of appreciating naturally formed stones have long involved collecting distinctive rocks from landscapes and bringing them into gardens or interior spaces as objects of contemplation.Drawing upon this tradition, the research uses natural stones as references, translating their forms into digital models before reconstructing them through a combination of digital design and hands-on making.
     <br><br>
     Neo Scholar's Stones explores the boundary between natural and manufactured forms. At the same time, the collection proposes another approach to material use: creating objects with geological characteristics from reclaimed industrial byproducts, rather than relying entirely on the continued extraction of natural stone.
   </span>
   <span class="lang-zh">
-    在亞洲的賞石文化中，人們會從湖泊、山林與洞穴等自然環境中尋找形態特殊的石頭，將它們帶入庭園或室內，作為觀賞與沉思的對象。
-    <br><br>
-    延續這個傳統，研究以自然石材作為造形參考，先將石頭的輪廓轉化為數位模型，再透過數位設計與手工製作，重新構成雕塑物件。
-    <br><br>
-    「新怪石供」試圖模糊自然形態與人造形態之間的界線。同時，它也提出另一種材料使用方式：透過重新利用工業副產物來創造具有自然特徵的物件，而不必持續從自然環境中開採新的石材。
+    在亞洲的賞石文化中，人們會從湖泊、山林與洞穴等自然環境中尋找形態特殊的石頭，將它們帶入庭園或室內，作為觀賞與沉思的對象。延續這個傳統，利用“地質聚合物”創造出<u>新怪石供 / scholar’s stone</u>。透過此系列，這種把天然石頭轉化成居家擺飾品的概念，呼應設計師本人其創作理念，試圖模糊自然形態和人造形態之間的界限，它也展現出了重新利用人造廢棄原料而不是持續竊取自然資源的可能性。創作過程中參考真正的石頭並配合電腦建模重新切片組合，創作出兼具手感與數位的造型。 
   </span>
 </p>
 
@@ -510,55 +535,91 @@ updated: 2026-11-04
 </div>
 
 
-<!-- MAKING PROCESS -->
-
 <div class="project-section grid-12">
+  <div class="project-image col-10 col-offset-2">
 
-# <span class="lang-en">Making Process</span><span class="lang-zh">製作過程</span>
+![Neo Scholar's Stone cubes SP](../../assets/Neo-Stone-Age/nss-SP.jpg)
 
-<p class="col-12 lang-en project-title">Experiments</p>
-<p class="col-12 lang-zh project-title">材料實驗</p>
+<p class="image-description">Neostone bricks</p>
+
+  </div>
 
 </div>
 
 
-<!-- MAKING PROCESS IMAGES -->
 
-<div class="project-section grid-12">
-  <div class="project-image col-4">
 
-![Neostone making process](../../assets/Neo-Stone-Age/nsa-14.jpg)
 
-  </div>
-  <div class="project-image col-4">
+<div class="project-section exhi-sec grid-12" id="exhibition">
 
-![Neostone making process](../../assets/Neo-Stone-Age/nsa-14 2.jpg)
+# <span class="lang-en">Exhibition</span><span class="lang-zh">展覽記錄</span>
 
-  </div>
-  <div class="project-image col-4">
 
-![Neostone making process](../../assets/Neo-Stone-Age/nsa-14 3.jpg)
 
-  </div>
+<h6 class="col-12"> 2021 KABK Graduation show</h6>
+<p class="col-12 lang-en project-title">Neo Stone Age, Den Haag</p>
+<p class="col-12 lang-zh project-title">荷蘭海牙皇家藝術學院畢業展</p>
+
+<div class="project-image col-6">
+
+![KABK Graduation show](../../assets/Neo-Stone-Age/2021-KABK-1.jpg "")
+
 </div>
 
-<div class="project-section grid-12">
-  <div class="project-image col-4">
+<div class="project-image col-6">
 
-![Neostone experiment](../../assets/Neo-Stone-Age/nsa-18.jpg)
+![KABK Graduation show](../../assets/Neo-Stone-Age/2021-KABK.jpg "")
 
-  </div>
-  <div class="project-image col-4">
-
-![Neostone experiment](../../assets/Neo-Stone-Age/nsa-17.jpg)
-
-  </div>
-  <div class="project-image col-4">
-
-![Neostone making process animation](../../assets/Neo-Stone-Age/nsa-16.gif)
-
-  </div>
 </div>
+
+</div>
+
+<div class="project-section exhi-sec grid-12">
+
+<h6 class="col-12"> 2021 DDW </h6>
+<p class="col-12 lang-en project-title">Domesticating Limestone, Eindhoven</p>
+<p class="col-12 lang-zh project-title">荷蘭設計師週</p>
+
+<div class="project-image col-10">
+
+![Neo-Stone-Age exhi](../../assets/Neo-Stone-Age/2021-exhibition-Kazerne.jpg "")
+<p class="image-description">Kazerne</p>
+
+</div>
+
+<div class="project-image col-10 col-offset-2 ">
+
+![Neo-Stone-Age exhi](../../assets/Neo-Stone-Age/2021-exhibition-klokgebouw.jpg "")
+<p class="image-description">klokgebouw</p>
+
+</div>
+</div>
+
+
+<div class="project-section exhi-sec grid-12">
+
+<h6 class="col-12"> 2022 ALCOVA </h6>
+<p class="col-12 lang-en project-title">Synthesizing Neostone, Milan</p>
+<p class="col-12 lang-zh project-title">米蘭設計展</p>
+
+<div class="project-image col-10 ">
+
+![Neo-Stone-Age exhi](../../assets/Neo-Stone-Age/2022-alcova-3.jpg "")
+
+</div>
+
+
+<div class="project-image col-10 col-offset-2">
+
+![KABK Graduation show](../../assets/Neo-Stone-Age/2022-alcova-1.jpg "")
+
+</div>
+
+</div>
+
+
+
+
 
 
 <!-- FURTHER READING -->
@@ -567,20 +628,18 @@ updated: 2026-11-04
 
 <span class="lang-en">Further reading</span><span class="lang-zh">延伸閱讀</span>
 
-<p class="lang-en project-text">
+<p class="project-text">
+
+  <a href="https://wiki.opensourceecology.org/wiki/Geopolymers" target="_blank" rel="noopener noreferrer"><u>Geopolymer</u></a> - Open Source Ecology<br>
   <a href="../Mineralloop"><u>Mineralloop</u></a> - New craft developed from Neostone<br>
   <a href="../Biorock"><u>Biorock</u></a> - Experiments on electrolysis<br>
   <a href="https://materialdistrict.com/material/neostone/"><u>Material District</u></a> - More properties info<br>
-  <a href="https://www.designboom.com/design/erco-lai-reintroduces-limescale-as-building-material-and-envisions-neo-stone-age-07-26-2021/"><u>Designboom</u></a> - Reintroducing limescale as a building material and envisioning neo stone age<br>
-  <a href="https://drive.google.com/drive/folders/11Z4ytsOxWo2yhsNI3I4xAaY0Gf5glwxX?usp=sharing"><u>Press kit</u></a> - High-resolution images
+  <a href="https://www.designboom.com/design/erco-lai-reintroduces-limescale-as-building-material-and-envisions-neo-stone-age-07-26-2021/"><u>Designboom</u></a> - Reintroducing limescale as a building material and envisioning Neo Stone Age
+
 </p>
 
-<p class="lang-zh project-text">
-  <a href="../Mineralloop"><u>Mineralloop</u></a> - New craft developed from Neostone<br>
-  <a href="../Biorock"><u>Biorock</u></a> - Experiments on electrolysis<br>
-  <a href="https://materialdistrict.com/material/neostone/"><u>Material District</u></a> - More properties info<br>
-  <a href="https://www.designboom.com/design/erco-lai-reintroduces-limescale-as-building-material-and-envisions-neo-stone-age-07-26-2021/"><u>Designboom</u></a> - Reintroducing limescale as a building material and envisioning neo stone age<br>
-  <a href="https://drive.google.com/drive/folders/11Z4ytsOxWo2yhsNI3I4xAaY0Gf5glwxX?usp=sharing"><u>Press kit</u></a> - High-resolution images
-</p>
+
+
+
 
 </div>

@@ -1,0 +1,38 @@
+---
+const { locale = "en" } = Astro.props;
+---
+
+<footer class="ee-footer">
+    <div class="ee-footer-links">
+        <div class="lang-change footer-left">
+            <a
+                href="/zh/"
+                class:list={{ active: locale === "zh" }}
+                aria-current={locale === "zh" ? "page" : undefined}
+            >
+                中
+            </a>
+            <span> / </span>
+            <a
+                href="/en/"
+                class:list={{ active: locale === "en" }}
+                aria-current={locale === "en" ? "page" : undefined}
+            >
+                EN
+            </a>
+        </div>
+
+        <a
+            class="footer-right"
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://www.instagram.com/ercoffice_by_ercolai/"
+        >
+            Instagram
+        </a>
+    </div>
+</footer>
+
+<div class="ee-disclaimer">
+    <p>©by ercoffice / 2026</p>
+</div>

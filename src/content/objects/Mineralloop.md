@@ -45,7 +45,7 @@ updated: 2026-11-04
 
   <span class="lang-zh">
       工業製程所產生的礦物副產物，是否能重新成為修補既有物件的材料？
-      Mineralloop 是一系列使用荷蘭海牙當地的剩餘材料與二手物件製作的家居用品。許多二手商店中未能售出的商品，最終仍會被送往焚化處理。因此，這項研究從既有的玻璃與陶瓷物件出發，運用海牙當地產生的礦物副產物開發新的礦物塗覆材料，讓原本可能被丟棄的物件得以重新利用。
+      <u>Mineralloop / 礦物循環</u> 是一系列使用荷蘭海牙當地的剩餘材料與二手物件製作的家居用品。許多二手商店中未能售出的商品，最終仍會被送往焚化處理。因此，這項研究從既有的玻璃與陶瓷物件出發，運用海牙當地產生的礦物副產物開發新的礦物塗覆材料，讓原本可能被丟棄的物件得以重新利用。
       面對天然資源逐漸耗竭的現況，Mineralloop 嘗試從已經存在的材料與物件中尋找新的可能。透過修補與材料的重新組合，這項研究重新思考物件的製造與再造方式，探索更貼近當代處境的地方性循環製造模式。
   </span>
 </p>
@@ -71,12 +71,10 @@ updated: 2026-11-04
 
 
 
-
 <div class="project-section grid-12">
 <div class="col-offset-4">  
 
 # <span class="lang-en">Process</span><span class="lang-zh">發展過程</span>
-
 
 <p class="col-12 lang-en project-title">Circular Craft</p>
 <p class="col-12 lang-zh project-title">創新工藝</p>
@@ -87,7 +85,7 @@ updated: 2026-11-04
   </span>
 
   <span class="lang-zh">
-    在Neo Stone Age 研究的基礎上，鈋谷設計事物所開發了一種新的工藝：用 "Neostone" 一種材料去修復破碎的玻璃器皿或陶瓷。鈋谷設計事物所使用廢棄的大理石灰顆粒、采石場的石灰石粉末或建築工地用剩的沙子開發的 "Neostone"，也被稱為地質聚合物。此新技法修復了破碎不完美的玻璃器皿，同時也賦予了物件新的觸感。另外，此技法無需燒製。
+      延續Neo Stone Age / 新石紀 的研究，此系列進一步探索如何運用新礦物 (Neostone)，修補破損或具有瑕疵的玻璃與陶瓷物件，其是一種透過地質聚合技術（Geopolymerization）開發的實驗性礦物材料。此技術能使用廢棄石灰顆粒、採石場的石灰岩粉末，以及建築工地的砂等礦物資源製成，無須經過高溫窯燒，便能作為覆層施作於物件表面。這項工藝借鑑日本金繼（Kintsugi）的修補精神，不僅修復既有物件，也透過新的礦物表面、紋理與觸感，賦予它們不同的樣貌。
   </span>
 </p>
 </div>
@@ -135,7 +133,7 @@ updated: 2026-11-04
 
 <div class="project-section grid-12">
 
-# <span class="lang-en">Objects</span><span class="lang-zh">作品</span>
+# <span class="lang-en">Objects</span><span class="lang-zh">系列作品</span>
 
 
   <p class="col-12 project-title">Collection 2024</p>
@@ -224,20 +222,22 @@ updated: 2026-11-04
 
 <div class="project-section exhi-sec grid-12">
 
-# <span class="lang-en">exhibition</span><span class="lang-zh">展覽</span>
+# <span class="lang-en">Exhibition</span><span class="lang-zh">展覽記錄</span>
 
-<h6 class="col-12 lang-en">2022 Object Rotterdam</h6>
+<h6 class="col-12"> 2022 Object Rotterdam</h6>
+
 <p class="col-12 lang-en project-title">Mineralloop Winkel, Netherlands</p>
 
-
-<h6 class="col-12 lang-zh">2022 鹿特丹</h6>
-<p class="col-12 lang-zh project-title">礦物循環商店</p>
+<p class="col-12 lang-zh project-title">荷蘭 鹿特丹 </p>
 
 
 
   <div class="project-image col-10">
 
 ![Mineralloop](../../assets/Mineralloop/ml-objectRTM-2.jpg)
+
+  <p class="lang-zh image-description"> 礦物循環商店 / Mineralloop Winkel</p>
+
   </div>
 
   <div class="project-image col-10 col-offset-2">
@@ -245,16 +245,18 @@ updated: 2026-11-04
 ![Mineralloop](../../assets/Mineralloop/ml-objectRTM-1.jpg)
   </div>
 
-<h6 class="col-12 lang-en">2023 ALCOVA</h6>
+<h6 class="col-12">2023 ALCOVA</h6>
 <p class="col-12 lang-en project-title">Duplicating Landscape, Milan</p>
 
-
-<h6 class="col-12 lang-zh">2023 米蘭 </h6>
-<p class="col-12 lang-zh project-title">地景複製</p>
+<p class="col-12 lang-zh project-title">米蘭設計週</p>
 
  <div class="project-image col-8">
 
 ![Mineralloop](../../assets/Mineralloop/ml-8.jpg "Credits: Qianyin Tan")
+
+<p class="lang-zh image-description"> 地景複製 / Duplicating Landscape </p>
+
+
   </div>
 
 

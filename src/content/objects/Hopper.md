@@ -3,7 +3,7 @@ slug: Hopper
 
 year: 2017
 title_en: Hopper
-title_zh: 料斗筆筒
+title_zh: 容器系列
 
 context:
   - Local manufacturing
@@ -18,7 +18,7 @@ material: Galvanized steel
 phase: METAL
 object: Pen holder
 dimensions: H.12 x W.8 x D.8cm
-image: /imgs/Hopper.webp
+image: /imgs/Hopper.jpg
 
 timeline:
   - year: 2017
@@ -32,9 +32,9 @@ updated: 2026-10-07
 
 ---
 
-<div class="project-section grid-12">
+<div class="project-section grid-12" id="concept">
 
-# <span class="lang-en">Introduction</span><span class="lang-zh">簡介</span>
+# <span class="lang-en">Concept</span><span class="lang-zh">概念</span>
 
 <p class="col-12 lang-en project-title">
   Industrial Geometry
@@ -51,7 +51,7 @@ updated: 2026-10-07
   </span>
 
   <span class="lang-zh">
-    這是一個與台灣一家擁有 25 年經驗的 OEM 工廠合作的專案。這間在地工廠長期製作機器的外殼與結構，也將這些製造能力延伸到日常生活之中。作品的概念建立在工廠既有的製作方式與熟悉的材料之上，並受到大型材料分配器的啟發。Hopper 採用符合人體工學的傾斜設計，讓拿取筆的動作更加自然。
+      這項作品與台灣一家擁有 25 年製造經驗的 OEM 工廠合作開發。工廠長期專注於機械設備的外殼與結構製造，這次則將既有的加工技術與材料應用延伸至日常用品。<u>Hopper / 料斗筆筒</u>的設計靈感來自工業料斗，將原本用於引導物料集中流動的傾斜結構，轉化為方便拿取筆具的造形。作品以工廠熟悉的材料與製程為基礎，探索工業構件如何透過設計轉化為日常物件。
   </span>
 
 </p>
@@ -91,14 +91,14 @@ updated: 2026-10-07
 
   <div class="col-offset-4">
 
-# <span class="lang-en">Process</span><span class="lang-zh">製程</span>
+# <span class="lang-en">Process</span><span class="lang-zh">製作過程</span>
 
 <p class="col-12 lang-en project-title">
   Sheet Metal Manufacturing
 </p>
 
 <p class="col-12 lang-zh project-title">
-  金屬板材製造
+  板金加工
 </p>
 
 <p class="col-8 project-text">
@@ -108,7 +108,7 @@ updated: 2026-10-07
   </span>
 
   <span class="lang-zh">
-    這是一個與台灣一家擁有 25 年經驗的 OEM 工廠合作的專案。工廠擅長雷射切割、金屬板材折彎與焊接，能夠透過精確的開槽與最少量的折彎形成容器結構。從鍍鋅鋼板到粉體塗裝，工廠也能提供不同的表面與色彩選擇，Erco Lai 則深入參與整個製作過程。此外，他們也能透過雷射切割技術製作複雜的幾何與形狀，提供其他生產方式難以達到的精確度。
+    這是一個與台灣一家擁有 25 年經驗的 OEM 工廠合作的專案。工廠擅長雷射切割、金屬板材折彎與焊接，能夠透過精確的開槽與最少量的折彎形成容器結構。從鍍鋅鋼板到粉體塗裝，工廠也能提供不同的表面與色彩選擇，本專案則深入參與整個製作過程。此外，他們也能透過雷射切割技術製作複雜的幾何與形狀，提供其他生產方式難以達到的精確度。
   </span>
 
 </p>
@@ -152,7 +152,7 @@ updated: 2026-10-07
 </p>
 
 <p class="col-12 lang-zh project-title">
-  與 TPCreative 合作
+  變電箱計畫
 </p>
 
 <p class="col-8 project-text">
@@ -162,7 +162,7 @@ updated: 2026-10-07
   </span>
 
   <span class="lang-zh">
-    「The Electrical Transformers Reusing Project」以「container to container」為概念，與 TPCreative 合作，重新賦予電力系統中退役或淘汰元件的價值。作為第一步，Erco Lai 決定讓已經上漆的電力變壓器重新獲得新的生命。
+    從「變電鄉」的概念出發，與台電文創合作，探索電力系統退役設備的再利用可能。計畫將目光投向街頭常見、色彩鮮明的變電箱外殼，重新思考這些工業構件在原有功能結束後，如何轉化為日常生活中的物件。以「從一個容器到另一個容器」為構想，設計將退役變電箱的彩繪金屬外殼作為材料起點，保留其原有的色彩與工業特徵，並透過重新構成，探索它們作為新容器的可能性。
   </span>
 
 </p>
