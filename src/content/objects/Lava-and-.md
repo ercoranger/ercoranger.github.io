@@ -33,21 +33,21 @@ updated: 2026-10-07
 # <span class="lang-en">Introduction</span><span class="lang-zh">概念簡介</span>
 
 <p class="col-12 lang-en project-title">
-  Nothing gets lost, everything transforms.
+  Nothing gets lost, everything transforms
 </p>
 
 <p class="col-12 lang-zh project-title">
-  沒有任何東西消失，一切都在轉化。
+  萬物不滅，唯有轉化
 </p>
 
 <p class="col-8 project-text">
 
   <span class="lang-en">
-    This project works with Lucie Ponard. We tried to materialize an emotion named "mono no aware" (物哀). It is a Japanese expression of the ephemeral nature of beauty – the quietly elated, bittersweet feeling of having been witness to the dazzling circus of life – knowing that none of it can last. We decided to use lava stone as the main material and start to experiment, trying to create gradient texture from one state to another.
+    Developed in collaboration with Lucie Ponard, this project explores how the Japanese concept of mono no aware (物哀) can be expressed through material transformation. Often associated with an awareness of impermanence, mono no aware describes a bittersweet appreciation of fleeting beauty and the knowledge that nothing remains unchanged. Using lava stone as a starting point, the research investigates how changes in material states can become visible through textures and gradual transitions. By experimenting with heat and the interaction of different substances, the project seeks to translate an intangible emotion into physical forms that reveal the processes of transformation.
   </span>
 
   <span class="lang-zh">
-    這個實驗計畫與 Lucie Ponard 合作。我們嘗試將一種名為「mono no aware」（物哀）的情感物質化。這是一個用來描述美之短暫性的日文概念——一種在見證生命絢麗景象之後，帶著安靜欣喜與苦樂交織的感受，同時也明白這一切都不可能永久存在。我們決定以熔岩石作為主要材料，開始進行實驗，嘗試創造從一種狀態逐漸轉變至另一種狀態的漸變質地。
+      這項實驗計畫與 Lucie Ponard 合作開發，試圖透過材料轉化，呈現日本美學概念「物哀」（Mono no aware）所描述的情感。物哀與對無常的感知密切相關，指的是人們在欣賞短暫之美的同時，也意識到事物終將改變或消逝，因而產生的一種細膩而帶有感傷的情緒。研究以火山岩作為材料起點，探索如何透過不同物質狀態之間的漸變，讓轉化的過程呈現在材料表面。藉由加熱與不同物質之間的相互作用，試圖將抽象的情感轉譯為可感知的形態與紋理，使材料本身留下變化的痕跡。
   </span>
 
 </p>
@@ -83,17 +83,17 @@ updated: 2026-10-07
 </p>
 
 <p class="col-12 lang-zh project-title">
-  加熱熔融
+  重新熔融
 </p>
 
 <p class="col-8 project-text">
 
   <span class="lang-en">
-    They collected various materials, ranging from tin, glass, slag and lavastone, and attempted to combine them by partly melting them down. To accomplish this, they experimented with a variety of methods, from using a kiln to using a torch. As they did so, they sought to create a new shape or connection through the reheating process. As they tested and tried different techniques, they hoped to eventually find a successful combination of materials that would yield the desired result.
+      The experiments brought together materials including tin, glass, slag, and lava stone, investigating how they respond to heat and interact with one another. Using a kiln and a torch, the materials were reheated and partially melted to explore different forms of bonding, surface transformation, and material transition. Rather than shaping each material independently, the process investigates how their physical properties and responses to heat might contribute to the formation of new textures and connections.
   </span>
 
   <span class="lang-zh">
-    他們收集了各種材料，包括錫、玻璃、爐渣與熔岩石，並嘗試透過部分熔化的方式將它們結合。為了完成這個過程，他們實驗了不同的方法，從使用窯爐到使用火炬加熱。在這些實驗中，他們試圖透過重新加熱的過程創造新的形狀或連結。隨著不斷測試與嘗試不同的技術，他們希望最終找到一種成功的材料組合，以產生所期望的結果。
+    實驗收集了錫、玻璃、爐渣與火山岩等材料，觀察它們在加熱過程中的反應，以及不同物質相互結合的可能性。透過窯爐與噴火槍進行重新加熱與局部熔融，探索材料之間的黏結、表面變化及不同物質狀態的過渡。研究並非將每種材料分別塑造成預設形狀，而是觀察它們各自的物理特性與受熱反應，如何共同形成新的紋理與連結方式。
   </span>
 
 </p>
@@ -159,7 +159,7 @@ updated: 2026-10-07
 
   <div class="col-offset-4">
 
-# <span class="lang-en">Imagination</span><span class="lang-zh">想像</span>
+# <span class="lang-en">Imagination</span><span class="lang-zh">延伸想像</span>
 
 <p class="col-12 lang-en project-title">
   Faking Nature
@@ -172,13 +172,13 @@ updated: 2026-10-07
 <p class="col-8 project-text">
 
   <span class="lang-en">
-    It reminds Erco Lai of Taoism and it is saying a similar concept.<br>
-    In this ancient eastern philosophy, Taoism can be considered a lifestyle looking for harmony with the universal pattern. Also, it emphasizes Wu Wei (無為), which means action without intention, and naturalness. During that time and based on the theory, Toaists considered our human body as a garden with changing seasons in a balance. What if, we can imagine our manufacturing unit as a garden with a flowing system. He is not proposing that we go back to the Stone Age but futuristic cavemen with well-made stone tools and objects, following the natural rhythm, acquiring only the resource we need. By this means, this idea can provide a speculation for modern society.
+      The research also opens a speculative connection to Taoist philosophy, particularly its ideas of naturalness and wu wei (無為), often understood as acting without unnecessary force or interference.Drawing upon the Taoist view of human life as part of a continually changing natural order, the project imagines manufacturing as a garden-like system, where materials circulate, interact, and transform according to their own properties and environmental conditions.
+      <br><br>
+      Rather than proposing a return to the Stone Age, this vision imagines a different kind of technological future: one in which people develop sophisticated tools and objects while working more closely with natural rhythms and using resources according to their needs.It raises a broader question of how manufacturing might become less about imposing predetermined forms upon matter and more about participating in its ongoing transformation.
   </span>
 
   <span class="lang-zh">
-    這讓 Erco Lai 聯想到道家思想，其中也傳達了類似的概念。<br>
-    在這套古老的東方哲學中，道家可以被視為一種尋求與宇宙運行規律和諧相處的生活方式。同時，它也強調「無為」，也就是不帶意圖的行動，以及自然性。在當時以及這套理論之下，道家思想將人的身體視為一座具有季節變化並維持平衡的花園。如果我們可以把製造單元想像成一座具有流動系統的花園呢？他並不是主張我們回到石器時代，而是想像一群擁有製作良好的石器與物件、遵循自然節律的未來穴居人，只取得我們所需要的資源。透過這種方式，這個想法可以成為對現代社會的一種推測。
+      這項研究也延伸出與道家思想之間的連結，特別是「自然」與「無為」的觀念。無為並非完全不採取行動，而是強調順應事物的本性，避免不必要的強制與干預。從道家將人視為自然變化一部分的思想出發，研究進一步想像：如果我們將製造系統視為一座庭園，讓材料如同自然環境中的物質一般，在不同條件下流動、交換與轉化，會形成什麼樣的生產方式？這並不是主張人類回到石器時代，而是試圖想像另一種技術未來：人們依然擁有精良的工具與製造能力，卻能更貼近自然運作的節奏，依照實際需求取得與使用資源。在這樣的想像中，製造不再只是將預設的形態強加於材料之上，而是嘗試理解物質自身的變化，並參與其持續生成的過程。
   </span>
 
 </p>

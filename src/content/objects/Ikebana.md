@@ -33,16 +33,18 @@ updated: 2026-10-07
 
 <p class="col-12 lang-en project-title">Make flowers alive</p>
 
-<p class="col-12 lang-zh project-title">生之花</p>
+<p class="col-12 lang-zh project-title">讓花活起來</p>
 
 <p class="col-8 project-text">
 
   <span class="lang-en">
-    Ikebana is the Japanese art of flower arrangement and can be translated to “making flowers alive”. The floral composition painted by Eelke Jelles Eelkema has a vivid aesthetic which gave Erco Lai the idea that it could be astonishing to bring the flower painting to life using the technique of Ikebana. Thus, he dismantled the painting into different shapes and added small slots, with which it is possible to join the parts back together like a 3D puzzle.There is no right or wrong way to complete this puzzle. Instead, everyone can freely decide how to arrange the floral-shaped pieces which are also the attempt in Ikebana. To use the whole painting wisely, he started by cutting out shapes from the flowers in the center and worked my way to the border, in which the background has a remarkable texture.
+      Ikebana, the Japanese art of flower arrangement, can be understood as the practice of bringing flowers to life. Inspired by the vivid floral composition of *Still Life with Flowers* by Eelke Jelles Eelkema, the project explores how a two-dimensional painting can be transformed into a three-dimensional arrangement.
+      <br><br>
+      The flowers and other visual elements are extracted from the painting and translated into individual pieces with small connecting slots. These components can be assembled into a three-dimensional puzzle, allowing each person to arrange the composition freely rather than following a predetermined structure. Like Ikebana, the process encourages personal interpretation through the placement and relationship of individual elements.The pieces were developed by working from the flowers at the center of the painting toward its edges, incorporating the textured background as part of the composition. In this way, the entire painting becomes a source of forms for a new, rearrangeable object.
   </span>
 
   <span class="lang-zh">
-    Ikebana 是日本的插花藝術，可以翻譯為「讓花朵活起來」。Eelke Jelles Eelkema 所繪製的花卉構圖具有鮮明而生動的美感，讓 Erco Lai 想到，若以 Ikebana 的方式將這幅花卉畫作重新帶入立體空間，或許能產生令人驚豔的效果。因此，他將畫作拆解成不同的形狀，並加入小型卡榫，使各個部分能夠像 3D 拼圖一樣重新組合。這個拼圖沒有正確或錯誤的完成方式，每個人都可以自由決定如何排列這些花朵形狀的零件，而這個自由組合的過程本身也成為一種 Ikebana 的實踐。為了充分利用整幅畫作，他從中央的花朵開始切割出不同形狀，逐步向畫面的邊緣延伸，而背景本身則保留了具有特色的紋理。
+      日本傳統花道 Ikebana具有「賦予花朵生命」的意涵。作品受到荷蘭畫家 Eelke Jelles Eelkema 的《Still Life with Flowers》啟發，試圖將平面繪畫中的花卉構圖轉化為可以自由組合的立體物件。設計將畫作中的花朵與其他視覺元素分解為獨立的片狀構件，並在各個構件上加入細小的卡槽，使它們能像立體拼圖一樣相互組裝。不同於具有固定答案的拼圖，使用者可以自由決定花卉的排列與組合方式，藉由各個元素之間的位置與關係，重新詮釋原本的繪畫構圖，也呼應花道中自由安排花材的精神。製作時從畫面中央的花卉開始擷取造形，再逐漸延伸至畫作邊緣，將具有特殊紋理的背景也納入構件之中。透過這種方式，整幅畫作成為一組可以反覆拆解、重新排列的立體構成。
   </span>
 
 </p>
@@ -109,10 +111,10 @@ updated: 2026-10-07
 
   <div class="col-offset-4">
 
-# <span class="lang-en">Inspiration</span><span class="lang-zh">靈感</span>
+# <span class="lang-en">Inspiration</span><span class="lang-zh">靈感啟發</span>
 
 <p class="col-12 lang-en project-title">
-  Stilleven
+  Still life
 </p>
 
 <p class="col-12 lang-zh project-title">
@@ -122,11 +124,11 @@ updated: 2026-10-07
 <p class="col-8 project-text">
 
   <span class="lang-en">
-    Still Life with Flowers, the painting of Eelke Jelles Eelkema. Furthermore, this concept of 3D puzzle can also apply to other paintings with flowers and make a series of products, like another painting of Eelke Jelles Eelkema as well and the painting of Balthasar van der Ast. It can be produced as a souvenir with die cutting or as an online service with an algorithm for users customizing shapes and downloading layout.
+      The project takes Eelke Jelles Eelkema’s "Still Life with Flowers" as its starting point. The same approach could be applied to other floral paintings, including works by Eelkema and Balthasar van der Ast, to develop a series of three-dimensional puzzles. The concept also proposes different possibilities for production and distribution: die-cut pieces could be produced as museum souvenirs, while a digital platform could allow users to customize the shapes through an algorithm and download cutting layouts for fabrication.
   </span>
 
   <span class="lang-zh">
-    《Still Life with Flowers》是 Eelke Jelles Eelkema 的作品。此外，這種 3D 拼圖的概念也可以延伸至其他以花卉為題材的畫作，進一步發展成一系列產品，例如 Eelke Jelles Eelkema 的其他作品，以及 Balthasar van der Ast 的畫作。它可以透過模切製作成紀念品，也可以發展成線上服務，讓使用者透過演算法自訂形狀並下載版型。
+      作品以 Eelke Jelles Eelkema 的《Still Life with Flowers》為創作起點。相同的設計方法也可以應用於其他花卉繪畫，例如 Eelkema 與 Balthasar van der Ast 的作品，進一步發展為一系列立體拼圖。這個概念也提出不同的製作與使用可能：透過刀模裁切，可以將作品製作為美術館紀念商品；或者發展為線上客製化服務，讓使用者透過演算法調整構件造形，並下載裁切圖面自行製作。
   </span>
 
 </p>

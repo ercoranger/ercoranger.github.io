@@ -161,7 +161,7 @@ updated: 2026-10-07
 
 </div>
 
-<div class="project-image col-8 col-offset-4">
+<div class="project-image col-offset-4">
 
 ![Rift Stockholm edition](../../assets/Rift/rift-08.jpg)
 
@@ -197,13 +197,13 @@ updated: 2026-10-07
 <p class="col-12 lang-zh project-title">荷蘭 阿姆斯特丹</p>
 
 
-<div class="project-image col-8">
+<div class="project-image col-8 mobile-off">
 
 ![Rift Amsterdam edition](../../assets/Rift/rift-10.jpg)
 
 </div>
 
-<div class="project-image col-8 col-offset-4">
+<div class="project-image col-offset-4">
 
 ![Rift Amsterdam edition](../../assets/Rift/rift-11.jpg)
 

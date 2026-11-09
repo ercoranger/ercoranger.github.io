@@ -145,7 +145,7 @@ updated: 2026-11-04
 </div>
 
 <div class="project-section grid-12">
-  <div class="project-image col-8 col-offset-4">
+  <div class="project-image col-offset-4">
 
 ![Ginkgo aluminum edition](../../assets/Ginkgo/gk-a-01.jpg)
 
@@ -156,7 +156,7 @@ updated: 2026-11-04
 ![Ginkgo aluminum edition](../../assets/Ginkgo/gk-a-02.jpg)
 
   </div>
-  <div class="project-image col-8 col-offset-4">
+  <div class="project-image col-offset-4">
 
 ![Ginkgo aluminum edition](../../assets/Ginkgo/gk-a-03.jpg)
 

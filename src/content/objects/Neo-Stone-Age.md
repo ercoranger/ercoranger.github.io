@@ -164,7 +164,7 @@ updated: 2026-11-04
 <!-- GEOPOLYMER IMAGE -->
 
 <div class="project-section grid-12">
-  <div class="project-image col-8 col-offset-4">
+  <div class="project-image col-offset-4">
 
 ![Geopolymer material research](../../assets/Neo-Stone-Age/nsa-4.jpg)
 
@@ -472,7 +472,7 @@ updated: 2026-11-04
 <!-- NEO SCHOLAR'S STONE #008 -->
 
 <div class="project-section grid-12">
-  <div class="project-image col-8 col-offset-4">
+  <div class="project-image col-offset-4">
 
 ![Neo Scholar's Stone #008 — Limestone and sand](../../assets/Neo-Stone-Age/nss008.jpg)
 

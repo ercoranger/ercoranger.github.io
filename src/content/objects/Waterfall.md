@@ -73,7 +73,7 @@ updated: 2026-11-04
 
 
 <div class="project-section grid-12">
-  <div class="project-image col-8 col-offset-4">
+  <div class="project-image col-offset-4">
 
 ![Waterfall shelving detail](../../assets/Waterfall/w-5.jpg)
 
@@ -205,7 +205,7 @@ updated: 2026-11-04
 ![Waterfall at Alcova 2023, Milan](../../assets/Waterfall/w-14.jpg)
 
   </div>
-  <div class="project-image col-8 col-offset-4">
+  <div class="project-image col-offset-4">
 
 ![Waterfall at Alcova 2023, Milan](../../assets/Waterfall/w-15.jpg "Credits: Luo Li")
 

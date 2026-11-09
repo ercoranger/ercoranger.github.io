@@ -1,11 +1,21 @@
 ---
 import site from "../content/site.json";
-const { locale = "en", headerLink = "about" } = Astro.props;
+
+const { locale = "en", headerTarget = "about" } = Astro.props;
 const content = site[locale] ?? site.en;
 
-const isIndexLink = headerLink === "home";
-const linkText = isIndexLink ? content.index : content.about;
-const linkHref = isIndexLink ? `/${locale}/` : `/${locale}/about/`;
+const headerLinks = {
+    about: {
+        text: content.about,
+        href: `/${locale}/about/`,
+    },
+    custom: {
+        text: content.headerLink,
+        href: "#",
+    }, //未來加上與定義連結的地方
+};
+
+const currentLink = headerLinks[headerTarget];
 ---
 
 <header>
@@ -14,9 +24,11 @@ const linkHref = isIndexLink ? `/${locale}/` : `/${locale}/about/`;
             <img class="ee-logo" src="/imgs/header-logo.svg" alt="ercoffice" />
         </a>
 
-        <a class="ee-link" href={linkHref}>
-            {linkText}
-        </a>
+        {currentLink && (
+            <a class="ee-link" href={currentLink.href}>
+                {currentLink.text}
+            </a>
+        )}
     </div>
 
     <nav class="ee-menu">

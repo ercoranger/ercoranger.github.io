@@ -43,11 +43,11 @@ updated: 2026-10-07
 <p class="col-8 project-text">
 
   <span class="lang-en">
-    Commissioned by Binary Pottery, which focuses on ceramic 3D printing, this project explores the relationship between digital fabrication, material behavior, and craftsmanship. Binary Pottery has studied the making process for years, from the proportion of clay to the extrusion system of the machine. They also developed their own method for laying down the clay coil interactively, creating a distinctive surface pattern while reinforcing the structure of the product.
+    Commissioned by Binary Pottery, a studio specializing in ceramic 3D printing, this project builds on their years of research into the making process, from clay composition to extrusion machinery. They have also developed their own toolpaths to lay down clay coils in an interactive way, creating distinctive surface patterns while strengthening the structure of the objects.
   </span>
 
   <span class="lang-zh">
-    本作品受專注於陶瓷 3D 列印的 Binary Pottery 委託，探索數位製造、材料特性與工藝之間的關係。Binary Pottery 長期研究製作過程，從黏土比例到機器的擠出系統皆進行深入研究。他們也發展出一套互動式鋪設泥條的方法，在創造獨特表面紋理的同時，也強化作品本身的結構。
+    這項作品受專注於陶瓷 3D 列印的 Binary Pottery 委託開發。工作室多年來持續研究陶瓷列印的製作過程，從陶土配方比例到擠出設備的開發，逐步建立自己的製造方法。他們也發展出獨特的列印路徑，透過控制陶土泥條的堆疊方式，不僅在物件表面形成特殊的紋理，也能強化整體結構。
   </span>
 
 </p>
@@ -83,18 +83,21 @@ updated: 2026-10-07
 </p>
 
 <p class="col-12 lang-zh project-title">
-  陶瓷 3D 列印
+  陶瓷3D列印
 </p>
 
 <p class="col-8 project-text">
 
   <span class="lang-en">
-    However, the self-made machine has a few restrictions, such as the limitation of width. Due to this situation, the design follows several conditions: the width is smaller than 18 cm and the height is not taller than 25 cm; the design considers a shrinkage of around 15–20% after baking; and the dot pattern should be preserved or improved. Binary Pottery also hopes to develop a tableware series based on these specifications. This is where Erco Lai began to design and research.
-    The project has one advantage: products and prototypes can be made using the same machine. On the other hand, G-codes have to be created through Grasshopper. Thanks to his experience in digital fabrication, Erco Lai is able to handle this procedure. Nevertheless, he believes that this approach offers a glimpse into a future kind of factory and manufacturer.
+      However, the self-built machine has certain limitations, particularly in terms of printing width. Based on these constraints, the design follows three specifications:<br><br>
+      i. The width must be less than 18 cm, and the height must not exceed 25 cm.<br>
+      ii. Allow for approximately 15–20% shrinkage after firing.<br>
+      iii. Preserve or further develop the dot pattern.<br><br>
+      They also hope to develop a tableware series based on these specifications. This is where Erco Lai began his design and research process.One advantage of this approach is that both prototypes and final products can be made using the same machine. On the other hand, the process requires generating G-code through Grasshopper. 
   </span>
 
   <span class="lang-zh">
-    然而，這台自製機器仍有一些限制，例如列印寬度的限制。因此，設計必須遵循幾項條件：寬度小於 18 公分，高度不超過 25 公分；同時考慮燒製後約 15–20% 的收縮率；並保留或進一步改善點狀紋理。Binary Pottery 也希望以這些規格為基礎發展一系列餐具，而這也成為 Erco Lai 開始進行設計與研究的切入點。這個專案的一項優勢，是可以使用同一台機器製作產品與原型。另一方面，則需要透過 Grasshopper 建立 G-code。憑藉過去數位製造的經驗，Erco Lai 能夠處理這個製程。然而，他也認為這樣的方式讓人看見了一種未來工廠與製造者的可能形式。
+    然而，這台自製機器仍有一些限制，例如列印寬度的限制。因此，設計必須遵循幾項條件：寬度小於 18 公分，高度不超過 25 公分；同時考慮燒製後約 15–20% 的收縮率；並保留或進一步改善點狀紋理。Binary Pottery 也希望以這些規格為基礎發展一系列餐具，而這也成為開始進行設計與研究的切入點。這個專案的一項優勢，是可以使用同一台機器製作產品與原型。另一方面，則需要透過 Grasshopper 建立 G-code。憑藉過去數位製造的經驗，設計師能夠處理這個製程。然而，他也認為這樣的方式讓人看見了一種未來工廠與製造者的可能形式。
   </span>
 
 </p>

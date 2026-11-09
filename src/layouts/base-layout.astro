@@ -8,7 +8,7 @@ const {
     title = "ercoffice",
     locale = "en",
     footerType = "default",
-    headerLink = "about",
+    headerTarget = "about",
 } = Astro.props;
 ---
 
@@ -20,12 +20,12 @@ const {
     </head>
 
     <body>
-        <Header locale={locale} headerLink={headerLink} />
+        <Header locale={locale} headerTarget={headerTarget} />
 
         <main>
             <slot /> <!--pages 的內容-->
         </main>
 
-        {footerType === "index" ? <FooterIndex /> : <Footer />}
+        {footerType === "index" ? <FooterIndex locale={locale} /> : <Footer />}
     </body>
 </html>

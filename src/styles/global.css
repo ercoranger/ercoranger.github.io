@@ -21,7 +21,7 @@ html[lang="zh"] .lang-en {
 
 html {
   scroll-behavior: smooth;
-  font-family: Avenir, "Montserrat", "NotoSansTC", sans-serif !important;
+  font-family: Avenir, "NotoSansTC", "Montserrat", sans-serif !important;
      src: local('Avenir');
      font-size: 14px;
 }
@@ -87,8 +87,16 @@ img {
     grid-column-end: span 8;
 }
 
+.col-7 {
+    grid-column-end: span 7;
+}
+
 .col-6 {
     grid-column-end: span 6;
+}
+
+.col-5 {
+    grid-column-end: span 5;
 }
 
 .col-4 {
@@ -261,17 +269,38 @@ footer {
 /*-------About page---------*/
 
 .title-XL {
-    font-size: 4rem;
-    padding-right: 10%;
-    margin-bottom: 20px;
+    font-size: 4.2rem;
+    margin: 36px 0;
 }
 
 .about-menu {
   grid-column: 1 / 2;
   position: fixed;
-  top: 40%;
+  top: 45%;
   left: 10px;
   align-self: start;
+}
+
+.about-text-block {
+    margin-right: 60px;
+}
+
+.about-text {
+    margin-top: 50px;
+    font-size: 1.2rem;
+    text-align: justify;
+    letter-spacing: 0.7px;
+}
+
+.about-title {
+    font-size: 2rem;
+    margin: 4px 0 12px -3px;
+    }
+
+
+.about-image {
+    display: grid;
+    width: 100%;
 }
 
 .arrow {
@@ -443,7 +472,7 @@ footer {
   width: 100%;
   }
 
-.project-image img {
+.project-image img, .about-image img  {
   display: block;
   width: 100%;
   height: auto;
@@ -486,15 +515,90 @@ margin-top: 10px;
 
 
 
-/* =========================
-   Mobile 手機 小畫面 未來處理 (目前以mimeralloop測試)
-   ========================= */
+/* ====================== Mobile 手機 小畫面 ======================== */
 
 @media screen and (max-width: 768px) {
 
-  .grid-12 {
-  /*待處理*/
+    .ee-overview {
+    margin-top: 80px;
+    }
+
+    .ee-index-row {
+        margin: 60px 2%;
+    }
+
+    .ee-link {
+    position: absolute;
+    right: 15px;
+    }
+
+    .ee-footer {
+        bottom: 30px;
+    }
+
+    .footer-icon {
+        height: 30px;
+    }
+
+    .footer-right {
+    padding-right: 15px;
+
+    }
+
+    .footer-left {
+    padding-left: 30px;
+    }
+
+  .project-content {
+  grid-column: 1 / -1;
+  margin: 0 30px;
   }
+
+  .project-header-image {
+    grid-column: 1 / span 12;
+  }
+
+  .project-header-info {
+      display: grid;
+      grid-column: 1 / span 6;
+      padding: 0;
+  }
+
+  .project-header-title {
+      margin: 0;
+  }
+
+  .project-section {
+      width: 100%;
+      padding: 0;
+  }
+
+  .about-text {
+      margin-top: 10px;
+      font-size: 1rem;
+  }
+
+  h1 {
+      white-space: nowrap;
+  }
+
+  .title-XL {
+      font-size: 3rem;
+  }
+
+  .col-8 {
+      grid-column-end: span 12;
+  }
+
+  .col-offset-4 {
+      grid-column: 1 / span 12;
+      padding: 0;
+  }
+
+  .project-image {
+      padding: 5px;
+  }
+
 
   .ee-menu, .project-menu, .is-visible, .ee-left-menu {
    display: none !important;
@@ -504,54 +608,6 @@ margin-top: 10px;
     display: none;
   }
 
-  .project-content {
-    grid-column: 1 / -1;
-    margin: 0 15px;
-  }
-
-  .project-header-info {
-    display: grid;
-    grid-template-columns: repeat(6, minmax(0, 1fr));
-    padding: 0;
-  }
-
-  .project-header-image {
-    margin-top: 80px;
-  }
-
-  .mtrl-info {
-    grid-column: 5 / span 2;
-    align-content: start;
-    margin-top: -540px;
-  }
-
-  .project-header-title {
-    margin-top: -550px;
-  }
-
-  .project-year {
-    display: block;
-  position: absolute;
-  top: 70px;
-  }
-
-  .project-section {
-    width: 100%;
-    padding: 0 15px;
-  }
-
-  .project-image {
-    padding: 15px;
-  }
-
-  .col-offset-4 {
-  grid-column: 4 / span 3;
-  padding-right: 0;
-  }
-
-  .col-4, .col-10 {
-    grid-column: span 3;
-  }
 
 
 

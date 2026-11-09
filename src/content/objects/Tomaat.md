@@ -43,13 +43,11 @@ updated: 2026-10-07
 <p class="col-8 project-text">
 
   <span class="lang-en">
-    This project works with <a target="_blank" href="https://www.biophilica.co.uk">Biophilica</a> and Bluecity. The material is Treekind®, a new plant-based, recyclable, compostable, low-resource leather alternative that is completely free of plastic polyurethane.
-    <br><br>
-    The design of this series is like origami, formed with one piece of leather. Erco Lai would like to design beautiful home accessories that can merge into today's modern style. To show the beauty of this unique leather, Erco Lai thinks a polyhedron is a good way to show various angles and tension on the surfaces.
+      Tomaat is a collection of organizers developed in collaboration with Biophilica and BlueCity, using Treekind®, a plant-based leather alternative designed to be recyclable and compostable without polyurethane. Inspired by origami, each object is formed from a single piece of material through folding and assembly. The design explores how flat, flexible sheets can be transformed into three-dimensional containers, using polygonal geometry to create different surface angles, folds, and tensions that reveal the material’s texture and characteristics.
   </span>
 
   <span class="lang-zh">
-    本計畫與 <a target="_blank" href="https://www.biophilica.co.uk">Biophilica</a> 及 Bluecity 合作，使用 Treekind® 作為材料。這是一種新型植物基皮革替代材料，具備可回收、可堆肥及低資源消耗等特性，且完全不含塑膠聚氨酯。這個系列的設計如同摺紙，以一整片皮革摺疊成形。Erco Lai 希望設計出能夠融入現代生活風格的美觀家居用品。為了展現這種獨特皮革的特質，他選擇以多面體作為形式語言，藉此呈現不同角度以及材料表面的張力。
+    Tomaat / 番茄皮革是一系列與 Biophilica 及 BlueCity 合作開發的收納物件，採用 Treekind® 植物性皮革替代材料製作。這種材料不含聚氨酯（Polyurethane），並以可回收及可堆肥處理為開發方向。作品受到摺紙工藝的啟發，以單片材料透過摺疊與組裝形成。設計探索如何將平面柔性材料轉化為立體容器，利用多邊形幾何創造不同角度的表面、摺痕與張力，呈現材料本身的紋理與特性。
   </span>
 
 </p>
@@ -82,7 +80,7 @@ updated: 2026-10-07
 
 <div class="project-section grid-12">
 
-  <div class="col-offset-4 col-8">
+  <div class="col-offset-4">
 
 # <span class="lang-en">Process</span><span class="lang-zh">製作過程</span>
 
@@ -101,11 +99,11 @@ updated: 2026-10-07
 <p class="project-text">
 
   <span class="lang-en">
-    It contains decent craftsmanship, with features such as hand stitching, crease stamping, and weaving. The design of the piece has taken inspiration from the way in which natural objects grow and develop. For example, in the design, the bottom is a rectangle, but the top is an octagon, resulting in a gradual enlargement of the body. It is a subtle but effective way of creating a unique and interesting piece of craftsmanship. The colors and textures used in the design reflect the natural environment, giving the piece an organic look. The combination of craftsmanship and natural elements make this a truly special and eye-catching piece, perfect for any room.
+      The objects are shaped through a combination of crease stamping and folding, with hand stitching used to secure the final structure. These techniques allow the material to develop volume through its folds while maintaining the intended geometry. The form gradually transitions from a rectangular base to an octagonal opening through a sequence of creases. While the folds define the three-dimensional shape, the stitching holds the structure together without requiring an additional supporting frame. Through this process, Tomaat explores how geometric folding and handcraft can transform plant-based materials into functional everyday objects.
   </span>
 
   <span class="lang-zh">
-    作品結合了細緻的手工藝，包括手工縫製、壓摺痕以及編織等技術。作品的造型受到自然物生長與發展方式的啟發。例如，設計的底部為矩形，而頂部則轉變為八邊形，使整個形體逐漸向外擴張。這是一種細微但有效的方式，讓作品形成獨特且具有趣味性的手工質感。設計中的色彩與紋理呼應自然環境，使作品呈現有機的視覺特徵。手工藝與自然元素的結合，使這件作品成為一件獨特而引人注目的家居物件。
+    作品透過壓製摺痕與手工摺疊形成造形，再以手工縫線固定最終結構。這些工藝讓柔性材料能夠沿著預設的摺線展開成立體形態，同時維持幾何結構。造形從矩形底部逐漸過渡至八角形開口，透過一系列摺痕形成向上擴張的立體輪廓。摺痕決定物件的幾何形態，縫線則負責固定結構，使作品無須額外的支撐框架，也能維持預期的造形。透過這種製作方式，番茄皮革探索如何結合幾何摺疊與手工技藝，將植物性材料轉化為具有實際功能的日常收納物件。
   </span>
 
 </p>
