@@ -10,7 +10,15 @@
     "earth": "Earth",
     "wood": "Wood",
     "fire": "Fire",
-    "water": "Water"
+    "water": "Water",
+
+    "modes": {
+      "exploration": "Exploration",
+      "production": "Production",
+      "research": "Research",
+      "collaboration": "Collaboration"
+    }
+
   },
 
   "zh": {
@@ -24,7 +32,15 @@
     "earth": "地",
     "wood": "木",
     "fire": "火",
-    "water": "水"
+    "water": "水",
+
+    "modes": {
+      "exploration": "武俠探索",
+      "production": "工匠製作",
+      "research": "道士研究",
+      "collaboration": "行腳協作"
+    }
+
   }
 
 

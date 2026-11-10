@@ -1,0 +1,41 @@
+---
+import BaseLayout from "../../../layouts/base-layout.astro";
+import WorksList from "../../../components/works-list.astro";
+
+export function getStaticPaths() {
+    return ["en", "zh"].map((locale) => ({
+        params: { locale },
+    }));
+}
+
+const { locale } = Astro.params;
+
+// 讀取所有作品
+const files = import.meta.glob("../../../content/objects/*.md", {
+    eager: true,
+});
+
+const works = Object.entries(files)
+    .map(([path, file]) => {
+        const data = file.frontmatter;
+        const filename = path.split("/").pop().replace(/\.md$/, "");
+
+        return {
+            ...data,
+            slug: data.slug || filename,
+        };
+    })
+    .sort((a, b) => Number(b.year) - Number(a.year));
+---
+
+<BaseLayout
+    title="All Work List  — ercoffice"
+    locale={locale}
+    footerType="index"
+>
+    <section class="mode-page">
+        <h1 class="mode-title">All Works</h1>
+
+        <WorksList works={works} locale={locale} />
+    </section>
+</BaseLayout>

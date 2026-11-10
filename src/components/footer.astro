@@ -1,37 +1,78 @@
-<footer class="ee-footer">
-	<div class="ee-footer-links">
-		<a
-			class="footer-left"
-			id="gotop"
-			href="#top"
-			>
-			<img
-			src="/imgs/top.svg"
-			class="footer-icon"
-			title="Back to top"
-			alt="Back to top"
-			/>
-		</a>
+---
+const { locale = "en", footerType = "none" } = Astro.props;
 
-		<a
-			class="footer-right"
-			target="_blank"
-			rel="noopener noreferrer"
-			href="https://www.instagram.com/ercoffice_by_ercolai/"
-			>
-			<img
-			src="/imgs/contact.svg"
-			class="footer-icon"
-			title="Instagram"
-			alt="Instagram"
-			/>
-		</a>
+const currentPath = Astro.url.pathname;
 
-	</div>
-	
-</footer>
+const zhUrl = currentPath.replace(/^\/(en|zh)(?=\/|$)/, "/zh");
+const enUrl = currentPath.replace(/^\/(en|zh)(?=\/|$)/, "/en");
+---
 
-<div class="ee-disclaimer">
-	<p>©by ercoffice / 2026</p>
-	</div>
+{footerType !== "none" && (
+    <>
+        <footer class="ee-footer">
+            <div class="ee-footer-links">
+                {footerType === "index" && (
+                    <div class="lang-change footer-left">
+                        <a
+                            href={zhUrl}
+                            class:list={{ active: locale === "zh" }}
+                            aria-current={locale === "zh" ? "page" : undefined}
+                        >
+                            中
+                        </a>
+                        <span> / </span>
+                        <a
+                            href={enUrl}
+                            class:list={{ active: locale === "en" }}
+                            aria-current={locale === "en" ? "page" : undefined}
+                        >
+                            EN
+                        </a>
+                    </div>
+                )}
 
+                {footerType === "default" && (
+                    <a class="footer-left" id="gotop" href="#top">
+                        <img
+                            src="/imgs/top.svg"
+                            class="footer-icon"
+                            title="Back to top"
+                            alt="Back to top"
+                        />
+                    </a>
+                )}
+
+                {footerType === "index" && (
+                    <a
+                        class="footer-right"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        href="https://www.instagram.com/ercoffice_by_ercolai/"
+                    >
+                        Instagram
+                    </a>
+                )}
+
+                {footerType === "default" && (
+                    <a
+                        class="footer-right"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        href="https://www.instagram.com/ercoffice_by_ercolai/"
+                    >
+                        <img
+                            src="/imgs/contact.svg"
+                            class="footer-icon"
+                            title="Instagram"
+                            alt="Instagram"
+                        />
+                    </a>
+                )}
+            </div>
+        </footer>
+
+        <div class="ee-disclaimer">
+            <p>©by ercoffice / 2026</p>
+        </div>
+    </>
+)}

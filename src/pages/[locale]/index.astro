@@ -1,6 +1,7 @@
 ---
 import BaseLayout from "../../layouts/base-layout.astro";
 import HomeThumbnails from "../../components/home-thumbnails.astro";
+import ModeNavigation from "../../components/mode-navigation.astro";
 
 export function getStaticPaths() {
     return [{ params: { locale: "en" } }, { params: { locale: "zh" } }];
@@ -10,5 +11,6 @@ const { locale } = Astro.params;
 ---
 
 <BaseLayout locale={locale} footerType="index">
+    <ModeNavigation locale={locale} />
     <HomeThumbnails locale={locale} />
 </BaseLayout>

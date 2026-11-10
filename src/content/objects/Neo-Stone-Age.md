@@ -12,7 +12,7 @@ context:
 
 mode:
   - research
-  - explorations
+  - exploration
 
 technique: Geopolymerization
 material: Mineral Byproducts

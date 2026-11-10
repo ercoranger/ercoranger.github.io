@@ -1,7 +1,7 @@
 ---
 import site from "../content/site.json";
 
-const { locale = "en", headerTarget = "about" } = Astro.props;
+const { locale = "en", headerType = "about" } = Astro.props;
 const content = site[locale] ?? site.en;
 
 const headerLinks = {
@@ -15,7 +15,7 @@ const headerLinks = {
     }, //未來加上與定義連結的地方
 };
 
-const currentLink = headerLinks[headerTarget];
+const currentLink = headerLinks[headerType];
 ---
 
 <header>
@@ -31,135 +31,139 @@ const currentLink = headerLinks[headerTarget];
         )}
     </div>
 
-    <nav class="ee-menu">
-        <div class="ee-left-menu">
-            <h3 class="studio-title">{content.studioTitle}</h3>
-            <p class="studio-intro">{content.studioIntro}</p>
-        </div>
+    {headerType !== "none" && (
+        <>
+            <nav class="ee-menu">
+                <div class="ee-left-menu">
+                    <h3 class="studio-title">{content.studioTitle}</h3>
+                    <p class="studio-intro">{content.studioIntro}</p>
+                </div>
 
-        <div class="v-line">
-            <hr />
-        </div>
+                <div class="v-line">
+                    <hr />
+                </div>
 
-        <!-- Metal -->
-        <div class="ee-right-menu">
-            <h6 class="menu-title">{content.metal}</h6>
-            <ul>
-                <li>
-                    <a href={`/${locale}/Rift/`}>
-                        {locale === "zh" ? "峽谷屏風" : "Rift"}
-                    </a>
-                </li>
-                <li>
-                    <a href={`/${locale}/Waterfall/`}>
-                        {locale === "zh" ? "流水架" : "Waterfall"}
-                    </a>
-                </li>
-                <li>
-                    <a href={`/${locale}/Asterisk/`}>
-                        {locale === "zh" ? "星盤" : "Asterisk"}
-                    </a>
-                </li>
-                <li>
-                    <a href={`/${locale}/Hopper/`}>
-                        {locale === "zh" ? "容器系列" : "Hopper"}
-                    </a>
-                </li>
-            </ul>
-        </div>
+                <!-- Metal -->
+                <div class="ee-right-menu">
+                    <h6 class="menu-title">{content.metal}</h6>
+                    <ul>
+                        <li>
+                            <a href={`/${locale}/Rift/`}>
+                                {locale === "zh" ? "峽谷屏風" : "Rift"}
+                            </a>
+                        </li>
+                        <li>
+                            <a href={`/${locale}/Waterfall/`}>
+                                {locale === "zh" ? "流水架" : "Waterfall"}
+                            </a>
+                        </li>
+                        <li>
+                            <a href={`/${locale}/Asterisk/`}>
+                                {locale === "zh" ? "星盤" : "Asterisk"}
+                            </a>
+                        </li>
+                        <li>
+                            <a href={`/${locale}/Hopper/`}>
+                                {locale === "zh" ? "容器系列" : "Hopper"}
+                            </a>
+                        </li>
+                    </ul>
+                </div>
 
-        <!-- Earth -->
-        <div class="ee-right-menu">
-            <h6 class="menu-title">{content.earth}</h6>
-            <ul>
-                <li>
-                    <a href={`/${locale}/Fieldstone/`}>
-                        {locale === "zh" ? "積石" : "Fieldstone"}
-                    </a>
-                </li>
-                <li>
-                    <a href={`/${locale}/Mineralloop/`}>
-                        {locale === "zh" ? "礦物循環" : "Mineralloop"}
-                    </a>
-                </li>
-                <li>
-                    <a href={`/${locale}/Neo-Stone-Age/`}>
-                        {locale === "zh" ? "新石紀" : "Neo Stone Age"}
-                    </a>
-                </li>
-                <li>
-                    <a href={`/${locale}/Binary-jugs/`}>
-                        {locale === "zh" ? "陶瓷列印" : "Binary jugs"}
-                    </a>
-                </li>
-            </ul>
-        </div>
+                <!-- Earth -->
+                <div class="ee-right-menu">
+                    <h6 class="menu-title">{content.earth}</h6>
+                    <ul>
+                        <li>
+                            <a href={`/${locale}/Fieldstone/`}>
+                                {locale === "zh" ? "積石" : "Fieldstone"}
+                            </a>
+                        </li>
+                        <li>
+                            <a href={`/${locale}/Mineralloop/`}>
+                                {locale === "zh" ? "礦物循環" : "Mineralloop"}
+                            </a>
+                        </li>
+                        <li>
+                            <a href={`/${locale}/Neo-Stone-Age/`}>
+                                {locale === "zh" ? "新石紀" : "Neo Stone Age"}
+                            </a>
+                        </li>
+                        <li>
+                            <a href={`/${locale}/Binary-jugs/`}>
+                                {locale === "zh" ? "陶瓷列印" : "Binary jugs"}
+                            </a>
+                        </li>
+                    </ul>
+                </div>
 
-        <!-- Wood -->
-        <div class="ee-right-menu">
-            <h6 class="menu-title">{content.wood}</h6>
-            <ul>
-                <li>
-                    <a href={`/${locale}/Ginkgo/`}>
-                        {locale === "zh" ? "銀杏椅" : "Ginkgo"}
-                    </a>
-                </li>
-                <li>
-                    <a href={`/${locale}/Tomaat/`}>
-                        {locale === "zh" ? "蕃茄皮革" : "Tomaat"}
-                    </a>
-                </li>
-                <li>
-                    <a href={`/${locale}/Ikebana/`}>
-                        {locale === "zh" ? "生之花" : "Ikebana"}
-                    </a>
-                </li>
-            </ul>
-        </div>
+                <!-- Wood -->
+                <div class="ee-right-menu">
+                    <h6 class="menu-title">{content.wood}</h6>
+                    <ul>
+                        <li>
+                            <a href={`/${locale}/Ginkgo/`}>
+                                {locale === "zh" ? "銀杏椅" : "Ginkgo"}
+                            </a>
+                        </li>
+                        <li>
+                            <a href={`/${locale}/Tomaat/`}>
+                                {locale === "zh" ? "蕃茄皮革" : "Tomaat"}
+                            </a>
+                        </li>
+                        <li>
+                            <a href={`/${locale}/Ikebana/`}>
+                                {locale === "zh" ? "生之花" : "Ikebana"}
+                            </a>
+                        </li>
+                    </ul>
+                </div>
 
-        <!-- Fire -->
-        <div class="ee-right-menu">
-            <h6 class="menu-title">{content.fire}</h6>
-            <ul>
-                <li>
-                    <a href={`/${locale}/Magma/`}>
-                        {locale === "zh" ? "絨岩燈" : "Magma"}
-                    </a>
-                </li>
-                <li>
-                    <a href={`/${locale}/Lava-and-/`}>
-                        {locale === "zh" ? "熔融實驗" : "Lava and..."}
-                    </a>
-                </li>
-            </ul>
-        </div>
+                <!-- Fire -->
+                <div class="ee-right-menu">
+                    <h6 class="menu-title">{content.fire}</h6>
+                    <ul>
+                        <li>
+                            <a href={`/${locale}/Magma/`}>
+                                {locale === "zh" ? "絨岩燈" : "Magma"}
+                            </a>
+                        </li>
+                        <li>
+                            <a href={`/${locale}/Lava-and-/`}>
+                                {locale === "zh" ? "熔融實驗" : "Lava and..."}
+                            </a>
+                        </li>
+                    </ul>
+                </div>
 
-        <!-- Water -->
-        <div class="ee-right-menu">
-            <h6 class="menu-title">{content.water}</h6>
-            <ul>
-                <li>
-                    <a href={`/${locale}/Tafoni/`}>
-                        {locale === "zh" ? "滴石花器" : "Tafoni"}
-                    </a>
-                </li>
-                <li>
-                    <a href={`/${locale}/Biorock/`}>
-                        {locale === "zh" ? "硓𥑮石" : "Biorock"}
-                    </a>
-                </li>
-                <li>
-                    <a href={`/${locale}/Revolve/`}>
-                        {locale === "zh" ? "水刀系列" : "Revolve"}
-                    </a>
-                </li>
-            </ul>
-        </div>
-    </nav>
+                <!-- Water -->
+                <div class="ee-right-menu">
+                    <h6 class="menu-title">{content.water}</h6>
+                    <ul>
+                        <li>
+                            <a href={`/${locale}/Tafoni/`}>
+                                {locale === "zh" ? "滴石花器" : "Tafoni"}
+                            </a>
+                        </li>
+                        <li>
+                            <a href={`/${locale}/Biorock/`}>
+                                {locale === "zh" ? "硓𥑮石" : "Biorock"}
+                            </a>
+                        </li>
+                        <li>
+                            <a href={`/${locale}/Revolve/`}>
+                                {locale === "zh" ? "水刀系列" : "Revolve"}
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
 
-    <div class="menu-bottom-line">
-        <hr />
-    </div>
+            <div class="menu-bottom-line">
+                <hr />
+            </div>
+        </>
+    )}
 </header>
 
 <script>

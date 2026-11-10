@@ -17,7 +17,7 @@ technique: Reheating
 material: Lavastone, glass
 phase: FIRE
 object: Material experiment
-dimensions: Material experiment
+dimensions: N/A
 image: /imgs/Lava-and-.jpg
 
 timeline:

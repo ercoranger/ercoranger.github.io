@@ -1,0 +1,37 @@
+---
+const { works = [], locale = "en" } = Astro.props;
+
+const formatValue = (value) => {
+    if (Array.isArray(value)) return value.join(", ");
+    return value ? String(value) : "";
+};
+---
+
+<div class="project-page works-list">
+    {works.map((work) => (
+        <a class="works-row grid-12" href={`/${locale}/${work.slug}/`}>
+            <!--列表內容開始-->
+            <span class="col-2">{work.year}</span>
+
+            <span class="col-2">
+                {locale === "zh"
+                    ? work.title_zh || work.title_en
+                    : work.title_en}
+            </span>
+
+            <span class="col-3 works-obj">{formatValue(work.object)}</span>
+
+            <span class="col-3 works-details">
+                {formatValue(work.material)}
+
+                {work.technique && <small>{formatValue(work.technique)}</small>}
+            </span>
+
+            <span class="col-3">{formatValue(work.dimensions)}</span>
+
+            <span class="col-2 works-image">
+                {work.image && <img src={work.image} alt="" loading="lazy" />}
+            </span>
+        </a>
+    ))}
+</div>

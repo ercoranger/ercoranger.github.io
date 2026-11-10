@@ -1,0 +1,61 @@
+---
+import BaseLayout from "../../../layouts/base-layout.astro";
+import WorksList from "../../../components/works-list.astro";
+import ModeNavigation from "../../../components/mode-navigation.astro";
+import site from "../../../content/site.json";
+
+// 根據 site.json 自動產生中英文分類頁
+export function getStaticPaths() {
+    return ["en", "zh"].flatMap((locale) =>
+        Object.keys(site[locale].modes).map((mode) => ({
+            params: { locale, mode },
+        })),
+    );
+}
+
+const { locale, mode } = Astro.params;
+const content = site[locale] ?? site.en;
+const modeTitle = content.modes[mode];
+
+// 讀取所有作品 Markdown
+const files = import.meta.glob("../../../content/objects/*.md", {
+    eager: true,
+});
+
+// 整理作品資料
+const allWorks = Object.entries(files).map(([path, file]) => {
+    const data = file.frontmatter;
+    const filename = path.split("/").pop().replace(/\.md$/, "");
+
+    return {
+        ...data,
+        slug: data.slug || filename,
+    };
+});
+
+// 根據目前 Mode 篩選作品，並按年份由新到舊排序
+const works = allWorks
+    .filter((work) => {
+        const modes = Array.isArray(work.mode)
+            ? work.mode
+            : work.mode
+              ? [work.mode]
+              : [];
+
+        return modes.includes(mode);
+    })
+    .sort((a, b) => Number(b.year) - Number(a.year));
+---
+
+<BaseLayout
+    title={`${modeTitle} — ercoffice`}
+    locale={locale}
+    footerType="index"
+>
+    <section class="mode-page">
+        <ModeNavigation locale={locale} activeMode={mode} />
+
+        <!------列表位置------->
+        <WorksList works={works} locale={locale} />
+    </section>
+</BaseLayout>

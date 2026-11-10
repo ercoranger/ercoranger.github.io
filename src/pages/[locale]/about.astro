@@ -11,7 +11,7 @@ const { locale = "en" } = Astro.params;
 <BaseLayout
     title="About"
     locale={locale}
-    headerTarget="custom"
+    headerType="custom"
     footerType="index"
 >
     <!-- 右上角的連結先被移除，等未來想到要連去哪再補上，去site.json加 -->
@@ -72,34 +72,33 @@ const { locale = "en" } = Astro.params;
                         installations, and experimental fabrication. His
                         practice explores the relationships between matter,
                         form, and craft, drawing from geological formations,
-                        natural forces, and industrial processes. Combining
-                        hands-on experimentation with computational tools, he
-                        approaches making as a dialogue between physical
-                        intuition and technological precision. Rather than
-                        imposing predetermined shapes upon materials, he
+                        natural forces, and industrial processes.
+                        <br />
+                        <br />
+                        Combining hands-on experimentation with computational
+                        tools, he approaches making as a dialogue between
+                        physical intuition and technological precision. Rather
+                        than imposing predetermined shapes upon materials, he
                         embraces their resistance, deformation, and
                         unpredictability as part of the creative process. For
                         Lai, making is both a means of artistic expression and a
-                        way of understanding the material world. Working within
-                        the conditions of the post-industrial era, he
-                        reinterprets materials and manufacturing techniques as
-                        artistic media. His practice moves from intimate objects
-                        to large-scale installations, exploring how gravity,
-                        movement, and environmental forces can shape new forms
-                        and spatial experiences.
+                        way of understanding the material world.
+                        <br />
+                        <br />
+                        Working within the conditions of the post-industrial
+                        era, he reinterprets materials and manufacturing
+                        techniques as artistic media. His practice moves from
+                        intimate objects to large-scale installations, exploring
+                        how gravity, movement, and environmental forces can
+                        shape new forms and spatial experiences.
                     </p>
 
                     <p class="about-text lang-zh">
                         賴亭安 / Erco Lai
-                        是一位跨領域藝術家與設計師，創作涵蓋雕塑、空間裝置、材料研究與實驗性製造。他以材料、造形與工藝之間的關係為核心，從地質生成、自然力量與工業製程中尋找線索，探索物質如何在不同的技術與環境條件下形成獨特的表現語言。出身於工業設計背景的他，將製作視為一種透過材料進行思考的方式，在身體的直覺與技術的精準之間往返，探索人為意圖與物質特性如何共同參與形式的生成。
+                        是一位設計創作者，創作涵蓋雕塑、空間裝置、材料研究與實驗性製造。他立足於後工業時代的生產條件，從地質生成、自然力量與工業製程中尋找造形的線索，探索物質如何在不同的技術與環境條件下形成獨特的表現語言。出身工業設計背景的他，不將設計僅視為解決問題或實現預設形式的工具，而是一種透過材料、工藝與製作過程展開的藝術探索。在身體直覺與技術精準之間，他持續思考人為意圖如何與物質自身的特性相互作用，共同參與形式的生成。
                         <br />
                         <br />
-                        透過持續的動手實驗、運算設計與數位製造，他觀察材料如何回應壓力、限制與變化。相較於將預先設定的形式施加於材料，他更傾向從物質本身的特性出發，讓阻力、變形與不可預測的反應成為造形的條件。對他而言，工藝不僅是既有技法的延續，也是一種透過雙手、工具與物質累積的感知與知識。機器與程式並非單純執行設計的工具，而是拓展身體經驗與造形想像的媒介。他試圖在傳統工藝與當代製造技術之間建立新的關係，將製程中的偶然與材料的抗性轉化為藝術表現的可能。
-                        <br />
-                        <br />
-                        <span class="mobile-off">
-                            隨著研究與實踐的發展，他的創作逐漸從日常物件延伸至雕塑與大型空間裝置。當形式進入更大的尺度，重力、運動、結構與周遭環境便成為不可分割的創作條件。他試圖讓作品不只是被放置於空間中的物件，而能回應場域，呈現物質與外力相互作用的過程。在後工業時代的生產條件中，他持續重新詮釋材料與製造技術的藝術潛力，在自然與人為、機械與直覺、控制與偶然之間尋找不同的形式。對他而言，造物不只是實現構想，更是一種理解世界、參與物質轉化的方式。
-                        </span>
+                        透過動手實驗、運算設計與數位製造，他探索工業技術在藝術創作中的可能性，觀察材料如何回應壓力、限制與變化，讓阻力、變形與不可預測的反應成為造形的條件。對他而言，工藝不僅是既有技法的延續，也是一種透過雙手、工具與物質累積的感知與知識。隨著創作尺度從日常物件延伸至雕塑與大型空間裝置，重力、運動、結構及周遭環境也逐漸成為造形的重要條件。他試圖讓作品不只是被放置於空間中的物件，而能回應場域，呈現物質與外力相互作用的過程。在自然與人為、機械與直覺、控制與偶然之間，他持續尋找不同的賦形方式，將造物視為理解世界、參與物質循環的過程。
                     </p>
                 </div>
 
@@ -195,46 +194,49 @@ const { locale = "en" } = Astro.params;
 
                     <p class="about-text lang-en">
                         Founded by Erco Lai, ercoffice is a research-led design
-                        practice working across material research, craft, object
-                        development, and spatial design. Guided by Make Things
-                        Like Earth, the studio explores alternative methods of
-                        making through material experimentation, computational
-                        processes, and interdisciplinary collaboration.
-                        Positioned between science, craft, industry, nature, and
-                        culture, ercoffice approaches design as a means of
-                        connecting different forms of knowledge. Rather than
-                        treating nature merely as a source of inspiration or
-                        industry solely as a means of production, the studio
-                        investigates both as systems of material transformation,
-                        seeking new approaches to form giving. Central to this
-                        practice is the idea of an experimental factory: an
-                        evolving environment where materials, techniques,
-                        technologies, and people come together to develop
-                        methods of making. From traditional craftsmanship to
-                        digital fabrication, the studio explores how existing
-                        knowledge and production processes can be adapted,
-                        combined, and reinterpreted. Working with material
-                        developers, scientists, engineers, manufacturers, and
-                        cultural institutions, ercoffice connects experimental
-                        research with practical and cultural applications.
-                        Through independent inquiries and commissioned projects,
-                        the studio translates technical knowledge and material
-                        discoveries into objects, products, and spatial
-                        interventions. By bringing together research, craft, and
-                        collaboration, ercoffice continues to explore methods of
-                        form giving and new possibilities for making in the
-                        post-industrial era.
+                        practice working across material research, craft
+                        experimentation, object development, and spatial design.
+                        Guided by Make Things Like Earth, the studio explores
+                        methods of form-giving in the post-industrial era.
+                        Operating at the intersection of science, craft,
+                        industry, nature, and culture, ercoffice approaches
+                        design as a way of connecting different forms of
+                        knowledge and technology. Rather than treating nature
+                        merely as a source of inspiration or industry solely as
+                        a means of production, the studio investigates how
+                        matter is shaped and transformed through both natural
+                        processes and industrial manufacturing, seeking new
+                        relationships between the two.
+                        <br />
+                        <br />
+                        The studio reimagines Factory as an open space for
+                        experimentation, bringing together different forms of
+                        knowledge and making. From traditional craftsmanship to
+                        digital fabrication, ercoffice explores the
+                        relationships between Crafts, Matter, and Form. Rather
+                        than following a fixed sequence, these aspects inform
+                        one another: material properties may inspire new
+                        techniques, making processes may generate unexpected
+                        forms, and formal intentions may reshape how things are
+                        made. Working with material developers, scientists,
+                        engineers, manufacturers, and cultural institutions, the
+                        studio connects research with practical applications,
+                        translating its findings into objects, products, and
+                        spatial interventions through independent inquiries and
+                        commissioned projects.
                     </p>
 
                     <p class="about-text lang-zh">
-                        ercoffice
-                        鈋谷賦形事物所是一個研究導向的跨領域設計實踐，工作涵蓋材料研究、工藝實驗、物件開發與空間設計。以
+                        ercoffice / 鈋谷賦形事物所
+                        是一個研究導向的設計實踐，工作涵蓋材料研究、工藝實驗、物件開發與空間設計。以
                         Make Things Like Earth
-                        為思想方向，透過材料、技術與跨領域合作，探索後工業時代的賦形造物之法。
-                        事物所處於科學、工藝、工業、自然與文化的交會之間，將設計視為連結不同知識與技術的方式。我們不將自然僅視為造形靈感，也不將工業單純視為生產工具，而是從兩者的物質轉化過程中，尋找新的製作方法。
+                        為思想方向，探索後工業時代的賦形造物之法。我們遊走於科學、工藝、工業、自然與文化之間，將設計視為連結不同知識與技術的方法。不僅從自然界尋找造形的線索，也關注工業製程中物質如何被改變與轉化，試圖重新理解自然作用與人為製造之間的關係。
+                        <br />
+                        <br />
                         我們將 Factory / 工廠
-                        重新想像為一個開放的實驗場域，讓材料、工藝、技術與不同領域的知識在此交流。從傳統手工到數位製造，透過實驗、轉用與組合既有技術，發展不同的造形與製造方法。
-                        透過與材料開發者、科學研究者、工程師、製造業者及文化機構的合作，事物所連結實驗研究與實際應用。從自主探索到委託專案，將技術知識與材料研究轉化為物件、產品及空間構成，持續拓展設計與製造的可能性。
+                        重新想像為一個開放的實驗場域，讓不同領域的知識與製造技術在此相遇。從傳統手工到數位製造，我們持續探索工藝、物質與造形（Crafts,
+                        Matter,
+                        Form）之間的相互關係。三者並非依序進行的設計步驟，而是在實驗中彼此影響：物質的特性可能啟發新的工藝，製作過程可能產生未曾預期的形態，而造形上的需求也可能促使我們重新思考加工方式。透過觀察、實驗與轉用既有技術，我們在這些相互作用中尋找不同的製造可能。藉由與材料開發者、科學研究者、工程師、製造業者及文化機構的合作，連結實驗研究與實際應用，從自主探索到委託專案，將研究成果轉化為物件、產品及空間構成。
                     </p>
                 </div>
 
