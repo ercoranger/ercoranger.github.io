@@ -1,0 +1,48 @@
+
+/* =========================
+   ANIMATION — FADE & SLIDE
+   ========================= */
+
+/* Vertical: bottom to top */
+.move-in {
+    animation: move-in 1s ease-out both;
+}
+
+@keyframes move-in {
+    from {
+        opacity: 0;
+        transform: translateY(24px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+
+/* Horizontal: left to right */
+.move-in-h {
+    animation: move-in-h 1s ease-out both;
+}
+
+@keyframes move-in-h {
+    from {
+        opacity: 0;
+        transform: translateX(-24px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+
+/* Accessibility */
+@media (prefers-reduced-motion: reduce) {
+    .move-in,
+    .move-in-h {
+        animation: none;
+    }
+}

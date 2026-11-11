@@ -50,7 +50,11 @@ const title =
 const titles = `${object.title_en} / ${object.title_zh}`;
 ---
 
-<BaseLayout title={`${title} — ercoffice`} locale={lang}>
+<BaseLayout
+    title={`${title} — ercoffice`}
+    locale={lang}
+    headerItems={["workList", "about"]}
+>
     <div class={`project-page lang-${lang} grid-12`}>
         <!--招喚左側選單-->
         <ProjectMenu lang={lang} />

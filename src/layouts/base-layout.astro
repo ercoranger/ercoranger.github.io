@@ -2,12 +2,14 @@
 import Header from "../components/header.astro";
 import Footer from "../components/footer.astro";
 import "../styles/global.css";
+import "../styles/animation.css";
 
 const {
     title = "ercoffice",
     locale = "en",
     footerType = "default",
-    headerType = "about",
+    headerItems = ["about"],
+    showElementMenu = true,
 } = Astro.props;
 ---
 
@@ -19,7 +21,11 @@ const {
     </head>
 
     <body>
-        <Header locale={locale} headerType={headerType} />
+        <Header
+            locale={locale}
+            headerItems={headerItems}
+            showElementMenu={showElementMenu}
+        />
 
         <main>
             <slot /> <!--pages 的內容-->

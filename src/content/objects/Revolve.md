@@ -114,9 +114,7 @@ updated: 2026-11-04
 
 <p class="col-8 project-text">
   <span class="lang-en">
-    Revolve was developed in collaboration with a marble fabrication factory in Taiwan, combining digital design with stone-processing techniques to translate complex geometries into physical objects.
-    <br><br>
-    The factory's experience in working with marble, together with its fabrication equipment and technical expertise, helped address the challenges of shaping the material with precision. Through an exchange between design and manufacturing, the project explored how geometric concepts could be realized within the possibilities and limitations of stone fabrication.
+    Revolve was developed in collaboration with a marble fabrication factory in Taiwan, combining digital design with stone-processing techniques to translate complex geometries into physical objects. The factory's experience in working with marble, together with its fabrication equipment and technical expertise, helped address the challenges of shaping the material with precision. Through an exchange between design and manufacturing, the project explored how geometric concepts could be realized within the possibilities and limitations of stone fabrication.
   </span>
   <span class="lang-zh">
     Revolve系列 與台灣的大理石加工廠合作開發，結合數位設計與石材加工技術，將複雜的幾何造形轉化為實體物件。工廠提供石材處理的專業經驗、加工設備與技術支援，使設計得以在材料特性與製作精度之間取得平衡。透過設計端與製造端的合作，逐步將概念轉化為可實際製作的石材作品。

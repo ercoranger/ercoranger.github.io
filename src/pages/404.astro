@@ -1,16 +1,48 @@
 ---
 import BaseLayout from "../layouts/base-layout.astro";
+
+// 讀取所有作品的 metadata
+const files = import.meta.glob("../content/objects/*.md", {
+    eager: true,
+});
+
+const workSlugs = Object.entries(files)
+    .filter(([path]) => !path.endsWith(".mobile.md"))
+    .map(([path, file]) => {
+        const filename = path.split("/").pop().replace(/\.md$/, "");
+        return file.frontmatter.slug || filename;
+    });
 ---
 
 <BaseLayout
     title="404 — ercoffice"
     locale="en"
-    headerType="none"
+    headerItems={[]}
     footerType="none"
 >
     <section style="height:600px;width: 100%;margin-top: 300px;text-align: center;">
-        <h1>404</h1>
-        <p>Nothing found here</p>
-        <a href="/en/">Back to index</a>
+        <h1 style="font-size: 3rem;">404</h1>
+        <a id="random-work" style="font-size: 16px;" href="/en/">
+            [Explore another form / 隨機頁面]
+        </a>
     </section>
 </BaseLayout>
+
+<script define:vars={{ workSlugs }}>
+    const randomWorkLink = document.querySelector("#random-work");
+
+    if (randomWorkLink && workSlugs.length > 0) {
+        randomWorkLink.addEventListener("click", (event) => {
+            event.preventDefault();
+
+            const index = Math.floor(Math.random() * workSlugs.length);
+            const slug = workSlugs[index];
+
+            const locale = window.location.pathname.startsWith("/zh/")
+                ? "zh"
+                : "en";
+
+            window.location.href = `/${locale}/${slug}/`;
+        });
+    }
+</script>

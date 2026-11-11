@@ -11,7 +11,7 @@ const { locale = "en" } = Astro.params;
 <BaseLayout
     title="About"
     locale={locale}
-    headerType="custom"
+    headerItems={["workList"]}
     footerType="index"
 >
     <!-- 右上角的連結先被移除，等未來想到要連去哪再補上，去site.json加 -->
@@ -45,27 +45,29 @@ const { locale = "en" } = Astro.params;
         <div class="project-content">
             <!-- 01 ERCO LAI -->
 
-            <section class="project-section grid-12" id="erco-lai">
+            <section class="project-section grid-12 mobile-off" id="erco-lai">
                 <div class="col-12">
                     <p class="title-XL lang-en">
                         My design approach is listening to materials through
                         hands-on experiments and shaping them in the most
                         "natural" way. Through my practice, I attempt to find
                         beauty in the balance between design control and
-                        material spontaneity.
+                        material spontaneity
                     </p>
 
                     <p class="title-XL lang-zh">
-                        我透過製作理解材質，也透過物質重新思考造形。讓設計的意圖與材料的自發性彼此協商，在不斷實驗之中尋找事物形成的另一種可能。
+                        "我透過製作理解材質，也透過物質重新思考造形。讓設計的意圖與材料的自發性彼此協商，在不斷實驗之中尋找事物形成的另一種可能"
                     </p>
                 </div>
             </section>
 
+            <section class="about-section grid-12" id="">
+                <h6 class="col-12">About</h6>
+                <p class="col-12 project-title">Erco Lai</p>
+            </section>
+
             <section class="project-section grid-12" id="">
                 <div class="about-text-block col-7">
-                    <h6>About</h6>
-                    <p class="project-title">Erco Lai</p>
-
                     <p class="about-text lang-en">
                         Erco Lai is an interdisciplinary artist / designer
                         working across sculptural objects, spatial
@@ -172,7 +174,7 @@ const { locale = "en" } = Astro.params;
                     />
                 </div>
             </section>
-            <section class="project-section grid-12" id="">
+            <section class="project-section grid-12 mobile-off" id="">
                 <div class="col-12">
                     <p class="title-XL lang-en">
                         A design office aims to cooperate with material-focused
@@ -187,26 +189,28 @@ const { locale = "en" } = Astro.params;
                 </div>
             </section>
 
+            <section class="about-section grid-12" id="">
+                <h6 class="col-12">About</h6>
+                <p class="col-12 project-title">ercoffice</p>
+            </section>
+
             <section class="project-section grid-12" id="">
                 <div class="about-text-block col-7">
-                    <h6>About</h6>
-                    <p class="project-title">ercoffice</p>
-
                     <p class="about-text lang-en">
-                        Founded by Erco Lai, ercoffice is a research-led design
-                        practice working across material research, craft
-                        experimentation, object development, and spatial design.
-                        Guided by Make Things Like Earth, the studio explores
-                        methods of form-giving in the post-industrial era.
-                        Operating at the intersection of science, craft,
-                        industry, nature, and culture, ercoffice approaches
-                        design as a way of connecting different forms of
-                        knowledge and technology. Rather than treating nature
-                        merely as a source of inspiration or industry solely as
-                        a means of production, the studio investigates how
-                        matter is shaped and transformed through both natural
-                        processes and industrial manufacturing, seeking new
-                        relationships between the two.
+                        ercoffice is a research-led design practice working
+                        across material research, craft experimentation, object
+                        development, and spatial design. Guided by Make Things
+                        Like Earth, the studio explores methods of form-giving
+                        in the post-industrial era. Operating at the
+                        intersection of science, craft, industry, nature, and
+                        culture, ercoffice approaches design as a way of
+                        connecting different forms of knowledge and technology.
+                        Rather than treating nature merely as a source of
+                        inspiration or industry solely as a means of production,
+                        the studio investigates how matter is shaped and
+                        transformed through both natural processes and
+                        industrial manufacturing, seeking new relationships
+                        between the two.
                         <br />
                         <br />
                         The studio reimagines Factory as an open space for

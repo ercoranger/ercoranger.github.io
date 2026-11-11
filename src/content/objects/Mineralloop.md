@@ -245,6 +245,9 @@ updated: 2026-11-04
 ![Mineralloop](../../assets/Mineralloop/ml-objectRTM-1.jpg)
   </div>
 
+</div>
+
+<div class="project-section exhi-sec grid-12">
 <h6 class="col-12">2023 ALCOVA</h6>
 <p class="col-12 lang-en project-title">Duplicating Landscape, Milan</p>
 

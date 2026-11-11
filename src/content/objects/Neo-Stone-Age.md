@@ -189,7 +189,7 @@ updated: 2026-11-04
     </div>
     </div>
 
-  <div class="col-4 side-description">
+  <div class="col-4 side-description mobile-off">
 
   <p>Chapter 1.1</p>   
   <a href="https://drive.google.com/file/d/1XzYb5MOhmNXj67chxiYYbE82xBafDO6X/view?usp=share_link" target="_blank" rel="noopener noreferrer">Observation<img src="/imgs/arrow.svg" class="arrow" alt="↗"></a>
@@ -265,7 +265,7 @@ updated: 2026-11-04
 
   </div>
 
-  <div class="col-4 side-description">
+  <div class="col-4 side-description mobile-off">
 
   <p>Chapter 2.1</p>
     <a href="https://vimeo.com/738275291" target="_blank" rel="noopener noreferrer">Used Concrete Harvesting<img src="/imgs/arrow.svg" class="arrow" alt="↗"></a>

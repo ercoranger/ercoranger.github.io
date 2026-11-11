@@ -206,10 +206,7 @@ updated: 2026-11-04
 ![Mineral accretion detail](../../assets/Biorock/b-9.jpg)
 
   </div>
-</div>
 
-
-<div class="project-section grid-12">
   <div class="project-image col-6">
 
 ![Mineral accretion detail](../../assets/Biorock/b-10.jpg)
@@ -232,11 +229,7 @@ updated: 2026-11-04
 
 <p class="col-8 project-text">
   <span class="lang-en">
-    Following the initial electroplating and electroforming experiments, the research proposes a two-phase approach to working with Earth.
-    <br>
-    <u>Phase I</u> involves observing geological processes and reproducing them as practical experiments within simplified, controlled environments.
-    <br>
-    <u>Phase II</u> explores the connections between geological processes and human manufacturing, considering how Earth's natural systems might become active participants in production.
+    Following the initial electroplating and electroforming experiments, the research proposes a two-phase approach to working with Earth. <u>Phase I</u> involves observing geological processes and reproducing them as practical experiments within simplified, controlled environments. <u>Phase II</u> explores the connections between geological processes and human manufacturing, considering how Earth's natural systems might become active participants in production.
     <br><br>
     In the context of this experiment, Phase I could involve establishing a small electrochemical deposition factory in an urban environment, reproducing natural mineral formation through artificial means. Phase II could relocate this manufacturing process to the ocean, where seawater and environmental conditions would contribute directly to the growth of objects. This proposal introduces the idea of <em>outsourcing to nature</em>. Rather than treating Earth merely as a source of raw materials, it imagines Earth as a partner in the manufacturing process.
   </span>

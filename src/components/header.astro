@@ -1,37 +1,76 @@
 ---
 import site from "../content/site.json";
 
-const { locale = "en", headerType = "about" } = Astro.props;
+const {
+    locale = "en",
+    headerItems = ["about"],
+    showElementMenu = true,
+} = Astro.props;
+
 const content = site[locale] ?? site.en;
 
-const headerLinks = {
-    about: {
-        text: content.about,
-        href: `/${locale}/about/`,
-    },
-    custom: {
-        text: content.headerLink,
-        href: "#",
-    }, //未來加上與定義連結的地方
+// 固定頁面網址
+const routes = {
+    about: `/${locale}/about/`,
+    workList: `/${locale}/works/all-list/`,
+    exhibitions: `/${locale}/exhibitions/`,
+    shop: `/${locale}/shop/`,
 };
 
-const currentLink = headerLinks[headerType];
+// 取得連結名稱
+const getLabel = (key) => {
+    // 四種 Mode 從 site.json 讀取
+    if (content.modes?.[key]) {
+        return content.modes[key];
+    }
+
+    // 其他網站導覽從 navigation 讀取
+    return content.navigation?.[key] ?? key;
+};
+
+// 取得連結網址
+const getHref = (key) => {
+    // 固定頁面
+    if (routes[key]) {
+        return routes[key];
+    }
+
+    // Mode 分類
+    if (content.modes?.[key]) {
+        return `/${locale}/works/${key}/`;
+    }
+
+    return null;
+};
+
+// 根據 Props 建立導覽列表
+const navigation = headerItems
+    .map((key) => ({
+        key,
+        label: getLabel(key),
+        href: getHref(key),
+    }))
+    .filter((item) => item.href !== null);
 ---
 
 <header>
+    <!-- 頂層黑條識別 -->
     <div class="ee-header grid-12">
         <a class="ee-logo-link" href={`/${locale}/`}>
             <img class="ee-logo" src="/imgs/header-logo.svg" alt="ercoffice" />
         </a>
 
-        {currentLink && (
-            <a class="ee-link" href={currentLink.href}>
-                {currentLink.text}
-            </a>
+        {navigation.length > 0 && (
+            <nav class="ee-link" aria-label="Header navigation">
+                {navigation.map((item) => (
+                    <a href={item.href}>{item.label}</a>
+                ))}
+            </nav>
         )}
     </div>
 
-    {headerType !== "none" && (
+    <!-- 工作室簡述 ＋ 五行作品分類 -->
+    {showElementMenu && (
         <>
             <nav class="ee-menu">
                 <div class="ee-left-menu">
@@ -167,19 +206,19 @@ const currentLink = headerLinks[headerType];
 </header>
 
 <script>
-    //移除自身選項 removeListByTitle
+    // 隱藏作品自身連結
     const removeCurrentPageLink = () => {
         const pageTitle = document
             .querySelector(".project-header-title")
             ?.textContent.trim();
 
+        if (!pageTitle) return;
+
         const anchors = document.querySelectorAll(".ee-right-menu ul a");
 
-        for (let i = 0; i < anchors.length; i++) {
-            const anchor = anchors[i];
-
+        for (const anchor of anchors) {
             if (anchor.textContent.trim() === pageTitle) {
-                anchor.parentElement.remove();
+                anchor.closest("li")?.remove();
                 break;
             }
         }

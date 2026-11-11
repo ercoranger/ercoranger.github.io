@@ -19,7 +19,7 @@ const formatValue = (value) => {
                     : work.title_en}
             </span>
 
-            <span class="col-3 works-obj">{formatValue(work.object)}</span>
+            <span class="col-3 mobile-invis">{formatValue(work.object)}</span>
 
             <span class="col-3 works-details">
                 {formatValue(work.material)}
@@ -27,7 +27,9 @@ const formatValue = (value) => {
                 {work.technique && <small>{formatValue(work.technique)}</small>}
             </span>
 
-            <span class="col-3">{formatValue(work.dimensions)}</span>
+            <span class="col-3 mobile-invis">
+                {formatValue(work.dimensions)}
+            </span>
 
             <span class="col-2 works-image">
                 {work.image && <img src={work.image} alt="" loading="lazy" />}

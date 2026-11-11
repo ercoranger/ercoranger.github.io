@@ -28,7 +28,7 @@ updated:
 ---
 
 <!--第一段文字-->
-<div class="project-section grid-12">
+<div class="project-section grid-12" id="concept">
 
 # <span class="lang-en">Concept</span><span class="lang-zh">概念簡述</span>
 
@@ -172,9 +172,11 @@ updated:
 <div class="project-image col-10 col-offset-2">
 
 ![Undertone / 弦外之音](../../assets/Fieldstone/fs-11.jpg "Credits: Luo Li")
- 
-  </div>
 
+  </div>
+</div>
+
+<div class="project-section exhi-sec grid-12">
 <h6 class="col-12"> 2024 Because of JoaN </h6>
 <p class="col-12 lang-en project-title">The nature of something, Amsterdam</p>
 
@@ -184,10 +186,12 @@ updated:
 
 ![Fieldstone](../../assets/Fieldstone/fs-13.jpg)
   </div>
+
   <div class="project-image col-10 col-offset-2">
 
 ![Fieldstone](../../assets/Fieldstone/fs-12.jpg "Credits: Vikipedia.c0m")
   </div>
+
 
 </div>
 
@@ -204,6 +208,5 @@ updated:
   <a target="_blank" href="https://www.instagram.com/p/C5p2Sn3qeor/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA=="><u>Sayhito</u></a>- Be included in the 12 must-see independent exhibitions in Milan 2024<br>
   <a target="_blank" href="http://www.mottimes.com/cht/article_detail.php?serial=3814&type=0"><u>Undertone</u></a>- Reports from Taiwan about the collective exhibition
 </p>
-
 
 </div>

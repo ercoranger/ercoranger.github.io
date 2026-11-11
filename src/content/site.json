@@ -1,8 +1,13 @@
 {
   "en": {
     "studioTitle": "ercoffice",
-    "about": "About",
-    "headerLink": " ",
+    "navigation": {
+        "about": "About",
+        "workList": "Index",
+        "exhibitions": "Exhibitions",
+        "shop": "Shop"
+        },
+
 
     "studioIntro": "A material-driven design office focusing on craft, object and space. Meanwhile, imagining what future manufacturing system can be. It is run by Erco Lai and based in The Hague, NL.",
 
@@ -23,8 +28,13 @@
 
   "zh": {
     "studioTitle": "鈋谷賦形事物所 / ercoffice",
-    "about": "關於",
-    "headerLink": " ",
+    "navigation": {
+        "about": "關於",
+        "workList": "作品列表",
+        "exhibitions": "Exhibitions",
+        "shop": "Shop"
+        },
+
 
     "studioIntro": "積極參與材質的創新以及重新定義各種產業的可能性。在思考未來材質的同時，嘗試從製造切入，為創新材料加入一點想像力，結合賦予造型的能力並保持材質的真誠性之美。",
 
@@ -35,10 +45,10 @@
     "water": "水",
 
     "modes": {
-      "exploration": "武俠探索",
-      "production": "工匠製作",
-      "research": "道士研究",
-      "collaboration": "行腳協作"
+      "exploration": "探索",
+      "production": "製作",
+      "research": "研究",
+      "collaboration": "合作"
     }
 
   }

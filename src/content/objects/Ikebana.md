@@ -38,7 +38,7 @@ updated: 2026-10-07
 <p class="col-8 project-text">
 
   <span class="lang-en">
-      Ikebana, the Japanese art of flower arrangement, can be understood as the practice of bringing flowers to life. Inspired by the vivid floral composition of *Still Life with Flowers* by Eelke Jelles Eelkema, the project explores how a two-dimensional painting can be transformed into a three-dimensional arrangement.
+      Ikebana, the Japanese art of flower arrangement, can be understood as the practice of bringing flowers to life. Inspired by the vivid floral composition of "Still Life with Flowers" by Eelke Jelles Eelkema, the project explores how a two-dimensional painting can be transformed into a three-dimensional arrangement.
       <br><br>
       The flowers and other visual elements are extracted from the painting and translated into individual pieces with small connecting slots. These components can be assembled into a three-dimensional puzzle, allowing each person to arrange the composition freely rather than following a predetermined structure. Like Ikebana, the process encourages personal interpretation through the placement and relationship of individual elements.The pieces were developed by working from the flowers at the center of the painting toward its edges, incorporating the textured background as part of the composition. In this way, the entire painting becomes a source of forms for a new, rearrangeable object.
   </span>
@@ -145,5 +145,15 @@ updated: 2026-10-07
 ![Ikebana](../../assets/Ikebana/3dp-by-erco-5.png)
 
   </div>
+
+</div>
+
+<div class="project-section project-further-reading">
+<span class="lang-en">Further reading</span><span class="lang-zh">延伸閱讀</span>
+
+<p class="project-text">
+  <a href=""><u>Hopper</u></a>- Pen holder made from folded sheet metal
+ 
+</p>
 
 </div>

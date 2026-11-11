@@ -3,6 +3,10 @@ import BaseLayout from "../layouts/base-layout.astro";
 import HomeOverview from "../components/home-thumbnails.astro";
 ---
 
-<BaseLayout locale="en" footerType="index">
+<BaseLayout
+    locale="en"
+    footerType="index"
+    headerItems={["research", "collaboration", "about"]}
+>
     <HomeOverview locale="en" />
 </BaseLayout>

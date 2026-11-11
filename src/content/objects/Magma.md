@@ -164,7 +164,9 @@ updated: 2026-10-07
 ![Magma](../../assets/Magma/M-8.webp)
 
 </div>
+</div>
 
+<div class="project-section exhi-sec grid-12">
 
 <h6 class="col-12">2024 Because of JoaN</h6>
 
