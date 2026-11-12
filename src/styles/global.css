@@ -61,7 +61,7 @@ h1, h3, h6, p, span, a {
 }
 
 .ee-link a, .project-title, h1 span,
-.project-menu a, .list-title, h6,
+.project-menu a, .list-title, h6, .project-header-title,
 .about-menu a, .project-section > span {
     white-space: nowrap;
 }
@@ -605,7 +605,7 @@ margin-top: 10px;
 }
 
 
-/* ====== Mobile 手機 小畫面 包含iPad直立畫面 ======================== */
+/* ====== Mobile 畫面 包含iPad直立畫面 ======================== */
 
 @media screen and (max-width: 1024px) {
 
@@ -685,7 +685,7 @@ margin-top: 10px;
   }
 
   .about-text-block {
-      margin-right: 10px;
+      margin-right: 20px;
   }
 
   .project-title {
@@ -693,7 +693,7 @@ margin-top: 10px;
   }
 
   .exhi-sec .project-title {
-      font-size: 1.2rem;
+      font-size: 1.7rem;
   }
 
   .col-8 {
@@ -716,6 +716,10 @@ margin-top: 10px;
   }
 
 
+  .project-further-reading {
+   text-align: left;
+  }
+
     .list-image {
     width: 60px;
     height: auto;
@@ -736,10 +740,31 @@ margin-top: 10px;
    display: none !important;
   }
 
+}
+
+/*-------------------12 mini 專屬---------------------*/
+@media screen and (max-width: 813px) {
+
+    .about-text {
+        font-size: 1rem;
+        letter-spacing:0;
+    }
+
+    .mode-navigation {
+        gap: 4px;
+    }
+
+    .mode-navigation a {
+        font-size: 12px;
+    }
+
+    .project-title {
+        white-space: normal;
+    }
 
 
-
-
-
+    .exhi-sec .project-title {
+        font-size: 1.2rem;
+    }
 
 }

@@ -14,8 +14,6 @@ const { locale = "en" } = Astro.params;
     headerItems={["workList"]}
     footerType="index"
 >
-    <!-- 右上角的連結先被移除，等未來想到要連去哪再補上，去site.json加 -->
-
     <div class="project-page grid-12">
         <!-- 獨立左側選單列 -->
         <aside class="about-menu mobile-off">
@@ -113,7 +111,7 @@ const { locale = "en" } = Astro.params;
                     </p>
                 </div>
 
-                <div class="about-image col-5">
+                <div class="about-image col-5 XS-off">
                     <img
                         src="/imgs/portrait.jpg"
                         alt="Erco Lai portrait"
@@ -258,7 +256,7 @@ const { locale = "en" } = Astro.params;
                     </p>
                 </div>
 
-                <div class="about-image col-5">
+                <div class="about-image col-5 XS-off">
                     <img
                         src="/imgs/ercoffice-position.svg"
                         alt="ercoffice diagram"
