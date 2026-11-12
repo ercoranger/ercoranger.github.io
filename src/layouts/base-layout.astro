@@ -31,12 +31,12 @@ const zhUrl = new URL(zhPath, siteUrl).href;
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width" />
 
-        <link rel="canonical" href={canonicalUrl.href} />
+        <link rel="canonical" href={canonicalUrl} />
 
         <meta property="og:type" content="website" />
         <meta property="og:title" content={title} />
-        <meta property="og:image" content={imageUrl.href} />
-        <meta property="og:url" content={canonicalUrl.href} />
+        <meta property="og:image" content={imageUrl} />
+        <meta property="og:url" content={canonicalUrl} />
 
         <title>{title}</title>
     </head>
