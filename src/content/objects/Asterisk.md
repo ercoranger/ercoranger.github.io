@@ -7,6 +7,7 @@ title_zh: 星盤
 
 context:
   - Industrial Geometry 
+  - Project Folding factory
 
 mode:
   - production

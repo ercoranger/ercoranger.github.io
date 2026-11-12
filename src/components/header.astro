@@ -206,18 +206,16 @@ const navigation = headerItems
 </header>
 
 <script>
-    // 隱藏作品自身連結
+    // 隱藏作品自身連結，藉由比對URL
     const removeCurrentPageLink = () => {
-        const pageTitle = document
-            .querySelector(".project-header-title")
-            ?.textContent.trim();
-
-        if (!pageTitle) return;
+        const currentPath = window.location.pathname.replace(/\/+$/, "");
 
         const anchors = document.querySelectorAll(".ee-right-menu ul a");
 
         for (const anchor of anchors) {
-            if (anchor.textContent.trim() === pageTitle) {
+            const linkPath = new URL(anchor.href).pathname.replace(/\/+$/, "");
+
+            if (linkPath === currentPath) {
                 anchor.closest("li")?.remove();
                 break;
             }

@@ -7,16 +7,37 @@ import "../styles/animation.css";
 const {
     title = "ercoffice",
     locale = "en",
+    image = "/imgs/og-default.jpg",
     footerType = "default",
     headerItems = ["about"],
     showElementMenu = true,
 } = Astro.props;
+
+//SEO 相關 放在head裡的
+const siteUrl = "https://ercoffice.net";
+const currentPath = Astro.url.pathname;
+const canonicalUrl = new URL(currentPath, siteUrl).href;
+const imageUrl = new URL(image || "/imgs/og-default.jpg", siteUrl).href;
+
+const enPath = currentPath.replace(/^\/(en|zh)(?=\/|$)/, "/en");
+const zhPath = currentPath.replace(/^\/(en|zh)(?=\/|$)/, "/zh");
+
+const enUrl = new URL(enPath, siteUrl).href;
+const zhUrl = new URL(zhPath, siteUrl).href;
 ---
 
 <html id="top" lang={locale}>
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width" />
+
+        <link rel="canonical" href={canonicalUrl.href} />
+
+        <meta property="og:type" content="website" />
+        <meta property="og:title" content={title} />
+        <meta property="og:image" content={imageUrl.href} />
+        <meta property="og:url" content={canonicalUrl.href} />
+
         <title>{title}</title>
     </head>
 

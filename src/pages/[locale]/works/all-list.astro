@@ -1,6 +1,7 @@
 ---
 import BaseLayout from "../../../layouts/base-layout.astro";
 import WorksList from "../../../components/works-list.astro";
+import ModeNavigation from "../../../components/mode-navigation.astro";
 
 export function getStaticPaths() {
     return ["en", "zh"].map((locale) => ({
@@ -34,6 +35,7 @@ const works = Object.entries(files)
     footerType="index"
 >
     <section class="mode-page list-all">
+        <ModeNavigation locale={locale} activeMode="all" />
         <WorksList works={works} locale={locale} />
     </section>
 </BaseLayout>

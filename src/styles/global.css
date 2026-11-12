@@ -24,12 +24,21 @@ html {
   scroll-behavior: smooth;
   font-family: Avenir, "NotoSansTC", "Montserrat", sans-serif !important;
   font-size: 14px;
+  min-height: 100%;
 }
 
 body {
   margin: 0;
   padding: 0;
   overflow-x: hidden;
+  min-height: 100vh;
+  min-height: 100dvh;
+  display: flex;
+  flex-direction: column;
+}
+
+body > main {
+    flex: 1 0 auto;
 }
 
 a {
@@ -49,13 +58,19 @@ a:hover, .lang-change-XS a:hover {
 h1, h3, h6, p, span, a {
   font-weight: 100;
   margin: 0;
-  white-space: nowrap;
 }
 
-.studio-intro, .project-text span, .about-text, .title-XL {
-    white-space: normal;
+.ee-link a, .project-title, h1 span,
+.project-menu a, .list-title, h6,
+.about-menu a, .project-section > span {
+    white-space: nowrap;
 }
 
+#section-1, #section-2, #section-3,
+#section-4, #section-5, #section-6,
+#section-7, #section-8,
+.project-further-reading span,
+h1 span,
 h6 {
   font-size: 14px;
 }
@@ -152,7 +167,6 @@ img {
 .ee-link a {
     color: #fff;
     font-size: 16px;
-    white-space: nowrap;
 }
 
 .ee-link a:hover {
@@ -312,8 +326,8 @@ footer {
 
 
 .about-image {
-    display: grid;
     width: 100%;
+    margin-top: -80px;
 }
 
 .arrow {
@@ -343,7 +357,6 @@ footer {
 }
 
 .ee-index-row img {
-  display: block;
   width: 100%;
   height: auto;
 
@@ -355,7 +368,8 @@ footer {
 
   .mode-page {
       width: 88%;
-      margin: 60px 6%;
+      max-width: 1600px;
+      margin: 60px auto;
   }
 
 
@@ -386,40 +400,28 @@ footer {
       border-top: 1px solid currentColor;
   }
 
-  .list-all > .project-page {
-      border-top: 0px none  #fff !important;
-      margin-top: -60px;
-  }
-
-  .works-row {
+  .list-row {
       align-items: center;
       min-height: 90px;
       padding: 12px 0;
       border-bottom: 1px solid currentColor;
   }
 
-  .works-row:hover {
+  .list-row:hover {
       text-decoration: none;
   }
 
-  .works-details small {
+  .list-details small {
       display: block;
       opacity: 0.66;
       /*-----小字變灰-------*/
   }
 
-  .works-image {
+  .list-image {
+      object-fit: contain;
       display: flex;
       justify-content: flex-end;
   }
-
-  .works-image img {
-      width: 80px;
-      height: 60px;
-      object-fit: contain;
-  }
-
-
 
 
 /* ============== 作品內容左選單 ================ */
@@ -434,7 +436,6 @@ footer {
   position: fixed;
   top: 40%;
   left: 10px;
-  align-self: start;
   display: none;
 }
 
@@ -456,7 +457,6 @@ footer {
 
 .project-menu a, .about-menu a {
     text-decoration: none;
-     white-space: nowrap;
      display: inline-flex;
   }
 
@@ -493,7 +493,6 @@ footer {
   }
 
 .project-header-image img {
-    display: block;
     width: 100%;
     height: auto;
   }
@@ -508,15 +507,6 @@ footer {
     align-content: flex-end;
     margin-block-end: 0;
     font-style: italic;
-    white-space: nowrap;
-  }
-
-
-#section-1, #section-2, #section-3,
-#section-4, #section-5, #section-6,
-#section-7, #section-8,
-.project-further-reading span  {
-    font-size: 14px;
   }
 
 .project-title {
@@ -545,17 +535,12 @@ footer {
     margin-bottom: 70px;
   }
 
- .project-section > span{
-     white-space: nowrap;
- }
-
 .project-image {
   padding:15px 30px 15px 0;
   width: 100%;
   }
 
 .project-image img, .about-image img  {
-  display: block;
   width: 100%;
   height: auto;
   }
@@ -586,7 +571,7 @@ margin-top: 10px;
 
 
 /* ====================== 平板小尺寸 畫面修正 ======================== */
-@media screen and (min-width: 1024px) and (max-width: 1440px) {
+@media screen and (min-width: 1025px) and (max-width: 1440px) {
 
     .ee-menu {
         height: 180px;
@@ -612,12 +597,17 @@ margin-top: 10px;
         margin-bottom: 30px;
     }
 
+    .about-image {
+        margin-top: 0px;
+    }
+
+
 }
 
 
-/* ====================== Mobile 手機 小畫面 ======================== */
+/* ====== Mobile 手機 小畫面 包含iPad直立畫面 ======================== */
 
-@media screen and (max-width: 1023px) {
+@media screen and (max-width: 1024px) {
 
     .ee-logo-link {
         grid-column-end: span 2;
@@ -682,6 +672,14 @@ margin-top: 10px;
       padding: 0;
   }
 
+  .about-section {
+      margin-bottom: 0px;
+  }
+
+  .about-image {
+      margin-top: 0px;
+  }
+
   .about-text {
       font-size: 1rem;
   }
@@ -690,12 +688,7 @@ margin-top: 10px;
       margin-right: 10px;
   }
 
-  h1 {
-      font-size: 16px;
-  }
-
   .project-title {
-      white-space: nowrap;
       font-size: 2rem;
   }
 
@@ -716,11 +709,22 @@ margin-top: 10px;
       padding: 5px;
   }
 
-.mode-navigation {
+  .mode-navigation {
     gap: 10px;
     margin-top: 88px;
-}
+    margin-bottom:-20px;
+  }
 
+
+    .list-image {
+    width: 60px;
+    height: auto;
+    justify-self: end;
+    }
+
+    .list-title {
+    margin-left: 0.8rem;
+    }
 
   .mobile-invis {
       opacity: 0;
@@ -728,13 +732,10 @@ margin-top: 10px;
 
 
 
-  .ee-menu, .project-menu, .is-visible, .ee-left-menu {
+  .ee-menu, .project-menu, .ee-left-menu, .project-timeline, .mobile-off  {
    display: none !important;
   }
 
-  .project-timeline, .mobile-off {
-    display: none;
-  }
 
 
 

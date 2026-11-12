@@ -25,7 +25,10 @@ const { locale = "en" } = Astro.params;
                 </li>
 
                 <li>
-                    <a href={`/${locale}/Exhibitions/`}>Exhibitions</a>
+                    <a href={`/${locale}/Exhibitions/`}>
+                        <span class="lang-en">Exhibitions</span>
+                        <span class="lang-zh">展覽記錄</span>
+                    </a>
                 </li>
 
                 <li>
@@ -34,7 +37,9 @@ const { locale = "en" } = Astro.params;
                         target="_blank"
                         rel="noopener noreferrer"
                     >
-                        Press kits
+                        <span class="lang-en">Press kits</span>
+                        <span class="lang-zh">媒體包</span>
+
                         <img src="/imgs/arrow.svg" class="arrow" alt="" />
                     </a>
                 </li>
@@ -87,12 +92,14 @@ const { locale = "en" } = Astro.params;
                         way of understanding the material world.
                         <br />
                         <br />
-                        Working within the conditions of the post-industrial
-                        era, he reinterprets materials and manufacturing
-                        techniques as artistic media. His practice moves from
-                        intimate objects to large-scale installations, exploring
-                        how gravity, movement, and environmental forces can
-                        shape new forms and spatial experiences.
+                        <span class="mobile-off">
+                            Working within the conditions of the post-industrial
+                            era, he reinterprets materials and manufacturing
+                            techniques as artistic media. His practice moves
+                            from intimate objects to large-scale installations,
+                            exploring how gravity, movement, and environmental
+                            forces can shape new forms and spatial experiences.
+                        </span>
                     </p>
 
                     <p class="about-text lang-zh">
@@ -100,7 +107,9 @@ const { locale = "en" } = Astro.params;
                         是一位設計創作者，創作涵蓋雕塑、空間裝置、材料研究與實驗性製造。他立足於後工業時代的生產條件，從地質生成、自然力量與工業製程中尋找造形的線索，探索物質如何在不同的技術與環境條件下形成獨特的表現語言。出身工業設計背景的他，不將設計僅視為解決問題或實現預設形式的工具，而是一種透過材料、工藝與製作過程展開的藝術探索。在身體直覺與技術精準之間，他持續思考人為意圖如何與物質自身的特性相互作用，共同參與形式的生成。
                         <br />
                         <br />
-                        透過動手實驗、運算設計與數位製造，他探索工業技術在藝術創作中的可能性，觀察材料如何回應壓力、限制與變化，讓阻力、變形與不可預測的反應成為造形的條件。對他而言，工藝不僅是既有技法的延續，也是一種透過雙手、工具與物質累積的感知與知識。隨著創作尺度從日常物件延伸至雕塑與大型空間裝置，重力、運動、結構及周遭環境也逐漸成為造形的重要條件。他試圖讓作品不只是被放置於空間中的物件，而能回應場域，呈現物質與外力相互作用的過程。在自然與人為、機械與直覺、控制與偶然之間，他持續尋找不同的賦形方式，將造物視為理解世界、參與物質循環的過程。
+                        <span class="mobile-off">
+                            透過動手實驗、運算設計與數位製造，他探索工業技術在藝術創作中的可能性，觀察材料如何回應壓力、限制與變化，讓阻力、變形與不可預測的反應成為造形的條件。對他而言，工藝不僅是既有技法的延續，也是一種透過雙手、工具與物質累積的感知與知識。隨著創作尺度從日常物件延伸至雕塑與大型空間裝置，重力、運動、結構及周遭環境也逐漸成為造形的重要條件。他試圖讓作品不只是被放置於空間中的物件，而能回應場域，呈現物質與外力相互作用的過程。在自然與人為、機械與直覺、控制與偶然之間，他持續尋找不同的賦形方式，將造物視為理解世界、參與物質循環的過程。
+                        </span>
                     </p>
                 </div>
 
@@ -213,21 +222,24 @@ const { locale = "en" } = Astro.params;
                         between the two.
                         <br />
                         <br />
-                        The studio reimagines Factory as an open space for
-                        experimentation, bringing together different forms of
-                        knowledge and making. From traditional craftsmanship to
-                        digital fabrication, ercoffice explores the
-                        relationships between Crafts, Matter, and Form. Rather
-                        than following a fixed sequence, these aspects inform
-                        one another: material properties may inspire new
-                        techniques, making processes may generate unexpected
-                        forms, and formal intentions may reshape how things are
-                        made. Working with material developers, scientists,
-                        engineers, manufacturers, and cultural institutions, the
-                        studio connects research with practical applications,
-                        translating its findings into objects, products, and
-                        spatial interventions through independent inquiries and
-                        commissioned projects.
+                        <span class="mobile-off">
+                            The studio reimagines Factory as an open space for
+                            experimentation, bringing together different forms
+                            of knowledge and making. From traditional
+                            craftsmanship to digital fabrication, ercoffice
+                            explores the relationships between Crafts, Matter,
+                            and Form. Rather than following a fixed sequence,
+                            these aspects inform one another: material
+                            properties may inspire new techniques, making
+                            processes may generate unexpected forms, and formal
+                            intentions may reshape how things are made. Working
+                            with material developers, scientists, engineers,
+                            manufacturers, and cultural institutions, the studio
+                            connects research with practical applications,
+                            translating its findings into objects, products, and
+                            spatial interventions through independent inquiries
+                            and commissioned projects.
+                        </span>
                     </p>
 
                     <p class="about-text lang-zh">
@@ -237,10 +249,12 @@ const { locale = "en" } = Astro.params;
                         為思想方向，探索後工業時代的賦形造物之法。我們遊走於科學、工藝、工業、自然與文化之間，將設計視為連結不同知識與技術的方法。不僅從自然界尋找造形的線索，也關注工業製程中物質如何被改變與轉化，試圖重新理解自然作用與人為製造之間的關係。
                         <br />
                         <br />
-                        我們將 Factory / 工廠
-                        重新想像為一個開放的實驗場域，讓不同領域的知識與製造技術在此相遇。從傳統手工到數位製造，我們持續探索工藝、物質與造形（Crafts,
-                        Matter,
-                        Form）之間的相互關係。三者並非依序進行的設計步驟，而是在實驗中彼此影響：物質的特性可能啟發新的工藝，製作過程可能產生未曾預期的形態，而造形上的需求也可能促使我們重新思考加工方式。透過觀察、實驗與轉用既有技術，我們在這些相互作用中尋找不同的製造可能。藉由與材料開發者、科學研究者、工程師、製造業者及文化機構的合作，連結實驗研究與實際應用，從自主探索到委託專案，將研究成果轉化為物件、產品及空間構成。
+                        <span class="mobile-off">
+                            我們將 Factory / 工廠
+                            重新想像為一個開放的實驗場域，讓不同領域的知識與製造技術在此相遇。從傳統手工到數位製造，我們持續探索工藝、物質與造形（Crafts,
+                            Matter,
+                            Form）之間的相互關係。三者並非依序進行的設計步驟，而是在實驗中彼此影響：物質的特性可能啟發新的工藝，製作過程可能產生未曾預期的形態，而造形上的需求也可能促使我們重新思考加工方式。透過觀察、實驗與轉用既有技術，我們在這些相互作用中尋找不同的製造可能。藉由與材料開發者、科學研究者、工程師、製造業者及文化機構的合作，連結實驗研究與實際應用，從自主探索到委託專案，將研究成果轉化為物件、產品及空間構成。
+                        </span>
                     </p>
                 </div>
 

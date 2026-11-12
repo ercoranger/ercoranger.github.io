@@ -112,7 +112,7 @@ updated: 2026-10-07
 
 ![Rift variations](../../assets/Rift/rift-ideation.gif)
 <p class="lang-en image-description">Variation</p>
-  <p class="lang-zh image-description">可能形態</p>
+  <p class="lang-zh image-description">形態可能</p>
 
   </div>
 

@@ -9,11 +9,11 @@ const formatValue = (value) => {
 
 <div class="project-page works-list">
     {works.map((work) => (
-        <a class="works-row grid-12" href={`/${locale}/${work.slug}/`}>
+        <a class="list-row grid-12" href={`/${locale}/${work.slug}/`}>
             <!--列表內容開始-->
             <span class="col-2">{work.year}</span>
 
-            <span class="col-2">
+            <span class="list-title col-2">
                 {locale === "zh"
                     ? work.title_zh || work.title_en
                     : work.title_en}
@@ -21,7 +21,7 @@ const formatValue = (value) => {
 
             <span class="col-3 mobile-invis">{formatValue(work.object)}</span>
 
-            <span class="col-3 works-details">
+            <span class="col-3 list-details">
                 {formatValue(work.material)}
 
                 {work.technique && <small>{formatValue(work.technique)}</small>}
@@ -31,7 +31,7 @@ const formatValue = (value) => {
                 {formatValue(work.dimensions)}
             </span>
 
-            <span class="col-2 works-image">
+            <span class="col-2 list-image">
                 {work.image && <img src={work.image} alt="" loading="lazy" />}
             </span>
         </a>

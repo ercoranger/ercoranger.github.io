@@ -6,7 +6,7 @@ title_en: Hopper
 title_zh: 容器系列
 
 context:
-  - Local manufacturing
+  - Project Folding factory
   - Industrial geometry
 
 mode:

@@ -17,7 +17,7 @@ mode:
 technique: Geopolymerization
 material: Mineral Byproducts
 phase: EARTH 
-object: Material Research / Sculpture
+object: Sculpture
 dimensions: various sizes
 image: /imgs/Neostone.webp
 

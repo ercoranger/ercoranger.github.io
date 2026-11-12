@@ -3,7 +3,7 @@ slug: Revolve
 
 year: 2020
 title_en: Revolve
-title_zh: 水刀系列
+title_zh: 迴
 
 context:
   - Geometric Exploration
