@@ -8,9 +8,14 @@ export function getStaticPaths() {
 }
 
 const { locale } = Astro.params;
+
+const description =
+    locale === "zh"
+        ? "鈋谷賦形事物所以材料研究與創新為起點，探索未來製造與跨產業應用的可能，透過工藝實驗與造形設計，在保有材料真實美感的同時，賦予物質新的想像與形式。"
+        : "ercoffice is a material-driven design practice based in The Hague, founded by Erco Lai, exploring future possibilities of manufacturing through material innovation, craft, and form-giving across objects and spaces.";
 ---
 
-<BaseLayout locale={locale} footerType="index">
+<BaseLayout locale={locale} footerType="index" description={description}>
     <ModeNavigation locale={locale} />
     <HomeThumbnails locale={locale} />
 </BaseLayout>

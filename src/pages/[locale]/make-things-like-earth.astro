@@ -1,0 +1,121 @@
+---
+import BaseLayout from "../../layouts/base-layout.astro";
+
+export function getStaticPaths() {
+    return [{ params: { locale: "en" } }, { params: { locale: "zh" } }];
+}
+
+const { locale = "en" } = Astro.params;
+---
+
+<BaseLayout
+    title="About-Make things like Earth - ercoffice by ercolai"
+    locale={locale}
+    headerItems={["workList", "about"]}
+    showElementMenu={false}
+    footerType="index"
+>
+    <div
+        class="grid-12"
+        style="margin-top: 80px;text-align: center;background-color: var(--yellow);"
+    >
+        <h1 class="col-12">Working in Progrss</h1>
+    </div>
+    <section class="map" aria-label="Erco Lai x ercoffice">
+        <article class="cell">
+            <p class="cell__eyebrow">ERCO LAI / EXPLORATION</p>
+            <h2>武俠</h2>
+            <p class="cell__english">THE WANDERER</p>
+            <p class="cell__body">
+                以自由探索的姿態走入未知，不以既有的材料用途與製造規則作為創作邊界。透過行動、直覺與試驗，尋找尚未被定義的形式與可能。
+            </p>
+            <p class="cell__footer">關鍵態度 · 好奇、冒險、獨立探索</p>
+        </article>
+        <article class="cell">
+            <p class="cell__eyebrow">SHARED INQUIRY / GEOMETRY</p>
+            <h2>大地測量</h2>
+            <p class="cell__english">EARTH MEASUREMENT</p>
+            <p class="cell__body">
+                從 Geometry 的字源——Earth 與
+                Measure——重新理解「測量」：不只記錄尺寸，更透過感知、幾何與實驗，閱讀材料、力量、尺度與生成規律，建立理解世界的方式。
+            </p>
+            <p class="cell__footer">
+                核心提問 · 我們如何閱讀世界，又如何將其轉化為形式？
+            </p>
+        </article>
+        <article class="cell">
+            <p class="cell__eyebrow">ERCOFFICE / RESEARCH</p>
+            <h2>道士</h2>
+            <p class="cell__english">THE ALCHEMIST</p>
+            <p class="cell__body">
+                從物質的性質與反應中尋找造物之法。研究自然生成過程、既有工業條件與替代製程，將觀察轉化為可被實驗、調整與分享的方法。
+            </p>
+            <p class="cell__footer">關鍵態度 · 研究、轉化、方法的探索</p>
+        </article>
+        <article class="cell">
+            <p class="cell__eyebrow">THE AUTHOR / PERSONAL PRACTICE</p>
+            <h2>Erco Lai</h2>
+            <p class="cell__english">ARTIST · DESIGNER · MAKER</p>
+            <p class="cell__body">
+                以個人的身體經驗與材料感知展開創作，在設計意圖與物質自身的反應之間尋找平衡。形式不只是被規劃的結果，也是在製作過程中逐漸顯現。
+            </p>
+            <p class="cell__footer">創作主體 · 探索、表達、親身製作</p>
+        </article>
+        <article class="cell cell--center">
+            <div class="cell__mark" aria-hidden="true">
+                ✳
+            </div>
+            <h2>
+                MAKE THINGS
+                <br />
+                LIKE EARTH
+            </h2>
+            <p class="cell__body">
+                向大地學習事物如何形成。
+                <br />
+                讓物質、工藝與形式彼此回應，探索後工業時代不同的賦形造物之法。
+            </p>
+            <p class="cell__footer">SHARED WORLDVIEW</p>
+        </article>
+        <article class="cell">
+            <p class="cell__eyebrow">
+                THE PRACTICE / RESEARCH &amp; COLLABORATION
+            </p>
+            <h2>ercoffice</h2>
+            <p class="cell__english">RESEARCH-LED DESIGN PRACTICE</p>
+            <p class="cell__body">
+                以材料研究、工藝實驗與跨領域合作發展新的製作方法，連結設計者、工藝師、工廠與研究者。把現有生產條件視為可重新理解與組構的開放場域。
+            </p>
+            <p class="cell__footer">實踐組織 · 研究、開發、協作</p>
+        </article>
+        <article class="cell">
+            <p class="cell__eyebrow">ERCO LAI / PRODUCTION</p>
+            <h2>工匠</h2>
+            <p class="cell__english">THE CRAFTSPERSON</p>
+            <p class="cell__body">
+                透過雙手、工具與反覆試作累積對材料的理解。工藝不僅是執行技術，而是一種在阻力、誤差與偶然之間修正判斷，並讓形式生成的知識。
+            </p>
+            <p class="cell__footer">實踐方式 · 手感、試作、物質協商</p>
+        </article>
+        <article class="cell">
+            <p class="cell__eyebrow">SHARED EXPRESSION / MAKING</p>
+            <h2>詩意造物</h2>
+            <p class="cell__english">POETIC FABRICATION</p>
+            <p class="cell__body">
+                將對世界的理解帶回製作現場，透過工藝、材料與技術重新組構事物。所謂詩意不是裝飾性的形式，而是讓生產過程本身具有感知、表達與開放性。
+            </p>
+            <p class="cell__footer">
+                核心提問 · 我們能否以不同於慣常生產的方式造物？
+            </p>
+        </article>
+        <article class="cell">
+            <p class="cell__eyebrow">ERCOFFICE / COLLABORATION</p>
+            <h2>行腳商人</h2>
+            <p class="cell__english">THE TRAVELLING MERCHANT</p>
+            <p class="cell__body">
+                穿梭地方、工廠與不同知識領域，與他人交換技術、資源及經驗。合作不只是完成委託，更是藉由相遇與協作，開拓事物如何被製造的新可能。
+            </p>
+            <p class="cell__footer">實踐方式 · 交換、連結、跨領域合作</p>
+        </article>
+    </section>
+</BaseLayout>

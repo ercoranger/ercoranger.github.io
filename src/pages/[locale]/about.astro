@@ -9,7 +9,7 @@ const { locale = "en" } = Astro.params;
 ---
 
 <BaseLayout
-    title="About"
+    title="About - ercoffice by Erco Lai"
     locale={locale}
     headerItems={["workList"]}
     footerType="index"
@@ -111,7 +111,7 @@ const { locale = "en" } = Astro.params;
                     </p>
                 </div>
 
-                <div class="about-image col-5 XS-off">
+                <div class="about-image col-5">
                     <img
                         src="/imgs/portrait.jpg"
                         alt="Erco Lai portrait"
@@ -191,7 +191,7 @@ const { locale = "en" } = Astro.params;
                     </p>
 
                     <p class="title-XL lang-zh">
-                        我們不只是試著製造不同的事物，也試著重新理解事物可以如何被製造。
+                        "我們不只是試著製造不同的事物，也試著重新理解事物可以如何被製造"
                     </p>
                 </div>
             </section>
@@ -256,14 +256,18 @@ const { locale = "en" } = Astro.params;
                     </p>
                 </div>
 
-                <div class="about-image col-5 XS-off">
-                    <img
-                        src="/imgs/ercoffice-position.svg"
-                        alt="ercoffice diagram"
-                        loading="lazy"
-                    />
+                <div class="about-image col-5">
+                    <a href={`/${locale}/make-things-like-earth/`}>
+                        <img
+                            src="/imgs/ercoffice-position.svg"
+                            alt="ercoffice diagram"
+                            loading="lazy"
+                        />
+                    </a>
                 </div>
             </section>
+
+            <!---------------插入 MTLE 九宮格?--------->
         </div>
     </div>
 </BaseLayout>

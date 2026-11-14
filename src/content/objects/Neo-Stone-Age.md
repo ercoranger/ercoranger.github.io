@@ -40,7 +40,7 @@ timeline:
   - year: 2021
     event: KABK MID Department Award — Nomination
 
-updated: 2026-11-04
+updated: 2026-11-14
 ---
 
 <!-- INTRODUCTION -->
@@ -59,7 +59,7 @@ updated: 2026-11-04
     Neo Stone Age explores this possibility through geopolymerization, combining marble and limestone powders, lime pellets, sand, and slag to create an artificial stone material called Neostone. The research investigates how discarded minerals can be transformed into new materials and reintroduced into cycles of production.
   </span>
   <span class="lang-zh">
-  水泥產業帶動發城市發展，卻也是多種環境污染的源頭之一，本實驗計畫嘗試透過開發研究“地質聚合物“這樣的創新材料，從實作與想像中來思考人類是否能藉由將工業礦物廢料的再利用，達到可持續性發展的材料循環目的。透過這樣的實驗計畫，從拆遷工程中的水泥、工廠中切削後大理石粉末、礦坑中遺留的石灰岩粉末以及海邊的砂礫與貝殼中，聚合出礦物人造石。這樣的礦物人造石從材料的角度提出了新的可能與工法。通過向地球學習與模仿地質成形，模糊了人造與天然之間的界線。
+  水泥產業推動了城市發展，但同時也是多種環境污染的來源之一。<u>Neo Stone Age / 新石紀</u> 通過研究“地質聚合物”等創新材料，思考人類是否能通過再利用工業礦物廢料，實現可持續發展的材料循環目標。自2021年起開始了材料研究計劃，從硬水軟化萃取產生的礦物質顆粒開始，到牡蠣殼、礦坑尾料、翻砂鑄造後的廢砂、建築工地的殘土與紅磚粉末等材料，提出了新的礦物人造石及其工法。設計師通過向地球學習並模仿地質形成過程，模擬地貌生成時經歷的擠壓造山、粉碎成石、熔融形流等步驟，創造出他理想中的“第二自然”，模糊了人造與天然之間的界限。此次創作將收集並使用這些材料，配合設計師自行開發的地質聚合工藝，捏製出獨特的怪石雕塑和新型礦物，展示材料再利用的新可能。
   </span>
 </p>
 
@@ -371,7 +371,7 @@ updated: 2026-11-04
 
 <div class="project-section grid-12" id="collection">
 
-# <span class="lang-en">Collection</span><span class="lang-zh">系列作品</span>
+# <span class="lang-en">Collection</span><span class="lang-zh">系列雕塑</span>
 
 <p class="col-12 lang-en project-title">Form Follows Gaia</p>
 <p class="col-12 lang-zh project-title">新怪石供</p>

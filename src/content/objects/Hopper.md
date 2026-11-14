@@ -3,7 +3,7 @@ slug: Hopper
 
 year: 2017
 title_en: Hopper
-title_zh: 容器系列
+title_zh: 料斗容器
 
 context:
   - Project Folding factory

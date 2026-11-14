@@ -10,6 +10,7 @@ const {
     image = "/imgs/og-default.jpg",
     footerType = "default",
     headerItems = ["about"],
+    description = "",
     showElementMenu = true,
 } = Astro.props;
 
@@ -37,6 +38,7 @@ const zhUrl = new URL(zhPath, siteUrl).href;
         <meta property="og:title" content={title} />
         <meta property="og:image" content={imageUrl} />
         <meta property="og:url" content={canonicalUrl} />
+        <meta property="og:description" content={description} />
 
         <title>{title}</title>
     </head>

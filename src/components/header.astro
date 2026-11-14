@@ -62,8 +62,10 @@ const navigation = headerItems
 
         {navigation.length > 0 && (
             <nav class="ee-link" aria-label="Header navigation">
-                {navigation.map((item) => (
-                    <a href={item.href}>{item.label}</a>
+                {navigation.map((item, index) => (
+                    <a href={item.href} class={`ee-link-${index + 1}`}>
+                        {item.label}
+                    </a>
                 ))}
             </nav>
         )}
