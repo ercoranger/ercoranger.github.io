@@ -133,7 +133,6 @@ img {
 }
 
 /* =============== HEADER ==================== */
-
 .ee-header {
   position: fixed;
   top: 0;
@@ -143,6 +142,45 @@ img {
   height: 50px;
   background-color: #000;
   z-index: 999;
+}
+
+/*作品頁增加一個顯示 五行清單的機會 觸碰黑條*/
+body:has(.project-menu.is-visible) .ee-menu {
+    position: fixed;
+    top: 50px;
+    left: 0;
+    width: 100%;
+    margin-top: 0;
+    padding: 30px 0;
+
+    background-color: white;
+    z-index: 998;
+
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+
+    transform: translateY(-20px);
+
+    transition: none;
+}
+
+/* Hover 黑色 Header 時展開 */
+body:has(.project-menu.is-visible) .ee-header:hover ~ .ee-menu-slot .ee-menu,
+/* 滑鼠進入 ee-menu 時保持展開 */
+body:has(.project-menu.is-visible) .ee-menu:hover {
+    opacity: 1;
+    background-color: #fff;
+    visibility: visible;
+    pointer-events: auto;
+    transform: translateY(0);
+    transition:
+        opacity 0.8s ease,
+        transform 0.8s ease;
+}
+
+body:has(.project-menu.is-visible) .ee-menu {
+    height: 200px;
 }
 
 .ee-logo-link {
@@ -174,7 +212,6 @@ img {
   text-decoration: none;
 }
 
-
 .ee-menu {
   display: grid;
   grid-template-columns: 8% repeat(2, minmax(0, 1fr)) 8% repeat(5, minmax(0, 1fr));
@@ -183,6 +220,9 @@ img {
   padding: 0;
 }
 
+.ee-menu-slot {
+    display: flow-root;
+}
 
 .ee-left-menu {
   grid-column: 2 / 4;
@@ -289,6 +329,10 @@ footer {
     font-weight: 300;
 }
 
+.lang-change a:first-child {
+    display: inline-block;
+    transform: scaleX(1.1);
+}
 
 /*-------About page---------*/
 
@@ -444,12 +488,11 @@ footer {
     margin-top: 80px;
   }
 
-  .mode-page {
+.mode-page {
       width: 88%;
       max-width: 1600px;
       margin: 60px auto;
   }
-
 
   .mode-navigation {
       display: flex;
@@ -539,12 +582,12 @@ footer {
   }
 
 .here-here {
-  background-color: var(--blue);
+  background-color: var(--yellow);
   padding: 0 3px;
 }
 
 .here-here > a {
-  color: var(--blue);
+  color: var(--yellow);
 }
 
 
@@ -648,8 +691,8 @@ margin-top: 10px;
 
 
 
-/* ====================== 平板小尺寸 畫面修正 ======================== */
-@media screen and (min-width: 1025px) and (max-width: 1440px) {
+/* ===RWD  始============ 平板尺寸 畫面修正 ======================== */
+@media screen and (max-width: 1440px) {
 
     .ee-menu {
         height: 180px;
@@ -679,8 +722,36 @@ margin-top: 10px;
         margin-top: 0px;
     }
 
+    .mode-page {
+        margin-top: 130px;
+        margin-bottom: 200px;
+    }
+
 
 }
+
+/* =-----== 小平板尺寸？？==-----五行選單最後出現--------==*/
+
+@media screen and (max-width: 1155px) {
+    .ee-menu {
+        height: 220px;
+        grid-template-columns:6% repeat(2, minmax(0, 1fr)) 10% repeat(5, minmax(0, 1fr));
+    }
+
+    .v-line hr {
+        height: 180px;
+    }
+
+    ee-left-menu {
+        margin-top: 10px;
+    }
+
+    .ee-right-menu h6 {
+        margin-top: 20px;
+    }
+
+}
+
 
 
 /* ====== Mobile 畫面 包含iPad直立畫面 ======================== */
@@ -788,9 +859,12 @@ margin-top: 10px;
   }
 
   .mode-navigation {
-    gap: 10px;
-    margin-top: 88px;
-    margin-bottom:-20px;
+    gap: 30px;
+    margin-top: 10px;
+  }
+
+  .mode-navigation a {
+      font-size: 18px;
   }
 
 
@@ -812,9 +886,28 @@ margin-top: 10px;
       opacity: 0;
   }
 
+  .ee-menu {
+    grid-template-columns: repeat(12, minmax(0, 1fr));
+  }
 
+  .ee-left-menu {
+      grid-column: 2 / -2;
+  }
 
-  .ee-menu, .project-menu, .ee-left-menu, .project-timeline, .mobile-off  {
+  body:has(.project-page) .ee-menu {
+      display: none;
+  }
+
+  .menu-bottom-line {
+      width: 95%;
+      margin: 0 auto;
+  }
+
+  .studio-intro {
+      font-size: 16px;
+  }
+
+ .project-menu, .v-line, .ee-right-menu, .project-timeline, .mobile-off  {
    display: none !important;
   }
 

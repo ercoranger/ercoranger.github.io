@@ -188,7 +188,7 @@ updated: 2026-10-07
  <p class="project-text">
             <a target="_blank" href="https://www.biophilica.co.uk"><u>TREEKIND</u></a>
             - More about the leather alternative<br>
-            <a href="en/Hopper"><u>Hopper</u></a>
+            <a href="../Hopper"><u>Hopper</u></a>
             - Accessories/pen holder in metal
           </p>
 

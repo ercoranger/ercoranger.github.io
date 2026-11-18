@@ -73,8 +73,12 @@ updated: 2026-10-07
 
   <div class="col-offset-4">
 
-<p class="col-12 project-title">
+<p class="col-12 lang-en project-title">
   Video
+</p>
+
+<p class="col-12 lang-zh project-title">
+  影片
 </p>
 
 <div class="project-video col-12">

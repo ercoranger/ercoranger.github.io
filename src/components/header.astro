@@ -73,7 +73,7 @@ const navigation = headerItems
 
     <!-- 工作室簡述 ＋ 五行作品分類 -->
     {showElementMenu && (
-        <>
+        <div class="ee-menu-slot">
             <nav class="ee-menu">
                 <div class="ee-left-menu">
                     <h3 class="studio-title">{content.studioTitle}</h3>
@@ -198,12 +198,12 @@ const navigation = headerItems
                         </li>
                     </ul>
                 </div>
-            </nav>
 
-            <div class="menu-bottom-line">
-                <hr />
-            </div>
-        </>
+                <div class="col-12 menu-bottom-line">
+                    <hr />
+                </div>
+            </nav>
+        </div>
     )}
 </header>
 
