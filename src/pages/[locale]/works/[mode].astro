@@ -18,7 +18,7 @@ const content = site[locale] ?? site.en;
 const modeTitle = content.modes[mode];
 
 // 讀取所有作品 Markdown
-const files = import.meta.glob("../../../content/objects/*.md", {
+const files = import.meta.glob("../../../content/projects/*.md", {
     eager: true,
 });
 
@@ -33,18 +33,17 @@ const allWorks = Object.entries(files).map(([path, file]) => {
     };
 });
 
-// 根據目前 Mode 篩選作品，並按年份由新到舊排序
-const works = allWorks
-    .filter((work) => {
-        const modes = Array.isArray(work.mode)
-            ? work.mode
-            : work.mode
-              ? [work.mode]
-              : [];
+// 根據目前 Mode 篩選作品
+// 排序統一由 works-list.astro 負責
+const works = allWorks.filter((work) => {
+    const modes = Array.isArray(work.mode)
+        ? work.mode
+        : work.mode
+          ? [work.mode]
+          : [];
 
-        return modes.includes(mode);
-    })
-    .sort((a, b) => Number(b.year) - Number(a.year));
+    return modes.includes(mode);
+});
 ---
 
 <BaseLayout

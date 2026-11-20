@@ -1,34 +1,62 @@
 ---
 const { works = [], locale = "en" } = Astro.props;
 
+// 格式化欄位內容，支援字串與陣列
 const formatValue = (value) => {
     if (Array.isArray(value)) return value.join(", ");
-    return value ? String(value) : "";
+    return value == null ? "" : String(value);
 };
+
+// 依語言選擇欄位，中文不存在時退回英文
+const localizedValue = (work, field) => {
+    const enField = field === "title" ? "title_en" : field;
+    const zhField = `${field}_zh`;
+
+    const value =
+        locale === "zh" ? work[zhField] || work[enField] : work[enField];
+
+    return formatValue(value);
+};
+
+// 排序：先依 year，再依 updated，皆由新到舊
+const sortedWorks = [...works].sort((a, b) => {
+    const yearDiff = Number(b.year) - Number(a.year);
+    if (yearDiff !== 0) return yearDiff;
+
+    const getTime = (work) => {
+        const time = work.updated ? new Date(work.updated).getTime() : 0;
+
+        return Number.isNaN(time) ? 0 : time;
+    };
+
+    return getTime(b) - getTime(a);
+});
 ---
 
 <div class="project-page works-list">
-    {works.map((work) => (
+    {sortedWorks.map((work) => (
         <a class="list-row grid-12" href={`/${locale}/${work.slug}/`}>
             <!--列表內容開始-->
             <span class="col-2">{work.year}</span>
 
             <span class="list-title col-2">
-                {locale === "zh"
-                    ? work.title_zh || work.title_en
-                    : work.title_en}
-            </span>
-
-            <span class="col-3 mobile-invis">{formatValue(work.object)}</span>
-
-            <span class="col-3 list-details">
-                {formatValue(work.material)}
-
-                {work.technique && <small>{formatValue(work.technique)}</small>}
+                {localizedValue(work, "title")}
             </span>
 
             <span class="col-3 mobile-invis">
-                {formatValue(work.dimensions)}
+                {localizedValue(work, "object")}
+            </span>
+
+            <span class="col-3 list-details">
+                {localizedValue(work, "technique")}
+
+                {work.technique && (
+                    <small>{localizedValue(work, "material")}</small>
+                )}
+            </span>
+
+            <span class="col-3 mobile-invis">
+                {localizedValue(work, "dimensions")}
             </span>
 
             <span class="col-2 list-image">

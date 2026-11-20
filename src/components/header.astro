@@ -1,42 +1,50 @@
 ---
 import site from "../content/site.json";
 
+// 定義元件接收的參數
+interface Props {
+    locale?: "en" | "zh";
+    headerItems?: string[];
+    showElementMenu?: boolean;
+}
+
 const {
     locale = "en",
     headerItems = ["about"],
     showElementMenu = true,
 } = Astro.props;
 
-const content = site[locale] ?? site.en;
+// 讀取對應語言
+const content = site[locale];
+
+// 將動態查詢欄位明確定義為字串對照表
+const navigationLabels: Record<string, string> = content.navigation;
+const modeLabels: Record<string, string> = content.modes;
 
 // 固定頁面網址
-const routes = {
+const routes: Record<string, string> = {
     about: `/${locale}/about/`,
-    workList: `/${locale}/works/all-list/`,
+    workList: `/${locale}/works/`,
     exhibitions: `/${locale}/exhibitions/`,
     shop: `/${locale}/shop/`,
 };
 
 // 取得連結名稱
-const getLabel = (key) => {
-    // 四種 Mode 從 site.json 讀取
-    if (content.modes?.[key]) {
-        return content.modes[key];
+const getLabel = (key: string) => {
+    if (modeLabels[key]) {
+        return modeLabels[key];
     }
 
-    // 其他網站導覽從 navigation 讀取
-    return content.navigation?.[key] ?? key;
+    return navigationLabels[key] ?? key;
 };
 
 // 取得連結網址
-const getHref = (key) => {
-    // 固定頁面
+const getHref = (key: string) => {
     if (routes[key]) {
         return routes[key];
     }
 
-    // Mode 分類
-    if (content.modes?.[key]) {
+    if (modeLabels[key]) {
         return `/${locale}/works/${key}/`;
     }
 

@@ -1,9 +1,10 @@
 ---
 import BaseLayout from "../../layouts/base-layout.astro";
 import ProjectMenu from "../../components/project-menu.astro";
+import { locales } from "astro:schema";
 
 export function getStaticPaths() {
-    const objects = import.meta.glob("../../content/objects/*.md", {
+    const objects = import.meta.glob("../../content/projects/*.md", {
         eager: true,
     });
 
@@ -42,23 +43,34 @@ export function getStaticPaths() {
 const { locale } = Astro.params;
 const { object, Content } = Astro.props;
 
-const lang = locale === "zh" ? "zh" : "en";
+const titles =
+    locale === "zh" && `${object.title_en} / ${object.title_zh}`
+        ? `${object.title_en} / ${object.title_zh}`
+        : object.title_en;
 
 const title =
-    lang === "zh" && object.title_zh ? object.title_zh : object.title_en;
+    locale === "zh" && object.title_zh ? object.title_zh : object.title_en;
 
-const titles = `${object.title_en} / ${object.title_zh}`;
+const material =
+    locale === "zh" && object.material_zh
+        ? object.material_zh
+        : object.material;
+
+const technique =
+    locale === "zh" && object.technique_zh
+        ? object.technique_zh
+        : object.technique;
 ---
 
 <BaseLayout
-    title={`${title} — ercoffice`}
-    locale={lang}
+    title={`${titles} — ercoffice`}
+    locale={locale}
     headerItems={["workList", "about"]}
     image={object.image}
 >
-    <div class={`project-page lang-${lang} grid-12`}>
+    <div class={`project-page lang-${locale} grid-12`}>
         <!--招喚左側選單-->
-        <ProjectMenu lang={lang} />
+        <ProjectMenu lang={locale} />
 
         <main class="project-content">
             <section class="project-header grid-12">
@@ -101,7 +113,7 @@ const titles = `${object.title_en} / ${object.title_zh}`;
                     )}
 
                     <p class="mtrl-info">
-                        {object.material}, {object.technique}
+                        {material}, {technique}
                         <br />
                         {object.dimensions}
                     </p>

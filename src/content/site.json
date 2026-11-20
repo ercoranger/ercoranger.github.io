@@ -31,8 +31,8 @@
     "navigation": {
         "about": "關於",
         "workList": "作品列表",
-        "exhibitions": "Exhibitions",
-        "shop": "Shop"
+        "exhibitions": "展覽記錄",
+        "shop": "網路商店"
         },
 
 
@@ -48,7 +48,7 @@
       "exploration": "探索",
       "production": "製作",
       "research": "研究",
-      "collaboration": "合作"
+      "collaboration": "協作"
     }
 
   }

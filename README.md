@@ -43,7 +43,7 @@ Repository: https://github.com/ercoranger/ercoranger.github.io
 │   │   └── project-menu.astro
 │   │
 │   ├── content/
-│   │   ├── objects/            # 每件作品的 Markdown
+│   │   ├── projects/            # 每件作品的 Markdown
 │   │   └── site.json           # 網站介面雙語資料
 │   │
 │   ├── layouts/
@@ -89,5 +89,5 @@ Repository: https://github.com/ercoranger/ercoranger.github.io
 每件作品使用一份 Markdown：
 
 ```text
-src/content/objects/Mineralloop.md
+src/content/projects/Mineralloop.md
 ```

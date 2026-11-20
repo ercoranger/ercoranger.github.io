@@ -6,7 +6,7 @@ html[lang="en"] .lang-zh {
   display: none;
 }
 
-html[lang="zh"] .lang-en {
+html[lang="zh-tw"] .lang-en {
   display: none;
 }
 
@@ -675,7 +675,7 @@ margin-top: 10px;
   display: none;
 }
 
-.exhi-sec .project-title {
+.exhi-sec .project-title, .project-title-S {
     font-size: 2rem;
 }
 
