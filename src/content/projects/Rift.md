@@ -13,9 +13,13 @@ mode:
   - exploration 
 
 technique: Welding
+technique_zh:
 material: Aluminum, rocks
+material_zh:
+
 phase: EARTH 
 object: Space divider
+object_zh:
 dimensions: H.150 x W.120 x D.30cm
 image: /imgs/Rift.webp
 

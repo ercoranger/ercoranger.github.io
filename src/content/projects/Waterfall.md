@@ -13,10 +13,14 @@ mode:
   - production
 
 technique: Sheet metal bending
+technique_zh:
 material: Steel / Aluminum
+material_zh:
+
 phase: METAL 
 object: Shelving system
-dimensions: H.172 x W.100 x D.40 cm
+object_zh: 層架
+dimensions: H.176 x W.100 x D.40 cm
 image: /imgs/Waterfall.webp
 
 timeline:

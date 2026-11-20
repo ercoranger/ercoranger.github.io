@@ -14,9 +14,13 @@ mode:
   - collaboration
 
 technique: Laser cutting
+technique_zh: 
 material: Stainless steel
+material_zh:
+
 phase: METAL 
 object: Home Accessory
+object_zh:
 dimensions: H.5 x W.17 x D.17cm
 image: /imgs/Asterisk.webp
 

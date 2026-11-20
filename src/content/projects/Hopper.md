@@ -14,9 +14,13 @@ mode:
   - collaboration
   
 technique: Sheet metal manufacturing
+technique_zh:
 material: Galvanized steel
+material_zh:
+
 phase: METAL
 object: Pen holder
+object_zh:
 dimensions: H.12 x W.8 x D.8cm
 image: /imgs/Hopper.jpg
 

@@ -13,10 +13,14 @@ context:
 mode:
   - production
 
-technique: Woodworking 
+technique: Woodworking
+technique_zh:
 material: Wood / Aluminum
+material_zh:
+
 phase: WOOD 
 object: Chair
+object_zh:
 dimensions: H.62 x W.50 x D.36 cm
 image: /imgs/Ginkgo.webp
 

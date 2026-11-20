@@ -21,6 +21,7 @@ const enUrl =
                 {footerType === "index" && (
                     <div class="lang-change footer-left">
                         <a
+                            title="繁體"
                             href={zhUrl}
                             class:list={{ active: locale === "zh" }}
                             aria-current={locale === "zh" ? "page" : undefined}
@@ -29,6 +30,7 @@ const enUrl =
                         </a>
                         <span> / </span>
                         <a
+                            title="english"
                             href={enUrl}
                             class:list={{ active: locale === "en" }}
                             aria-current={locale === "en" ? "page" : undefined}

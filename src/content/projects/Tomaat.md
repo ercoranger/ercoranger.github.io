@@ -14,9 +14,13 @@ mode:
   - collaboration
 
 technique: Hand craft
+technique_zh:
 material: Treekind® vegan leather
+material_zh:
+
 phase: WOOD
 object: Home accessory
+object_zh:
 dimensions: H.10 x W.7 x D.7cm
 image: /imgs/Treekind.webp
 

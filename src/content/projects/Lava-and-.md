@@ -14,9 +14,13 @@ mode:
   - research
 
 technique: Reheating
+technique_zh:
 material: Lavastone, glass
+material_zh:
+
 phase: FIRE
-object: Material experiment
+object: Material samples
+object_zh:
 dimensions: N/A
 image: /imgs/Lava-and-.jpg
 

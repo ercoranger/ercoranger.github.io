@@ -13,10 +13,14 @@ context:
 mode:
   - research
 
-technique: Electrolysis 
+technique: Electrolysis
+technique_zh:
 material: Seawater / Calcium Carbonate
-phase: 土 earth
-object: Material Research
+material_zh:
+
+phase: EARTH
+object: Material samples
+object_zh:
 dimensions: various sizes
 image: /imgs/Biorock.webp
 

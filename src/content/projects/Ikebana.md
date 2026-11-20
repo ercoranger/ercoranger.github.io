@@ -13,9 +13,13 @@ mode:
   - exploration
   
 technique: Laser cutting
+technique_zh: 雷射切割
 material: Cardboard
+material_zh:
+
 phase: WOOD
 object: 3D puzzle
+object_zh:
 dimensions: H.29.7 x W.21 x D.0.2cm
 image: /imgs/Ikebana.webp
 

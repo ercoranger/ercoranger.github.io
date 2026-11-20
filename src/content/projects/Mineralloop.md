@@ -14,9 +14,13 @@ mode:
   - production
 
 technique: Geopolymerization
+technique_zh:
 material: Neostone
+material_zh:
+
 phase: EARTH
 object: Home Accessory
+object_zh:
 dimensions: various sizes
 image: /imgs/Mineralloop.webp
 

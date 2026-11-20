@@ -13,10 +13,14 @@ mode:
   - production
   - collaboration
 
-technique: Waterjet Cutting / Stone Fabrication
+technique: Waterjet Cutting 
+technique_zh: 水刀切割
 material: Marble
-phase: EARTH
-object: Sculptural Objects
+material_zh:
+
+phase: WATER
+object: Home accessories
+object_zh:
 dimensions: H.36 x W.65 x D.65 cm
 image: /imgs/Revolve.webp
 

@@ -13,9 +13,13 @@ mode:
   - collaboration
 
 technique: Binder jetting
+technique_zh:
 material: Quartz sand
+material_zh:
+
 phase: EARTH
 object: Console Table 
+object_zh:
 dimensions: H.80 x W.110 x D.110cm
 image: /imgs/Fieldstone.webp 
 

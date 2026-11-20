@@ -13,9 +13,13 @@ mode:
   - production
 
 technique: Binder jetting
+technique_zh:
 material: Quartz sand
+material_zh:
+
 phase: FIRE
 object: Lighting
+object_zh:
 dimensions: H.42 x W.32 x D.34cm
 image: /imgs/Magma.webp
 

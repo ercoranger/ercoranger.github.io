@@ -202,7 +202,7 @@ body:has(.project-menu.is-visible) .ee-menu {
   text-align: right;
 }
 
-.ee-link a {
+.ee-link a, .ee-header-project-title {
     color: #fff;
     font-size: 16px;
 }
@@ -657,18 +657,60 @@ footer {
   }
 
 .project-image {
+  position: relative;
   padding:15px 30px 15px 0;
   width: 100%;
   }
 
 .project-image img, .about-image img  {
+  display: block;
   width: 100%;
   height: auto;
   }
 
+  /*---圖片左上白框描述 未來等都加上時 再移掉hover---*/
+.project-image figcaption {
+      position: absolute;
+      top: 25px;
+      left: 10px;
+      z-index: 1;
+
+      padding: 3px 5px;
+      background: #fff;
+      color: #000;
+
+      font-size: 12px;
+      font-weight: 100;
+      line-height: 1.2;
+      opacity: 0;
+      transition: opacity 0.2s ease 1.5s;
+}
+
+.project-image:has(img:hover) figcaption {
+      opacity: 1;
+      transition-delay: 0s;
+}
+
 .image-description {
 text-align: center;
 margin-top: 10px;
+}
+
+.project-carousel {
+    display: flex;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    scrollbar-width: none;
+}
+
+.project-carousel::-webkit-scrollbar {
+    display: none;
+}
+
+.project-carousel > .project-image {
+    flex: 0 0 100%;
+    scroll-snap-align: start;
+    box-sizing: border-box;
 }
 
 .exhi-sec span {

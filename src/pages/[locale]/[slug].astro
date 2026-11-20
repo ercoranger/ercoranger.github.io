@@ -44,7 +44,7 @@ const { locale } = Astro.params;
 const { object, Content } = Astro.props;
 
 const titles =
-    locale === "zh" && `${object.title_en} / ${object.title_zh}`
+    locale === "zh" && object.title_zh
         ? `${object.title_en} / ${object.title_zh}`
         : object.title_en;
 

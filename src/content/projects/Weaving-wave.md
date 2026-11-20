@@ -57,23 +57,33 @@ updated: 2026-11-19
  <div class="project-image col-6">
 
 ![Details](../../assets/Weaving-wave/ww-03.jpg )
+
+<figcaption class="lang-en"> Inspiration: crab traps </figcaption>
+<figcaption class="lang-zh"> 補蟹籠 </figcaption>
+
  </div>
 
 
  <div class="project-image col-6">
 
-![Learing from Locals](../../assets/Weaving-wave/ww-04.jpg)
+![Weaving waves](../../assets/Weaving-wave/ww-04.jpg)
  </div>
+
+</div>
+
+<div class="project-section grid-12">
 
 <div class="project-image col-6">
 
 ![Details](../../assets/Weaving-wave/ww-01.jpg)
  </div>
 
-
  <div class="project-image col-6">
 
-![Learing from Locals](../../assets/Weaving-wave/ww-02.jpg)
+![Weaving waves](../../assets/Weaving-wave/ww-02.jpg)
+
+<figcaption class="lang-en"> Learning from locals </figcaption>
+
  </div>
 
 </div>
@@ -111,7 +121,7 @@ updated: 2026-11-19
 
  <div class="project-image col-6">
 
-![Learing from Locals](../../assets/Weaving-wave/ww-07.jpg)
+![Weaving waves](../../assets/Weaving-wave/ww-07.jpg)
  </div>
 
 </div>
@@ -127,11 +137,11 @@ updated: 2026-11-19
 
  <div class="project-image col-3">
 
-![Learing from Locals](../../assets/Weaving-wave/ww-08.jpg)
+![Weaving waves](../../assets/Weaving-wave/ww-08.jpg)
  </div>
  <div class="project-image col-3">
 
-![Learing from Locals](../../assets/Weaving-wave/ww-09.jpg)
+![Weaving waves](../../assets/Weaving-wave/ww-09.jpg)
  </div>
 
 </div>
@@ -147,22 +157,20 @@ updated: 2026-11-19
 
 <div class="project-image col-12">
 
-![Learing from Locals](../../assets/Weaving-wave/ww-10.jpg)
- </div>
+![Weaving waves](../../assets/Weaving-wave/ww-11.jpg "Credits: Homeland 家園雜誌")
 
- <div class="project-image col-12">
-
-![Learing from Locals](../../assets/Weaving-wave/ww-11.jpg)
  </div>
 
  <div class="project-image col-6">
 
-![Learing from Locals](../../assets/Weaving-wave/ww-12.jpg "Credits: Homeland 家園雜誌")
+![Weaving waves](../../assets/Weaving-wave/ww-12.jpg "Credits: Homeland 家園雜誌")
+
  </div>
 
   <div class="project-image col-6">
 
-![Learing from Locals](../../assets/Weaving-wave/ww-12a.jpg "Credits: Homeland 家園雜誌")
+![Weaving waves](../../assets/Weaving-wave/ww-12a.jpg "Credits: Homeland 家園雜誌")
+
  </div>
 
 

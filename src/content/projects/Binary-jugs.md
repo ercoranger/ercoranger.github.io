@@ -14,9 +14,13 @@ mode:
   - collaboration
 
 technique: 3D ceramic printing
+technique_zh:
 material: Ceramic
+material_zh:
+
 phase: EARTH
 object: Jug
+object_zh:
 dimensions: Various sizes
 image: /imgs/Binary-jugs.webp
 

@@ -15,9 +15,13 @@ mode:
   - exploration
 
 technique: Geopolymerization
+technique_zh: 地質聚合
 material: Mineral Byproducts
+material_zh:
+  
 phase: EARTH 
-object: Sculpture
+object: Sculptures
+object_zh:
 dimensions: various sizes
 image: /imgs/Neostone.webp
 

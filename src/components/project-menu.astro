@@ -5,7 +5,9 @@ const slug = Astro.params.slug;
 
 <aside class="project-menu">
     <div class="lang-change-XS">
-        <a href={`/zh/${slug}/`}>中</a>
+        <a title="zh-tw" href={`/zh/${slug}/`}>
+            中
+        </a>
         <span> / </span>
         <a href={`/en/${slug}/`}>EN</a>
     </div>

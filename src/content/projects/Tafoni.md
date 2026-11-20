@@ -10,9 +10,13 @@ context:
   - Digital craft
 
 technique: Binder jetting
+technique_zh:
 material: Quartz sand
+material_zh:
+
 phase: EARTH
 object: Vase
+object_zh: 
 dimensions: H.29 x W.25 x D.13cm
 image: /imgs/Tafoni.webp
 
